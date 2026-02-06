@@ -190,7 +190,7 @@ ctx.fillText('HCMR', x, y);
         this.lastSpawnTime = Date.now();
 
         // Play background music
-        AudioManager.playBackgroundMusic('sounds/bg-menu.ogg', 0.2);
+        AudioManager.playBackgroundMusic('sounds/bg-menu.ogg', config.volume);
 
         // Remove existing listener to avoid duplicates
         if (this.handleInputBound) {
@@ -570,7 +570,7 @@ ctx.fillText(currentChar.name, x, y);
             const currentChar = CHARACTERS[this.currentCharacterIndex];
             if (currentChar) {
                 const idleSfxPath = `assets/characters/${currentChar.folder}/${currentChar.prefix}-idle.ogg`;
-                AudioManager.playCharacterSFX(idleSfxPath, 0.2);
+                AudioManager.playCharacterSFX(idleSfxPath, config.volume);
             }
             this.sfxTimer = null;
         }, this.sfxDelay);
@@ -581,7 +581,7 @@ ctx.fillText(currentChar.name, x, y);
         const currentChar = CHARACTERS[this.currentCharacterIndex];
         if (currentChar) {
             const idleSfxPath = `assets/characters/${currentChar.folder}/${currentChar.prefix}-idle.ogg`;
-            AudioManager.playCharacterSFX(idleSfxPath, 0.2);
+            AudioManager.playCharacterSFX(idleSfxPath, config.volume);
         }
     },
 

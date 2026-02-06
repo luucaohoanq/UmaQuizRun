@@ -8,7 +8,8 @@ const config = {
     groundY: 0,
     gameState: 'loading',
     gameId: null,
-    userId: null
+    userId: null,
+    volume: 0.5
 };
 
 // Parse URL parameters for tracking
@@ -34,12 +35,12 @@ const CHARACTERS = [
     { id: 'grass', name: 'Grass Wonder', folder: 'Grass', prefix: 'gw' }, // roi
     { id: 'kitasan', name: 'Kitasan Black', folder: 'Kitasan', prefix: 'kita' }, // roi
     { id: 'mcqueen', name: 'Mejiro McQueen', folder: 'McQueen', prefix: 'mq' }, // roi
-    { id: 'oguri', name: 'Oguri Cap', folder: 'Oguri', prefix: 'oguri' }, // roi
+    // { id: 'oguri', name: 'Oguri Cap', folder: 'Oguri', prefix: 'oguri' }, // roi
     // { id: 'rudolf', name: 'Symboli Rudolf', folder: 'Rudolf', prefix: 'rudolf' }, // kho
     { id: 'spe', name: 'Special Week', folder: 'Spe', prefix: 'spe' }, // roi
     // { id: 'sunday', name: 'Marvelous Sunday', folder: 'Sunday', prefix: 'sunday' }, // kho
     { id: 'suzuka', name: 'Silence Suzuka', folder: 'Suzuka', prefix: 'suzuka' }, // roi
-    { id: 'tachyon', name: 'Agnes Tachyon', folder: 'Tachyon', prefix: 'tachyon' }, // roi
+    // { id: 'tachyon', name: 'Agnes Tachyon', folder: 'Tachyon', prefix: 'tachyon' }, // roi
     { id: 'teio', name: 'Tokai Teio', folder: 'Teio', prefix: 'teio' }, // roi
     { id: 'vodka', name: 'Vodka', folder: 'Vodka', prefix: 'vodka' }, // roi
 ];
