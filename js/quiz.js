@@ -243,7 +243,8 @@ const Quiz = {
         const timerColor = timeLeft <= 5 ? '#ff4b4b' : '#58cc02';
         config.ctx.fillStyle = timerColor;
         config.ctx.font = 'bold 36px Arial';
-        config.ctx.fillText(`⏱️ ${timeLeft}s`, config.width / 2, boxY + boxHeight - 100);
+        config.ctx.textAlign = 'right';
+        config.ctx.fillText(`⏱️ ${timeLeft}s`, config.width - 130, 150);
     },
 
     // Normalize Vietnamese text for comparison
