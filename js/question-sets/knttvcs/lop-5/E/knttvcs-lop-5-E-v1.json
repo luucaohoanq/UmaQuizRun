@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-5-E-v1",
+  "questionSetTitle": "Tin học lớp 5 KNTTVCS - Chủ đề E - Ứng dụng tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 5,
+  "topicLetter": "E",
+  "topicName": "Ứng dụng tin học",
+  "topicSlug": "ung-dung-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-5-E-v1-q001",
+      "type": "MC",
+      "question": "Thao tác nào sau đây thuộc về định dạng đoạn văn bản?",
+      "options": [
+        "Thay đổi màu chữ",
+        "Căn lề (Trái, Phải, Giữa)",
+        "Thay đổi phông chữ",
+        "Chữ in đậm"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-E-v1-q002",
+      "type": "MC",
+      "question": "Công cụ nào giúp em điều chỉnh khoảng cách giữa các dòng trong đoạn văn?",
+      "options": [
+        "Font Color",
+        "Line Spacing",
+        "Bold",
+        "Italic"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-E-v1-q003",
+      "type": "MC",
+      "question": "Để văn bản thêm sinh động và dễ hiểu, em nên chèn thêm đối tượng nào?",
+      "options": [
+        "Hình ảnh minh họa",
+        "Bảng dữ liệu",
+        "Sơ đồ",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-E-v1-q004",
+      "type": "MC",
+      "question": "Sản phẩm đa phương tiện thường chứa những loại thông tin nào?",
+      "options": [
+        "Chỉ có chữ",
+        "Chỉ có hình ảnh",
+        "Kết hợp văn bản, hình ảnh, âm thanh, video",
+        "Chỉ có âm thanh"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-E-v1-q005",
+      "type": "MC",
+      "question": "Khi trình bày một bài trình chiếu, việc sử dụng các mẫu định dạng có sẵn (Theme) giúp:",
+      "options": [
+        "Làm bài trình chiếu nhanh hơn",
+        "Các trang có sự thống nhất về màu sắc, phông chữ",
+        "Tăng tính thẩm mỹ",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-E-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Trong Word, lệnh ____ giúp em chọn cỡ chữ cho văn bản.",
+      "options": [],
+      "correct": "Font Size",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-E-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Để văn bản chuyên nghiệp hơn, em nên thiết lập ____ đoạn văn phù hợp.",
+      "options": [],
+      "correct": "định dạng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-E-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Chèn hình ảnh vào văn bản giúp truyền đạt thông tin một cách ____ hơn.",
+      "options": [],
+      "correct": "trực quan",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-E-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Em có thể sử dụng phần mềm ____ để tạo ra các sản phẩm video hướng dẫn đơn giản.",
+      "options": [],
+      "correct": "đa phương tiện",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-E-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Phím ____ thường được dùng để xóa kí tự ngay trước con trỏ soạn thảo.",
+      "options": [],
+      "correct": "Backspace",
+      "duration_in_seconds": 20
+    }
+  ]
+}

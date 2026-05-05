@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-9-E-v1",
+  "questionSetTitle": "Tin học lớp 9 KNTTVCS - Chủ đề 5 - Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 9,
+  "topicLetter": "E",
+  "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-9-E-v1-q001",
+      "type": "MC",
+      "question": "Một bài toán tin học được xác định bởi những yếu tố nào?",
+      "options": [
+        "Chỉ có đầu ra",
+        "Đầu vào và đầu ra",
+        "Tên bài toán",
+        "Người giải bài toán"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-E-v1-q002",
+      "type": "MC",
+      "question": "Trong giải bài toán bằng máy tính, 'Đầu vào' là gì?",
+      "options": [
+        "Kết quả cần tìm",
+        "Các giá trị cho trước",
+        "Tên chương trình",
+        "Các khối lệnh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-E-v1-q003",
+      "type": "MC",
+      "question": "Để giải quyết một bài toán tin học, bước nào sau đây là cần thiết?",
+      "options": [
+        "Xác định bài toán",
+        "Xây dựng thuật toán",
+        "Lập trình điều khiển máy tính",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-E-v1-q004",
+      "type": "MC",
+      "question": "Thuật toán là gì?",
+      "options": [
+        "Một chương trình máy tính",
+        "Dãy các chỉ dẫn rõ ràng để thực hiện một nhiệm vụ",
+        "Một thiết bị phần cứng",
+        "Một tệp dữ liệu"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-E-v1-q005",
+      "type": "MC",
+      "question": "Kết quả trả về sau khi máy tính thực hiện các thao tác xử lí được gọi là gì?",
+      "options": [
+        "Đầu vào (Input)",
+        "Đầu ra (Output)",
+        "Biến số",
+        "Hàm số"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-E-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Bài toán tin học là một nhiệm vụ có thể giao cho ____ thực hiện.",
+      "options": [],
+      "correct": "máy tính",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-E-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Quy trình giải bài toán bằng máy tính gồm 3 bước: Xác định bài toán, Xây dựng ____ và Lập trình.",
+      "options": [],
+      "correct": "thuật toán",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-E-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Để máy tính hiểu và thực hiện được thuật toán, ta cần chuyển thuật toán thành ____.",
+      "options": [],
+      "correct": "chương trình",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-E-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Trong bài toán tính lương, 'số giờ làm việc' và 'mức lương' là ____ của bài toán.",
+      "options": [],
+      "correct": "đầu vào",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-E-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Máy tính không chỉ tính toán với số mà còn xử lí được các dữ liệu ____, hình ảnh, âm thanh.",
+      "options": [],
+      "correct": "văn bản",
+      "duration_in_seconds": 20
+    }
+  ]
+}

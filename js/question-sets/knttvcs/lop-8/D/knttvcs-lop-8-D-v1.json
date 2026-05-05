@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-8-D-v1",
+  "questionSetTitle": "Tin học lớp 8 KNTTVCS - Chủ đề 4 - Ứng dụng tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 8,
+  "topicLetter": "D",
+  "topicName": "Ứng dụng tin học",
+  "topicSlug": "ung-dung-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-8-D-v1-q001",
+      "type": "MC",
+      "question": "Để hiển thị những hàng dữ liệu thỏa mãn điều kiện nhất định trong Excel, em dùng chức năng nào?",
+      "options": [
+        "Sort",
+        "Filter",
+        "Chart",
+        "Format"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-D-v1-q002",
+      "type": "MC",
+      "question": "Công cụ nào giúp em trình bày dữ liệu một cách trực quan để dễ so sánh và nhận xét xu hướng?",
+      "options": [
+        "Bảng dữ liệu",
+        "Biểu đồ",
+        "Hàng và cột",
+        "Lọc dữ liệu"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-D-v1-q003",
+      "type": "MC",
+      "question": "Trong phần mềm trình chiếu, thành phần nào xuất hiện ở đầu tất cả các trang chiếu để cung cấp thông tin chung?",
+      "options": [
+        "Footer",
+        "Body",
+        "Header",
+        "Sidebar"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-D-v1-q004",
+      "type": "MC",
+      "question": "Để sắp xếp tệp trong thư mục theo thứ tự kích thước giảm dần, em chọn chế độ nào?",
+      "options": [
+        "Name",
+        "Date modified",
+        "Size",
+        "Type"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-D-v1-q005",
+      "type": "MC",
+      "question": "Phần mềm nào dưới đây chuyên dùng để chỉnh sửa hình ảnh cơ bản?",
+      "options": [
+        "Microsoft Word",
+        "Microsoft PowerPoint",
+        "GIMP hoặc Photoshop",
+        "Microsoft Excel"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-D-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Để sắp xếp bảng dữ liệu theo một tiêu chí nào đó, em sử dụng lệnh ____.",
+      "options": [],
+      "correct": "Sort",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-D-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Chức năng ____ giúp em ẩn đi các hàng không thỏa mãn điều kiện tìm kiếm.",
+      "options": [],
+      "correct": "Filter",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-D-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Trong phần mềm soạn thảo văn bản, ____ dùng để chèn thông tin ở cuối tất cả các trang.",
+      "options": [],
+      "correct": "Footer",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-D-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Chỉnh sửa khung hình và ____ ảnh giúp sản phẩm số của em đạt mục đích trình bày tốt hơn.",
+      "options": [],
+      "correct": "kích thước",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-D-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Sử dụng ____ giúp em chia sẻ thông tin một cách sinh động và hấp dẫn khi thuyết trình.",
+      "options": [],
+      "correct": "trang chiếu",
+      "duration_in_seconds": 20
+    }
+  ]
+}

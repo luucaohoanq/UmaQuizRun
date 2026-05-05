@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-12-E-v1",
+  "questionSetTitle": "Tin học lớp 12 KNTTVCS - Chủ đề 5 - Hướng nghiệp với Tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 12,
+  "topicLetter": "E",
+  "topicName": "Hướng nghiệp với Tin học",
+  "topicSlug": "huong-nghiep-voi-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-12-E-v1-q001",
+      "type": "MC",
+      "question": "Nghề nào chuyên trách việc cài đặt, cấu hình, theo dõi hiệu suất và bảo mật hệ thống mạng?",
+      "options": [
+        "Lập trình viên",
+        "Thiết kế đồ họa",
+        "Quản trị mạng",
+        "Phân tích dữ liệu"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-E-v1-q002",
+      "type": "MC",
+      "question": "Công việc chính của chuyên gia bảo mật hệ thống thông tin là gì?",
+      "options": [
+        "Vẽ poster quảng cáo",
+        "Ngăn chặn các mối đe dọa và tấn công mạng",
+        "Lắp ráp phần cứng",
+        "Soạn thảo văn bản"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-E-v1-q003",
+      "type": "MC",
+      "question": "Nhu cầu nhân lực ngành Công nghệ thông tin tăng cao chủ yếu do xu hướng nào hiện nay?",
+      "options": [
+        "Sử dụng tiền mặt nhiều hơn",
+        "Chuyển đổi số toàn diện",
+        "Quay lại dùng máy đánh chữ",
+        "Giảm kết nối Internet"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-E-v1-q004",
+      "type": "MC",
+      "question": "Kỹ năng nào là quan trọng nhất đối với một người làm quản trị hệ thống?",
+      "options": [
+        "Kiến thức về phần mềm mạng và an ninh mạng",
+        "Khả năng nấu ăn giỏi",
+        "Biết chơi nhiều loại nhạc cụ",
+        "Kỹ năng sửa chữa xe máy"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-E-v1-q005",
+      "type": "MC",
+      "question": "Nhóm nghề Tin học ứng dụng thường tập trung vào điều gì?",
+      "options": [
+        "Nghiên cứu lí thuyết sâu",
+        "Triển khai CNTT để giải quyết các vấn đề thực tế",
+        "Chỉ sửa chữa phần cứng",
+        "Sản xuất màn hình"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-E-v1-q006",
+      "type": "TI",
+      "question": "Nghề ... mạng máy tính chịu trách nhiệm duy trì hoạt động ổn định của hệ thống kết nối.",
+      "options": [],
+      "correct": "quản trị",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-E-v1-q007",
+      "type": "TI",
+      "question": "... số là quá trình thay đổi cách thức làm việc của tổ chức dựa trên công nghệ số.",
+      "options": [],
+      "correct": "Chuyển đổi",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-E-v1-q008",
+      "type": "TI",
+      "question": "Chuyên gia bảo mật cần có kiến thức sâu về việc phát hiện và ngăn chặn các ... mạng.",
+      "options": [],
+      "correct": "tấn công",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-E-v1-q009",
+      "type": "TI",
+      "question": "Học sinh lớp 12 cần rèn luyện khả năng ... để bắt kịp sự phát triển của công nghệ.",
+      "options": [],
+      "correct": "tự học",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-E-v1-q010",
+      "type": "TI",
+      "question": "Ngành Tin học đòi hỏi người lao động phải luôn cập nhật tri thức ...",
+      "options": [],
+      "correct": "mới",
+      "duration_in_seconds": 20
+    }
+  ]
+}

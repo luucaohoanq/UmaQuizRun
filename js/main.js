@@ -10,8 +10,8 @@ async function init() {
     // Draw loading screen
     drawLoadingScreen();
 
-    // Load quiz data first
-    await loadQuizData();
+    // Load the curriculum catalog first. The selected question set is loaded from the in-game menu.
+    await loadCurriculumCatalog();
 
     // Load all assets
     loadAssets();

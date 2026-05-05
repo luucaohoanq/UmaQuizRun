@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-7-C-v1",
+  "questionSetTitle": "Tin học lớp 7 KNTTVCS - Chủ đề 3 - Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 7,
+  "topicLetter": "C",
+  "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-7-C-v1-q001",
+      "type": "MC",
+      "question": "Hành động nào sau đây là văn minh khi giao tiếp trên mạng?",
+      "options": [
+        "Nói xấu người khác khi không đồng ý kiến",
+        "Sử dụng ngôn từ lịch sự và tôn trọng",
+        "Chia sẻ tin giả để gây chú ý",
+        "Bình luận xúc phạm người dùng khác"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-C-v1-q002",
+      "type": "MC",
+      "question": "Khi gặp thông tin xấu, độc trên mạng, em nên làm gì?",
+      "options": [
+        "Chia sẻ ngay cho bạn bè",
+        "Báo cáo nội dung xấu và không lan truyền",
+        "Vào bình luận tranh cãi",
+        "Tải về máy tính để lưu trữ"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-C-v1-q003",
+      "type": "MC",
+      "question": "Đâu là biểu hiện của việc nghiện Internet?",
+      "options": [
+        "Sử dụng máy tính để học tập 30 phút mỗi ngày",
+        "Bỏ bê việc học và các hoạt động khác để lên mạng",
+        "Thỉnh thoảng gọi video cho người thân",
+        "Dùng Internet để tra cứu từ điển"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-C-v1-q004",
+      "type": "MC",
+      "question": "Em cần làm gì khi có người lạ yêu cầu gửi ảnh nhạy cảm trên mạng?",
+      "options": [
+        "Gửi ngay để làm quen",
+        "Từ chối và báo ngay cho người lớn tin cậy",
+        "Gửi ảnh của bạn khác",
+        "Im lặng và tiếp tục nói chuyện"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-C-v1-q005",
+      "type": "MC",
+      "question": "Hành vi 'Bắt nạt qua mạng' có thể gây ra hậu quả gì?",
+      "options": [
+        "Giúp người bị bắt nạt mạnh mẽ hơn",
+        "Gây tổn thương tâm lí sâu sắc cho nạn nhân",
+        "Làm cho môi trường mạng vui vẻ hơn",
+        "Không có hậu quả gì"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-C-v1-q006",
+      "type": "TI",
+      "question": "Để trở thành người giao tiếp văn minh, em cần tuân thủ các quy tắc ____ khi dùng mạng.",
+      "options": [],
+      "correct": "ứng xử",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-C-v1-q007",
+      "type": "TI",
+      "question": "Em không nên tự ý chia sẻ ____ của người khác khi chưa được phép.",
+      "options": [],
+      "correct": "hình ảnh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-C-v1-q008",
+      "type": "TI",
+      "question": "Việc sử dụng mạng xã hội để ____ người khác là vi phạm đạo đức và pháp luật.",
+      "options": [],
+      "correct": "xúc phạm",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-C-v1-q009",
+      "type": "TI",
+      "question": "Khi tham gia môi trường số, em cần có ý thức bảo vệ ____ cá nhân.",
+      "options": [],
+      "correct": "thông tin",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-C-v1-q010",
+      "type": "TI",
+      "question": "Internet là môi trường ____ nơi mọi hành động đều có thể để lại dấu vết.",
+      "options": [],
+      "correct": "công cộng",
+      "duration_in_seconds": 20
+    }
+  ]
+}

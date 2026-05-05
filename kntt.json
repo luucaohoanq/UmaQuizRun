@@ -1,0 +1,547 @@
+{
+    "grades": [
+        {
+            "grade": 3,
+            "code": "IT-3",
+            "slug": "lop-3",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-3-01",
+                    "name": "Máy tính và em",
+                    "slug": "may-tinh-va-em",
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-3-02",
+                    "name": "Mạng máy tính và Internet",
+                    "slug": "mang-may-tinh-va-internet",
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-3-03",
+                    "name": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+                    "slug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-3-04",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "subtopics": []
+                },
+                {
+                    "id": 5,
+                    "code": "IT-3-05",
+                    "name": "Ứng dụng tin học",
+                    "slug": "ung-dung-tin-hoc",
+                    "subtopics": []
+                },
+                {
+                    "id": 6,
+                    "code": "IT-3-06",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "grade": 4,
+            "code": "IT-4",
+            "slug": "lop-4",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-4-01",
+                    "name": "Máy tính và em",
+                    "slug": "may-tinh-va-em",
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-4-02",
+                    "name": "Mạng máy tính và Internet",
+                    "slug": "mang-may-tinh-va-internet",
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-4-03",
+                    "name": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+                    "slug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-4-04",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "subtopics": []
+                },
+                {
+                    "id": 5,
+                    "code": "IT-4-05",
+                    "name": "Ứng dụng tin học",
+                    "slug": "ung-dung-tin-hoc",
+                    "subtopics": []
+                },
+                {
+                    "id": 6,
+                    "code": "IT-4-06",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "grade": 5,
+            "code": "IT-5",
+            "slug": "lop-5",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-5-01",
+                    "name": "Máy tính và em",
+                    "slug": "may-tinh-va-em",
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-5-02",
+                    "name": "Mạng máy tính và Internet",
+                    "slug": "mang-may-tinh-va-internet",
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-5-03",
+                    "name": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+                    "slug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-5-04",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "subtopics": []
+                },
+                {
+                    "id": 5,
+                    "code": "IT-5-05",
+                    "name": "Ứng dụng tin học",
+                    "slug": "ung-dung-tin-hoc",
+                    "subtopics": [
+                        {
+                            "id": 1,
+                            "code": "IT-5-05-01",
+                            "name": "Sử dụng phần mềm đồ họa tạo sản phẩm số đơn giản",
+                            "slug": "su-dung-phan-mem-do-hoa-tao-san-pham-so-don-gian"
+                        },
+                        {
+                            "id": 2,
+                            "code": "IT-5-05-02",
+                            "name": "Sử dụng công cụ đa phương tiện hỗ trợ tạo sản phẩm đơn giản",
+                            "slug": "su-dung-cong-cu-da-phuong-tien-ho-tro-tao-san-pham-don-gian"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "code": "IT-5-06",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "grade": 6,
+            "code": "IT-6",
+            "slug": "lop-6",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-6-01",
+                    "name": "Máy tính và cộng đồng",
+                    "slug": "may-tinh-va-cong-dong",
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-6-02",
+                    "name": "Mạng máy tính và Internet",
+                    "slug": "mang-may-tinh-va-internet",
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-6-03",
+                    "name": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+                    "slug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-6-04",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "subtopics": []
+                },
+                {
+                    "id": 5,
+                    "code": "IT-6-05",
+                    "name": "Ứng dụng tin học",
+                    "slug": "ung-dung-tin-hoc",
+                    "subtopics": []
+                },
+                {
+                    "id": 6,
+                    "code": "IT-6-06",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "grade": 7,
+            "code": "IT-7",
+            "slug": "lop-7",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-7-01",
+                    "name": "Máy tính và cộng đồng",
+                    "slug": "may-tinh-va-cong-dong",
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-7-02",
+                    "name": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+                    "slug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-7-03",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-7-04",
+                    "name": "Ứng dụng tin học",
+                    "slug": "ung-dung-tin-hoc",
+                    "subtopics": []
+                },
+                {
+                    "id": 5,
+                    "code": "IT-7-05",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "grade": 8,
+            "code": "IT-8",
+            "slug": "lop-8",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-8-01",
+                    "name": "Máy tính và cộng đồng",
+                    "slug": "may-tinh-va-cong-dong",
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-8-02",
+                    "name": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+                    "slug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-8-03",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-8-04",
+                    "name": "Ứng dụng tin học",
+                    "slug": "ung-dung-tin-hoc",
+                    "subtopics": [
+                        {
+                            "id": 1,
+                            "code": "IT-8-04-01",
+                            "name": "Soạn thảo văn bản và trình chiếu nâng cao",
+                            "slug": "soan-thao-van-ban-va-trinh-chieu-nang-cao"
+                        },
+                        {
+                            "id": 2,
+                            "code": "IT-8-04-02",
+                            "name": "Làm quen với phần mềm chỉnh sửa ảnh",
+                            "slug": "lam-quen-voi-phan-mem-chinh-sua-anh"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "code": "IT-8-05",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "subtopics": []
+                },
+                {
+                    "id": 6,
+                    "code": "IT-8-06",
+                    "name": "Hướng nghiệp với Tin học",
+                    "slug": "huong-nghiep-voi-tin-hoc",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "grade": 9,
+            "code": "IT-9",
+            "slug": "lop-9",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-9-01",
+                    "name": "Máy tính và cộng đồng",
+                    "slug": "may-tinh-va-cong-dong",
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-9-02",
+                    "name": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+                    "slug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-9-03",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-9-04",
+                    "name": "Ứng dụng tin học",
+                    "slug": "ung-dung-tin-hoc",
+                    "subtopics": [
+                        {
+                            "id": 1,
+                            "code": "IT-9-04-01",
+                            "name": "Sử dụng bảng tính điện tử nâng cao",
+                            "slug": "su-dung-bang-tinh-dien-tu-nang-cao"
+                        },
+                        {
+                            "id": 2,
+                            "code": "IT-9-04-02",
+                            "name": "Làm quen với phần mềm làm video",
+                            "slug": "lam-quen-voi-phan-mem-lam-video"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "code": "IT-9-05",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "subtopics": []
+                },
+                {
+                    "id": 6,
+                    "code": "IT-9-06",
+                    "name": "Hướng nghiệp với Tin học",
+                    "slug": "huong-nghiep-voi-tin-hoc",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "grade": 10,
+            "code": "IT-10",
+            "slug": "lop-10",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-10-01",
+                    "name": "Máy tính và Xã hội tri thức",
+                    "slug": "may-tinh-va-xa-hoi-tri-thuc",
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-10-02",
+                    "name": "Mạng máy tính và Internet",
+                    "slug": "mang-may-tinh-va-internet",
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-10-03",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-10-04",
+                    "name": "Ứng dụng tin học",
+                    "slug": "ung-dung-tin-hoc",
+                    "subtopics": []
+                },
+                {
+                    "id": 5,
+                    "code": "IT-10-05",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "subtopics": []
+                },
+                {
+                    "id": 6,
+                    "code": "IT-10-06",
+                    "name": "Hướng nghiệp với Tin học",
+                    "slug": "huong-nghiep-voi-tin-hoc",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "grade": 11,
+            "code": "IT-11",
+            "slug": "lop-11",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-11-01",
+                    "name": "Máy tính và Xã hội tri thức",
+                    "slug": "may-tinh-va-xa-hoi-tri-thuc",
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-11-02",
+                    "name": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+                    "slug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-11-03",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-11-04",
+                    "name": "Giới thiệu các hệ cơ sở dữ liệu",
+                    "slug": "gioi-thieu-cac-he-co-so-du-lieu",
+                    "subtopics": []
+                },
+                {
+                    "id": 5,
+                    "code": "IT-11-05",
+                    "name": "Hướng nghiệp với Tin học",
+                    "slug": "huong-nghiep-voi-tin-hoc",
+                    "subtopics": []
+                },
+                {
+                    "id": 6,
+                    "code": "IT-11-06",
+                    "name": "Thực hành tạo và khai thác cơ sở dữ liệu",
+                    "slug": "thuc-hanh-tao-va-khai-thac-co-so-du-lieu",
+                    "subtopics": []
+                },
+                {
+                    "id": 7,
+                    "code": "IT-11-07",
+                    "name": "Phần mềm chỉnh sửa ảnh và làm video",
+                    "slug": "phan-mem-chinh-sua-anh-va-lam-video",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "grade": 12,
+            "code": "IT-12",
+            "slug": "lop-12",
+            "topics": [
+                {
+                    "id": 1,
+                    "code": "IT-12-01",
+                    "name": "Máy tính và Xã hội tri thức",
+                    "slug": "may-tinh-va-xa-hoi-tri-thuc",
+                    "part": 1,
+                    "subtopics": []
+                },
+                {
+                    "id": 2,
+                    "code": "IT-12-02",
+                    "name": "Mạng máy tính và Internet",
+                    "slug": "mang-may-tinh-va-internet",
+                    "part": 1,
+                    "subtopics": []
+                },
+                {
+                    "id": 3,
+                    "code": "IT-12-03",
+                    "name": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+                    "slug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+                    "part": 1,
+                    "subtopics": []
+                },
+                {
+                    "id": 4,
+                    "code": "IT-12-04",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "part": 1,
+                    "subtopics": []
+                },
+                {
+                    "id": 5,
+                    "code": "IT-12-05",
+                    "name": "Hướng nghiệp với Tin học",
+                    "slug": "huong-nghiep-voi-tin-hoc",
+                    "part": 1,
+                    "subtopics": []
+                },
+                {
+                    "id": 6,
+                    "code": "IT-12-06",
+                    "name": "Mạng máy tính và Internet",
+                    "slug": "mang-may-tinh-va-internet",
+                    "part": 2,
+                    "subtopics": []
+                },
+                {
+                    "id": 7,
+                    "code": "IT-12-07",
+                    "name": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+                    "slug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+                    "part": 2,
+                    "subtopics": []
+                }
+            ]
+        }
+    ]
+}

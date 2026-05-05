@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-10-B-v1",
+  "questionSetTitle": "Tin học 10 KNTTVCS - Chủ đề B - Mạng máy tính và Internet",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 10,
+  "topicLetter": "B",
+  "topicName": "Mạng máy tính và Internet",
+  "topicSlug": "mang-may-tinh-va-internet",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-10-B-v1-q001",
+      "type": "MC",
+      "question": "Mạng LAN là loại mạng kết nối máy tính trong phạm vi nào?",
+      "options": [
+        "Toàn cầu",
+        "Một thành phố",
+        "Phạm vi nhỏ như gia đình, trường học",
+        "Kết nối giữa các quốc gia"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-10-B-v1-q002",
+      "type": "TI",
+      "question": "Viết tắt của khái niệm 'Kết nối vạn vật' là gì?",
+      "options": [],
+      "correct": "IoT",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-10-B-v1-q003",
+      "type": "MC",
+      "question": "Đâu là một ví dụ về dịch vụ lưu trữ đám mây?",
+      "options": [
+        "Google Drive",
+        "Thanh Taskbar",
+        "Ổ cứng HDD rời",
+        "Máy in"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-10-B-v1-q004",
+      "type": "TI",
+      "question": "Điền từ: ... là tập hợp các quy định về cách thức giao tiếp giữa các thiết bị mạng.",
+      "options": [],
+      "correct": "Giao thức",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-10-B-v1-q005",
+      "type": "MC",
+      "question": "Mạng Internet khác mạng LAN ở điểm nào?",
+      "options": [
+        "Chỉ dùng cáp quang",
+        "Có quy mô toàn cầu",
+        "Không cần địa chỉ IP",
+        "Chỉ thuộc sở hữu của một cá nhân"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-10-B-v1-q006",
+      "type": "TI",
+      "question": "Địa chỉ ... giúp định danh duy nhất mỗi thiết bị khi tham gia mạng Internet.",
+      "options": [],
+      "correct": "IP",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-10-B-v1-q007",
+      "type": "MC",
+      "question": "Dịch vụ SaaS trong điện toán đám mây cung cấp gì cho người dùng?",
+      "options": [
+        "Hạ tầng cứng",
+        "Nền tảng lập trình",
+        "Phần mềm dưới dạng dịch vụ",
+        "Chỉ cung cấp ổ đĩa ảo"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-10-B-v1-q008",
+      "type": "TI",
+      "question": "Thiết bị ... dùng để chuyển đổi tín hiệu số sang tín hiệu tương tự và ngược lại.",
+      "options": [],
+      "correct": "Modem",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-10-B-v1-q009",
+      "type": "MC",
+      "question": "Đặc điểm của Internet là gì?",
+      "options": [
+        "Tính ổn định tuyệt đối",
+        "Tính công cộng, không thuộc sở hữu của ai",
+        "Luôn có tốc độ cao nhất",
+        "Chỉ có thông tin chính xác"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-10-B-v1-q010",
+      "type": "TI",
+      "question": "Hệ thống ... cho phép đặt tên bằng chữ dễ nhớ thay cho địa chỉ IP khó nhớ.",
+      "options": [],
+      "correct": "DNS",
+      "duration_in_seconds": 20
+    }
+  ]
+}

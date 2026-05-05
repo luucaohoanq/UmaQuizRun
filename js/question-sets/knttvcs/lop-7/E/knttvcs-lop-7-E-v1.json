@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-7-E-v1",
+  "questionSetTitle": "Tin học lớp 7 KNTTVCS - Chủ đề 5 - Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 7,
+  "topicLetter": "E",
+  "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-7-E-v1-q001",
+      "type": "MC",
+      "question": "Thuật toán tìm kiếm tuần tự thực hiện so sánh lần lượt từ đâu?",
+      "options": [
+        "Từ giữa danh sách",
+        "Từ cuối danh sách lên đầu",
+        "Từ đầu danh sách đến cuối",
+        "Chọn vị trí ngẫu nhiên"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-E-v1-q002",
+      "type": "MC",
+      "question": "Điều kiện để sử dụng thuật toán tìm kiếm nhị phân là gì?",
+      "options": [
+        "Danh sách phải rất dài",
+        "Danh sách đã được sắp xếp",
+        "Danh sách chỉ toàn chữ số",
+        "Danh sách chưa được sắp xếp"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-E-v1-q003",
+      "type": "MC",
+      "question": "Trong thuật toán sắp xếp nổi bọt, các phần tử liền kề được xử lí như thế nào?",
+      "options": [
+        "Xóa bớt phần tử nhỏ",
+        "So sánh và đổi chỗ nếu không đúng thứ tự",
+        "Chỉ so sánh phần tử đầu và cuối",
+        "Nhân đôi các giá trị lớn"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-E-v1-q004",
+      "type": "MC",
+      "question": "Thuật toán tìm kiếm nhị phân thực hiện chia đôi danh sách tại vị trí nào?",
+      "options": [
+        "Vị trí đầu tiên",
+        "Vị trí cuối cùng",
+        "Vị trí ở giữa",
+        "Vị trí bất kỳ"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-E-v1-q005",
+      "type": "MC",
+      "question": "Mục đích của các thuật toán sắp xếp là gì?",
+      "options": [
+        "Để xóa dữ liệu nhanh hơn",
+        "Để tổ chức dữ liệu theo một thứ tự xác định",
+        "Để tăng dung lượng bộ nhớ",
+        "Để máy tính chạy mát hơn"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-E-v1-q006",
+      "type": "TI",
+      "question": "Thuật toán tìm kiếm ____ kiểm tra lần lượt từng phần tử của danh sách.",
+      "options": [],
+      "correct": "tuần tự",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-E-v1-q007",
+      "type": "TI",
+      "question": "Thuật toán tìm kiếm nhị phân nhanh hơn thuật toán tuần tự khi danh sách đã được ____.",
+      "options": [],
+      "correct": "sắp xếp",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-E-v1-q008",
+      "type": "TI",
+      "question": "Trong thuật toán sắp xếp ____, ta chọn phần tử nhỏ nhất và đưa về đầu danh sách chưa sắp xếp.",
+      "options": [],
+      "correct": "chọn",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-E-v1-q009",
+      "type": "TI",
+      "question": "Sắp xếp dữ liệu giúp việc ____ thông tin trở nên nhanh chóng và hiệu quả hơn.",
+      "options": [],
+      "correct": "tìm kiếm",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-E-v1-q010",
+      "type": "TI",
+      "question": "____ là một dãy các chỉ dẫn rõ ràng để giải quyết một nhiệm vụ cụ thể.",
+      "options": [],
+      "correct": "Thuật toán",
+      "duration_in_seconds": 20
+    }
+  ]
+}

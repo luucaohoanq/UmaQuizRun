@@ -1,0 +1,729 @@
+{
+  "setId": "ctst-lop-3-C-thu-muc-va-tep-tin-v1",
+  "questionSetTitle": "Tin học lớp 3 - Chủ đề C - Thư mục và tệp tin",
+  "bookCode": "CTST",
+  "bookTitle": "Chân trời sáng tạo",
+  "grade": 3,
+  "topicLetter": "C",
+  "topicName": "Thư mục và tệp tin",
+  "topicSlug": "thu-muc-va-tep-tin",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q001",
+      "type": "MC",
+      "question": "Trong sách giáo khoa, mục nào giúp em tìm nhanh vị trí của các bài học?",
+      "options": [
+        "Trang bìa",
+        "Mục lục",
+        "Lời nói đầu",
+        "Nội dung bài học"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q002",
+      "type": "MC",
+      "question": "Sắp xếp đồ vật hay dữ liệu một cách hợp lý sẽ giúp chúng ta điều gì?",
+      "options": [
+        "Làm đồ vật đẹp hơn",
+        "Tìm kiếm nhanh chóng hơn",
+        "Tiết kiệm diện tích",
+        "Không có tác dụng gì"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q003",
+      "type": "MC",
+      "question": "Sơ đồ hình cây là phương pháp dùng để biểu diễn điều gì?",
+      "options": [
+        "Cách trồng cây xanh",
+        "Cách vẽ tranh phong cảnh",
+        "Cách sắp xếp, phân loại đồ vật hoặc dữ liệu",
+        "Cách tính toán các con số"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q004",
+      "type": "MC",
+      "question": "Trong máy tính, tệp tin (file) có thể chứa loại thông tin nào?",
+      "options": [
+        "Văn bản",
+        "Hình ảnh",
+        "Âm thanh, video",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q005",
+      "type": "MC",
+      "question": "Biểu tượng của thư mục (folder) trong máy tính thường có hình dạng gì?",
+      "options": [
+        "Hình kẹp giấy màu vàng",
+        "Hình trang giấy trắng",
+        "Hình đĩa tròn",
+        "Hình thùng rác"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q006",
+      "type": "MC",
+      "question": "Ổ đĩa thường được đặt tên bằng các chữ cái nào sau đây?",
+      "options": [
+        "(C:), (D:)",
+        "(A), (B)",
+        "(1:), (2:)",
+        "Tên của em"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q007",
+      "type": "MC",
+      "question": "Để tìm tệp tin nhanh nhất trong máy tính, em nên lưu trữ nó ở đâu?",
+      "options": [
+        "Lưu lộn xộn trong ổ đĩa",
+        "Lưu trong thư mục có tên gợi nhớ",
+        "Không cần đặt tên thư mục",
+        "Xóa thư mục sau khi lưu"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q008",
+      "type": "TI",
+      "question": "Việc tìm kiếm sẽ ... hơn nếu đồ vật, dữ liệu được phân loại, sắp xếp một cách hợp lý. Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "nhanh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q009",
+      "type": "TI",
+      "question": "Trong một thư mục có thể chứa các thư mục con và các ... . Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "tệp",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q010",
+      "type": "TI",
+      "question": "Phần mềm giúp em quan sát các ổ đĩa, thư mục và tệp là File ... . Hãy điền từ còn thiếu.",
+      "options": [],
+      "correct": "Explorer",
+      "duration_in_seconds": 30
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q011",
+      "type": "MC",
+      "question": "Việc sắp xếp các thẻ số theo thứ tự tăng dần giúp chúng ta điều gì?",
+      "options": [
+        "Tìm thẻ số nhanh hơn",
+        "Làm thẻ số đẹp hơn",
+        "Làm thẻ số biến mất",
+        "Không có tác dụng gì"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q012",
+      "type": "MC",
+      "question": "Để tìm một cuốn sách trong thư viện dễ dàng, ta nên sắp xếp chúng theo cách nào?",
+      "options": [
+        "Để lộn xộn trên bàn",
+        "Phân loại theo môn học (Toán, Tiếng Việt, ...)",
+        "Chồng tất cả lên nhau",
+        "Bỏ hết vào túi đen"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q013",
+      "type": "MC",
+      "question": "Trong máy tính, thông tin được lưu trữ ở đâu?",
+      "options": [
+        "Bàn phím",
+        "Chuột",
+        "Tệp (File)",
+        "Dây điện"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q014",
+      "type": "MC",
+      "question": "Biểu tượng của thư mục (Folder) thường có màu gì?",
+      "options": [
+        "Màu đỏ",
+        "Màu xanh dương",
+        "Màu vàng",
+        "Màu đen"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q015",
+      "type": "MC",
+      "question": "Ổ đĩa thường được đặt tên bằng các chữ cái kèm theo dấu gì?",
+      "options": [
+        "Dấu phẩy (,)",
+        "Dấu hai chấm (:)",
+        "Dấu hỏi (?)",
+        "Dấu chấm than (!)"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q016",
+      "type": "MC",
+      "question": "Đâu là tên của một ổ đĩa thường gặp trên máy tính?",
+      "options": [
+        "Ổ đĩa (C:)",
+        "Ổ đĩa (AB)",
+        "Ổ đĩa (XYZ)",
+        "Ổ đĩa (123)"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q017",
+      "type": "MC",
+      "question": "Để biểu diễn một phương án sắp xếp, phân loại cụ thể, người ta thường dùng sơ đồ gì?",
+      "options": [
+        "Sơ đồ hình tròn",
+        "Sơ đồ hình cây",
+        "Sơ đồ hình vuông",
+        "Sơ đồ đường thẳng"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q018",
+      "type": "MC",
+      "question": "Trong sơ đồ hình cây, mỗi nhánh đại diện cho điều gì?",
+      "options": [
+        "Một cái lá",
+        "Một nhóm hoặc một thư mục con",
+        "Một bức tranh",
+        "Kết quả phép tính"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q019",
+      "type": "MC",
+      "question": "Một thư mục có thể chứa những gì bên trong?",
+      "options": [
+        "Chỉ chứa tệp",
+        "Chỉ chứa thư mục con",
+        "Chứa tệp và các thư mục con",
+        "Không chứa được gì"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q020",
+      "type": "MC",
+      "question": "Phần mềm nào giúp em quan sát các ổ đĩa, thư mục và tệp?",
+      "options": [
+        "MS Paint",
+        "RapidTyping",
+        "File Explorer",
+        "SolarSystem"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q021",
+      "type": "MC",
+      "question": "Khi em tạo một thư mục mới, tên mặc định của nó thường là gì?",
+      "options": [
+        "Folder 1",
+        "New folder",
+        "Thu muc moi",
+        "Empty"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q022",
+      "type": "MC",
+      "question": "Để xóa một thư mục, em chọn thư mục đó rồi nhấn nút lệnh nào?",
+      "options": [
+        "Rename",
+        "New folder",
+        "Delete",
+        "Open"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q023",
+      "type": "MC",
+      "question": "Để đổi tên thư mục, sau khi chọn nút lệnh Rename và gõ tên mới, em nhấn phím gì để hoàn tất?",
+      "options": [
+        "Phím Space",
+        "Phím Enter",
+        "Phím Shift",
+        "Phím Ctrl"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q024",
+      "type": "MC",
+      "question": "Thư mục nằm bên trong một thư mục khác được gọi là gì?",
+      "options": [
+        "Thư mục mẹ",
+        "Thư mục con",
+        "Thư mục gốc",
+        "Thư mục chính"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q025",
+      "type": "MC",
+      "question": "Tại sao không nên đặt tên hai thư mục con cùng tên trong cùng một thư mục mẹ?",
+      "options": [
+        "Máy tính sẽ bị hỏng",
+        "Để tránh nhầm lẫn và máy tính thường không cho phép",
+        "Để thư mục đẹp hơn",
+        "Vì tốn bộ nhớ"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q026",
+      "type": "MC",
+      "question": "Khi muốn tạo một thư mục con trong ổ đĩa (D:), bước đầu tiên em cần làm là gì?",
+      "options": [
+        "Nháy chuột vào nút lệnh Delete",
+        "Mở ổ đĩa (D:)",
+        "Tắt máy tính",
+        "Gõ tên thư mục"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q027",
+      "type": "MC",
+      "question": "Nút lệnh 'New folder' dùng để làm gì?",
+      "options": [
+        "Xóa thư mục",
+        "Mở tệp tin",
+        "Tạo thư mục mới",
+        "Đổi tên tệp"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q028",
+      "type": "MC",
+      "question": "Sơ đồ hình cây giúp em dễ dàng hình dung điều gì?",
+      "options": [
+        "Cách trang trí máy tính",
+        "Việc tổ chức lưu trữ và sắp xếp thông tin",
+        "Cách vẽ một cái cây",
+        "Cách sử dụng chuột"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q029",
+      "type": "MC",
+      "question": "Thông tin cá nhân nào sau đây cần được bảo vệ?",
+      "options": [
+        "Tên bộ phim em thích",
+        "Màu sắc em yêu",
+        "Số điện thoại của bố mẹ",
+        "Tên con vật em yêu"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q030",
+      "type": "MC",
+      "question": "Để tìm bài học 'Sắp xếp để dễ tìm' trong sách Tin học 3, em nên xem ở đâu nhanh nhất?",
+      "options": [
+        "Lật từng trang từ đầu đến cuối",
+        "Xem trang Mục lục",
+        "Nhờ bạn tìm giúp",
+        "Xem bìa sau của sách"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q031",
+      "type": "MC",
+      "question": "Trong File Explorer, ngăn bên trái thường hiển thị gì?",
+      "options": [
+        "Nội dung của tệp",
+        "Cấu trúc cây thư mục và các ổ đĩa",
+        "Các trò chơi",
+        "Các đoạn video"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q032",
+      "type": "MC",
+      "question": "Tệp có biểu tượng chữ 'W' màu xanh dương thường chứa loại thông tin nào?",
+      "options": [
+        "Hình ảnh",
+        "Âm thanh",
+        "Văn bản",
+        "Phim"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q033",
+      "type": "MC",
+      "question": "Để mở một thư mục, em thực hiện thao tác chuột nào vào thư mục đó?",
+      "options": [
+        "Nháy chuột phải",
+        "Nháy đúp chuột",
+        "Kéo thả chuột",
+        "Di chuyển chuột"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q034",
+      "type": "MC",
+      "question": "Cách sắp xếp đồ dùng học tập hợp lý giúp em điều gì?",
+      "options": [
+        "Tốn nhiều thời gian hơn",
+        "Tìm đồ dùng nhanh và góc học tập ngăn nắp",
+        "Làm hỏng đồ dùng",
+        "Không có lợi ích"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q035",
+      "type": "MC",
+      "question": "Ổ đĩa nào thường là nơi gốc chứa hệ điều hành máy tính?",
+      "options": [
+        "Ổ đĩa (A:)",
+        "Ổ đĩa (C:)",
+        "Ổ đĩa (E:)",
+        "Ổ đĩa (Z:)"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q036",
+      "type": "MC",
+      "question": "Biểu tượng tệp hình bức tranh thường chứa loại dữ liệu nào?",
+      "options": [
+        "Dữ liệu âm thanh",
+        "Dữ liệu hình ảnh",
+        "Dữ liệu văn bản",
+        "Dữ liệu số"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q037",
+      "type": "MC",
+      "question": "Thư mục chứa thư mục con được gọi là gì của thư mục con đó?",
+      "options": [
+        "Thư mục bạn",
+        "Thư mục mẹ",
+        "Thư mục em",
+        "Thư mục anh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q038",
+      "type": "MC",
+      "question": "Khi gõ tên thư mục, phím nào giúp em viết chữ hoa?",
+      "options": [
+        "Phím Enter",
+        "Phím Shift",
+        "Phím Space",
+        "Phím Tab"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q039",
+      "type": "MC",
+      "question": "Việc đổi tên thư mục có làm mất dữ liệu bên trong không?",
+      "options": [
+        "Có, mất hết",
+        "Không, dữ liệu vẫn còn nguyên",
+        "Có, mất một nửa",
+        "Chỉ mất các tệp hình ảnh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q040",
+      "type": "MC",
+      "question": "Nếu em lỡ tay xóa nhầm một thư mục quan trọng, em nên làm gì?",
+      "options": [
+        "Khóc và tắt máy",
+        "Báo cho người lớn hoặc thầy cô để nhờ giúp đỡ",
+        "Xóa luôn cả máy tính",
+        "Không làm gì cả"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q041",
+      "type": "MC",
+      "question": "Trong máy tính, tệp được lưu trữ bên trong yếu tố nào sau đây?",
+      "options": [
+        "Màn hình",
+        "Thư mục",
+        "Chuột",
+        "Loa"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q042",
+      "type": "MC",
+      "question": "Để sắp xếp thực phẩm trong tủ lạnh dễ tìm, em nên dựa vào tiêu chí nào?",
+      "options": [
+        "Dựa vào giá tiền",
+        "Dựa vào loại (Rau, Quả, Thịt, Cá...)",
+        "Dựa vào màu sắc vỏ hộp",
+        "Để ngẫu nhiên"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q043",
+      "type": "MC",
+      "question": "Trên sơ đồ hình cây, gốc cây thường đại diện cho yếu tố nào cao nhất?",
+      "options": [
+        "Tệp",
+        "Ổ đĩa hoặc Thư mục gốc",
+        "Thư mục con",
+        "Trang giấy"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q044",
+      "type": "MC",
+      "question": "Thao tác nào giúp em di chuyển thư mục này vào thư mục khác?",
+      "options": [
+        "Nháy đúp chuột",
+        "Kéo thả chuột",
+        "Nháy chuột trái rồi thả ra ngay",
+        "Di chuyển chuột vòng quanh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q045",
+      "type": "MC",
+      "question": "Sắp xếp dữ liệu hợp lý trong máy tính giúp ta tránh được điều gì?",
+      "options": [
+        "Lãng phí thời gian tìm kiếm",
+        "Máy tính bị hết pin",
+        "Bị mỏi mắt khi nhìn màn hình",
+        "Chuột bị hỏng"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q046",
+      "type": "MC",
+      "question": "Tên tệp thường gồm mấy phần chính?",
+      "options": [
+        "1 phần",
+        "2 phần (Phần tên và Phần mở rộng)",
+        "3 phần",
+        "4 phần"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q047",
+      "type": "MC",
+      "question": "Khi xem cấu trúc thư mục, dấu mũi tên nhỏ cạnh thư mục có nghĩa là gì?",
+      "options": [
+        "Thư mục đó bị hỏng",
+        "Thư mục đó có chứa thư mục con bên trong",
+        "Thư mục đó trống rỗng",
+        "Thư mục đó là tệp"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 15
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q048",
+      "type": "MC",
+      "question": "Thông tin trong tệp văn bản chủ yếu là gì?",
+      "options": [
+        "Các con số và chữ cái",
+        "Tiếng chim hót",
+        "Phim hoạt hình",
+        "Các đoạn nhạc"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q049",
+      "type": "MC",
+      "question": "Để tìm một bài hát trong máy tính, em nên tìm trong thư mục có tên là gì cho nhanh?",
+      "options": [
+        "Văn bản",
+        "Âm nhạc (Music)",
+        "Hình ảnh",
+        "Toán học"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q050",
+      "type": "MC",
+      "question": "Thư mục nào sau đây thường chứa các tệp hình ảnh em vẽ?",
+      "options": [
+        "Download",
+        "Pictures",
+        "Videos",
+        "Documents"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q051",
+      "type": "TI",
+      "question": "Việc sắp xếp đồ vật hợp lý giúp chúng ta tìm kiếm ... hơn. Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "nhanh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q052",
+      "type": "TI",
+      "question": "Trong máy tính, thông tin được lưu trữ trong các ... . Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "tệp",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q053",
+      "type": "TI",
+      "question": "Biểu tượng hình cái kẹp giấy màu vàng dùng để chỉ ... . Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "thư mục",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q054",
+      "type": "TI",
+      "question": "(C:) và (D:) là tên của các ... trong máy tính. Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "ổ đĩa",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q055",
+      "type": "TI",
+      "question": "Sơ đồ hình ... là phương pháp dùng để biểu diễn cách sắp xếp, phân loại. Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "cây",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q056",
+      "type": "TI",
+      "question": "Thư mục nằm trong một thư mục khác được gọi là thư mục ... . Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "con",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q057",
+      "type": "TI",
+      "question": "Sau khi gõ tên mới cho thư mục, em nhấn phím ... để hoàn tất. Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "Enter",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q058",
+      "type": "TI",
+      "question": "Để xóa một thư mục không dùng đến, em dùng nút lệnh ... . Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "Delete",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q059",
+      "type": "TI",
+      "question": "Thư mục chứa các thư mục con bên trong nó gọi là thư mục ... . Hãy điền từ thích hợp.",
+      "options": [],
+      "correct": "mẹ",
+      "duration_in_seconds": 25
+    },
+    {
+      "id": "tin-hoc-lop-3-thu-muc-va-tep-tin-v1-q060",
+      "type": "TI",
+      "question": "Phần mềm File ... giúp em quản lý tệp và thư mục. Hãy điền từ còn thiếu vào chỗ trống.",
+      "options": [],
+      "correct": "Explorer",
+      "duration_in_seconds": 30
+    }
+  ]
+}

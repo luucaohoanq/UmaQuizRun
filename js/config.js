@@ -6,14 +6,29 @@ const config = {
     height: 1000,
     scale: 1,
     groundY: 0,
-    gameState: 'loading'
+    gameState: 'loading',
+    gameId: null,
+    userId: null
 };
+
+// Parse URL parameters for tracking
+(function parseURLParams() {
+    const urlParams = new URLSearchParams(window.location.search);
+    config.gameId = urlParams.get('gameId');
+    config.userId = urlParams.get('userId');
+    console.log('Game initialized with:', { gameId: config.gameId, userId: config.userId });
+})();
 
 // Game Modes
 const GAME_MODES = {
+    RANDOM_3: 'random3', // Random 3 questions mode
     RANDOM_10: 'random10', // Random 10 questions mode
+    CUSTOM: 'custom', // Custom finite questions mode
     ENDLESS: 'endless'     // Endless mode (current mode)
 };
+
+const DEFAULT_CUSTOM_QUESTION_COUNT = 3;
+const MAX_CUSTOM_QUESTION_COUNT = 999;
 
 // Available characters with their metadata
 const CHARACTERS = [
@@ -49,6 +64,7 @@ const FIXED_TIME_STEP = 1000 / TARGET_FPS; // 16.67ms
 
 // Global game state variables
 let currentGameMode = GAME_MODES.ENDLESS;
+let customQuestionCount = DEFAULT_CUSTOM_QUESTION_COUNT;
 let currentQuestion = null;
 let quizTimer = 0;
 let quizTimeLimitMs = QUIZ_TIME_LIMIT; // actual limit for current question
@@ -62,6 +78,11 @@ let lastQuizEnd = 0;
 let currentScore = 0;
 let highScore = localStorage.getItem('gameHighScore') ? parseInt(localStorage.getItem('gameHighScore')) : 0;
 let quizData = [];
+let quizCatalogIndex = null;
+let activeBookCatalog = null;
+let activeQuestionSet = null;
+let quizDataLoadError = null;
+let gameStartTime = 0; // Track when game session starts for duration calculation
 
 // Game loop variables
 let lastFrameTime = 0;
@@ -72,6 +93,60 @@ let lastFpsUpdate = 0;
 let hasAnsweredCorrectly = false; // Flag for correct answer
 let hasAnsweredWrong = false; // Flag for wrong answer
 let targetObstacle = null; // The obstacle to jump over
+
+function isFiniteQuestionMode(mode = currentGameMode) {
+    return (
+        mode === GAME_MODES.RANDOM_3 ||
+        mode === GAME_MODES.RANDOM_10 ||
+        mode === GAME_MODES.CUSTOM
+    );
+}
+
+function getQuestionLimitForMode(mode = currentGameMode, availableQuestionCount = null) {
+    let configuredLimit = Infinity;
+
+    if (mode === GAME_MODES.RANDOM_3) {
+        configuredLimit = 3;
+    } else if (mode === GAME_MODES.RANDOM_10) {
+        configuredLimit = 10;
+    } else if (mode === GAME_MODES.CUSTOM) {
+        configuredLimit = customQuestionCount;
+    }
+
+    if (!Number.isFinite(configuredLimit)) {
+        return availableQuestionCount ?? Infinity;
+    }
+
+    const sanitizedLimit = Math.max(1, Math.floor(configuredLimit));
+    if (
+        typeof availableQuestionCount === 'number' &&
+        Number.isFinite(availableQuestionCount)
+    ) {
+        return Math.min(sanitizedLimit, availableQuestionCount);
+    }
+
+    return sanitizedLimit;
+}
+
+function getGameModeLabel(mode = currentGameMode) {
+    if (mode === GAME_MODES.RANDOM_3) {
+        return 'Chế độ 3 câu hỏi';
+    }
+    if (mode === GAME_MODES.RANDOM_10) {
+        return 'Chế độ 10 câu hỏi';
+    }
+    if (mode === GAME_MODES.CUSTOM) {
+        return `Chế độ tùy chỉnh (${customQuestionCount} câu)`;
+    }
+    return 'Chế độ vô tận';
+}
+
+function getSessionModeName(mode = currentGameMode) {
+    if (mode === GAME_MODES.RANDOM_3) return 'RANDOM_3';
+    if (mode === GAME_MODES.RANDOM_10) return 'RANDOM_10';
+    if (mode === GAME_MODES.CUSTOM) return 'CUSTOM';
+    return 'ENDLESS';
+}
 
 const SLOW_FACTOR_BY_DURATION = {
     5: 0.40,

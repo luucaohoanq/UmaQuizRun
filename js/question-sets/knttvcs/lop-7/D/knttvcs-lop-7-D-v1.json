@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-7-D-v1",
+  "questionSetTitle": "Tin học lớp 7 KNTTVCS - Chủ đề 4 - Ứng dụng tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 7,
+  "topicLetter": "D",
+  "topicName": "Ứng dụng tin học",
+  "topicSlug": "ung-dung-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-7-D-v1-q001",
+      "type": "MC",
+      "question": "Trong phần mềm bảng tính, các công thức luôn bắt đầu bằng dấu gì?",
+      "options": [
+        "Dấu cộng (+)",
+        "Dấu bằng (=)",
+        "Dấu nhân (*)",
+        "Dấu đô la ($)"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-D-v1-q002",
+      "type": "MC",
+      "question": "Hàm nào sau đây dùng để tính tổng các giá trị trong bảng tính?",
+      "options": [
+        "AVERAGE",
+        "MIN",
+        "SUM",
+        "MAX"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-D-v1-q003",
+      "type": "MC",
+      "question": "Địa chỉ ô nào sau đây là đúng trong Excel?",
+      "options": [
+        "1A",
+        "A1",
+        "A-1",
+        "$1A"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-D-v1-q004",
+      "type": "MC",
+      "question": "Để định dạng đối tượng trên trang chiếu, em sử dụng thẻ nào?",
+      "options": [
+        "Format",
+        "Insert",
+        "Home",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-D-v1-q005",
+      "type": "MC",
+      "question": "Phần mềm nào thường được dùng để tạo bài thuyết trình?",
+      "options": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Access",
+        "Notepad"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-D-v1-q006",
+      "type": "TI",
+      "question": "Bảng tính điện tử gồm có nhiều hàng và nhiều ____.",
+      "options": [],
+      "correct": "cột",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-D-v1-q007",
+      "type": "TI",
+      "question": "Hàm ____ dùng để tính giá trị trung bình cộng của một dãy số.",
+      "options": [],
+      "correct": "AVERAGE",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-D-v1-q008",
+      "type": "TI",
+      "question": "Để thay đổi ____ của trang chiếu, em có thể chọn các mẫu trong thẻ Design.",
+      "options": [],
+      "correct": "phông nền",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-D-v1-q009",
+      "type": "TI",
+      "question": "Giao của một hàng và một cột trong bảng tính được gọi là một ____.",
+      "options": [],
+      "correct": "ô",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-D-v1-q010",
+      "type": "TI",
+      "question": "Trong phần mềm trình chiếu, em có thể chèn thêm ____ để minh họa cho nội dung bài nói.",
+      "options": [],
+      "correct": "hình ảnh",
+      "duration_in_seconds": 20
+    }
+  ]
+}

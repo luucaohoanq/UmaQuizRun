@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-9-D-v1",
+  "questionSetTitle": "Tin học lớp 9 KNTTVCS - Chủ đề 4 - Ứng dụng tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 9,
+  "topicLetter": "D",
+  "topicName": "Ứng dụng tin học",
+  "topicSlug": "ung-dung-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-9-D-v1-q001",
+      "type": "MC",
+      "question": "Hàm nào trong bảng tính Excel dùng để đếm số ô thoả mãn một điều kiện nhất định?",
+      "options": [
+        "SUMIF",
+        "COUNTIF",
+        "IF",
+        "AVERAGE"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-D-v1-q002",
+      "type": "MC",
+      "question": "Công cụ 'Xác thực dữ liệu' (Data Validation) trong bảng tính giúp em điều gì?",
+      "options": [
+        "Làm bảng đẹp hơn",
+        "Hạn chế kiểu dữ liệu và giá trị dữ liệu nhập vào ô",
+        "Tự động tính tổng",
+        "Xoá dữ liệu sai"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-D-v1-q003",
+      "type": "MC",
+      "question": "Hàm SUMIF được sử dụng khi nào?",
+      "options": [
+        "Khi cần tính tổng tất cả các ô",
+        "Khi cần tính tổng các ô thoả mãn một điều kiện cho trước",
+        "Khi cần đếm số ô",
+        "Khi cần tìm giá trị lớn nhất"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-D-v1-q004",
+      "type": "MC",
+      "question": "Trong phần mềm làm video, 'Kịch bản' có vai trò gì?",
+      "options": [
+        "Là bản vẽ phác thảo",
+        "Là hướng dẫn chi tiết để thực hiện và dựng video đúng ý tưởng",
+        "Là phần mềm dựng phim",
+        "Là thiết bị quay phim"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-D-v1-q005",
+      "type": "MC",
+      "question": "Hàm IF trong bảng tính trả về giá trị dựa trên điều gì?",
+      "options": [
+        "Việc kiểm tra một điều kiện là Đúng hay Sai",
+        "Tính tổng các số",
+        "Sắp xếp dữ liệu",
+        "Đếm số ô trống"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-D-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Phần mềm ____ giúp người dùng quan sát, tìm hiểu các hiện tượng tự nhiên hoặc kĩ thuật một cách trực quan.",
+      "options": [],
+      "correct": "mô phỏng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-D-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Để hạn chế sai sót khi nhập liệu trong Excel, ta sử dụng công cụ ____ dữ liệu.",
+      "options": [],
+      "correct": "xác thực",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-D-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Hàm ____ trả về các giá trị khác nhau tuỳ thuộc vào điều kiện kiểm tra là đúng hay sai.",
+      "options": [],
+      "correct": "IF",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-D-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Việc sử dụng công cụ ____ giúp trình bày thông tin trong trao đổi và hợp tác trở nên trực quan hơn.",
+      "options": [],
+      "correct": "trình chiếu",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-D-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Các bước dựng video gồm: Chuẩn bị dữ liệu, Dựng video theo kịch bản, Biên tập và ____ video.",
+      "options": [],
+      "correct": "xuất",
+      "duration_in_seconds": 20
+    }
+  ]
+}

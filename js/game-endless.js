@@ -247,6 +247,9 @@ const GameEndless = {
         this.hearts = this.maxHearts;
         this.endGameTime = null;
         this.isEndingGame = false;
+        
+        // Track game start time for duration calculation
+        gameStartTime = Date.now();
 
         // Reset character
         characterConfig.y = config.groundY;
@@ -314,6 +317,7 @@ const GameEndless = {
                 isQuizActive = true;
                 isGamePaused = true;
                 quizStartTime = currentTime;
+                QuizSessionTracker.startQuestion(currentQuestion, currentTime);
 
                 // Per-question time limit: use duration_in_seconds if provided, else default
                 const durationSeconds = currentQuestion.duration_in_seconds || (QUIZ_TIME_LIMIT / 1000);
@@ -473,6 +477,11 @@ const GameEndless = {
         obstacles = [];
         AudioManager.stopBackgroundMusic();
 
+        // Calculate duration in seconds
+        const durationInSeconds = Math.floor((Date.now() - gameStartTime) / 1000);
+        
+        QuizSessionTracker.emitSessionResult(durationInSeconds);
+
         // Initialize result screen
         GameEndlessResult.init();
 
@@ -577,13 +586,23 @@ const GameEndless = {
 
     // Update quiz timer for endless mode
     updateQuizEndless() {
-        if (isQuizActive) {
+        if (isQuizActive && !Quiz.isAnswerLocked) {
             const currentTime = Date.now();
             quizTimer = quizTimeLimitMs - (currentTime - quizStartTime);
             if (quizTimer <= 0) {
-                // Time out - call handleWrongAnswer (will be processed as wrong answer)
                 console.log('Quiz timeout! Counting as wrong answer.');
-                this.handleWrongAnswer();
+                QuizSessionTracker.recordQuestionResult({
+                    outcome: 'timeout',
+                    selectedAnswerText: quizInput,
+                    answeredAt: currentTime,
+                });
+                Quiz.showWrongAnswerFeedback({
+                    submittedAnswerText: quizInput,
+                    isTimeout: true,
+                    onComplete: () => {
+                        this.handleWrongAnswer();
+                    },
+                });
             }
         }
     },

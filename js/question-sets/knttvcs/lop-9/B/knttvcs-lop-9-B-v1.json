@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-9-B-v1",
+  "questionSetTitle": "Tin học lớp 9 KNTTVCS - Chủ đề 2 - Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 9,
+  "topicLetter": "B",
+  "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-9-B-v1-q001",
+      "type": "MC",
+      "question": "Để đánh giá chất lượng thông tin, chúng ta thường dựa vào mấy tiêu chí chính?",
+      "options": [
+        "2 tiêu chí",
+        "3 tiêu chí",
+        "4 tiêu chí",
+        "5 tiêu chí"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-B-v1-q002",
+      "type": "MC",
+      "question": "Tiêu chí 'Tính sử dụng được' của thông tin có nghĩa là gì?",
+      "options": [
+        "Thông tin phải thật mới",
+        "Thông tin phải dài và chi tiết",
+        "Thông tin phải liên quan và phù hợp với vấn đề cần giải quyết",
+        "Thông tin phải có nhiều hình ảnh"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-B-v1-q003",
+      "type": "MC",
+      "question": "Tại sao cần quan tâm đến 'Tính đầy đủ' của thông tin?",
+      "options": [
+        "Để thông tin trông đẹp hơn",
+        "Để có cái nhìn tổng thể về vấn đề cần giải quyết",
+        "Để không phải tìm kiếm thêm",
+        "Để máy tính xử lí nhanh hơn"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-B-v1-q004",
+      "type": "MC",
+      "question": "Thông tin về tuyển sinh lớp 10 nên tìm ở đâu để đảm bảo tin cậy nhất?",
+      "options": [
+        "Trên các trang mạng xã hội cá nhân",
+        "Trên website của Sở Giáo dục và Đào tạo",
+        "Trên các diễn đàn trò chơi",
+        "Hỏi bất kì ai trên mạng"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-B-v1-q005",
+      "type": "MC",
+      "question": "Khi tìm kiếm thông tin bằng máy tìm kiếm, kết quả trả về là gì?",
+      "options": [
+        "Một tập hợp các trang web chứa từ khoá",
+        "Câu trả lời đúng duy nhất",
+        "Một tệp văn bản Word",
+        "Danh sách các người dùng đang online"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-B-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Bốn tiêu chí đánh giá chất lượng thông tin gồm: Tính mới, Tính chính xác, Tính đầy đủ và ____.",
+      "options": [],
+      "correct": "Tính sử dụng được",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-B-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Thông tin sai lệch có thể dẫn đến những ____ sai lầm.",
+      "options": [],
+      "correct": "quyết định",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-B-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Công cụ ____ (chatbot) có thể hỗ trợ khoanh vùng phạm vi tìm kiếm thông tin.",
+      "options": [],
+      "correct": "hội thoại thông minh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-B-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Website của các Sở Giáo dục và Đào tạo thường có tên miền kết thúc bằng đuôi ____.",
+      "options": [],
+      "correct": "edu.vn",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-B-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Việc đánh giá chất lượng thông tin là yếu tố quan trọng quyết định ____ của việc giải quyết vấn đề.",
+      "options": [],
+      "correct": "hiệu quả",
+      "duration_in_seconds": 20
+    }
+  ]
+}

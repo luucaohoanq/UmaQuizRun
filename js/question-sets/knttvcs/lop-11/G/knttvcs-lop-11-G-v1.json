@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-11-G-v1",
+  "questionSetTitle": "Tin học 11 KNTTVCS - Chủ đề 7 - Phần mềm chỉnh sửa ảnh và làm video",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 11,
+  "topicLetter": "G",
+  "topicName": "Phần mềm chỉnh sửa ảnh và làm video",
+  "topicSlug": "phan-mem-chinh-sua-anh-va-lam-video",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-11-G-v1-q001",
+      "type": "MC",
+      "question": "Thành phần nào sau đây trong phần mềm chỉnh sửa ảnh cho phép xếp chồng các đối tượng lên nhau?",
+      "options": [
+        "Màu sắc",
+        "Lớp (Layer)",
+        "Kích thước ảnh",
+        "Mã nguồn"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-G-v1-q002",
+      "type": "MC",
+      "question": "Phần mềm chỉnh sửa ảnh nguồn mở phổ biến được nhắc tới trong sách là:",
+      "options": [
+        "Microsoft Word",
+        "GIMP",
+        "Notepad",
+        "SQL Server"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-G-v1-q003",
+      "type": "MC",
+      "question": "Bước đầu tiên trong quy trình dựng video là gì?",
+      "options": [
+        "Xuất video",
+        "Biên tập âm thanh",
+        "Đưa ra ý tưởng và xây dựng kịch bản",
+        "Chia sẻ lên mạng"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-G-v1-q004",
+      "type": "MC",
+      "question": "Thao tác 'Cắt bỏ đoạn video thừa' thuộc giai đoạn nào?",
+      "options": [
+        "Chuẩn bị dữ liệu",
+        "Biên tập video",
+        "Xây dựng kịch bản",
+        "Xuất bản"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-G-v1-q005",
+      "type": "MC",
+      "question": "Để làm video thêm sinh động, em có thể chèn thêm thành phần nào?",
+      "options": [
+        "Hình ảnh và âm thanh nền",
+        "Hiệu ứng chuyển cảnh",
+        "Phụ đề và tiêu đề",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-G-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Chỉnh sửa khung hình và ... ảnh giúp sản phẩm số của em đạt mục đích trình bày tốt hơn.",
+      "options": [],
+      "correct": "kích thước",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-G-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Video sau khi dựng xong cần được ... ra các định dạng phổ biến như MP4 để chia sẻ.",
+      "options": [],
+      "correct": "xuất",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-G-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Kịch bản video giúp hướng dẫn chi tiết để thực hiện và dựng phim đúng ... ban đầu.",
+      "options": [],
+      "correct": "ý tưởng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-G-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Trong phần mềm dựng phim, em có thể thêm ... để giải thích nội dung lời thoại.",
+      "options": [],
+      "correct": "phụ đề",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-G-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Phần mềm ... là công cụ thiết kế đồ họa vectơ phổ biến được học trong chương trình.",
+      "options": [],
+      "correct": "Inkscape",
+      "duration_in_seconds": 20
+    }
+  ]
+}

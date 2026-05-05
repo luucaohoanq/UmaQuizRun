@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-11-F-v1",
+  "questionSetTitle": "Tin học 11 KNTTVCS - Chủ đề 6 - Thực hành tạo và khai thác CSDL",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 11,
+  "topicLetter": "F",
+  "topicName": "Thực hành tạo và khai thác cơ sở dữ liệu",
+  "topicSlug": "thuc-hanh-tao-va-khai-thac-csdl",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-11-F-v1-q001",
+      "type": "MC",
+      "question": "Công cụ HeidiSQL thường được dùng để tương tác với hệ quản trị CSDL nào?",
+      "options": [
+        "Microsoft Word",
+        "MariaDB hoặc MySQL",
+        "Notepad",
+        "Excel"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-F-v1-q002",
+      "type": "MC",
+      "question": "Thao tác đầu tiên khi bắt đầu thực hành trên HeidiSQL là gì?",
+      "options": [
+        "Xóa CSDL",
+        "Tạo một phiên kết nối (Session) mới",
+        "Tắt máy tính",
+        "In báo cáo"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-F-v1-q003",
+      "type": "MC",
+      "question": "Câu lệnh SQL nào dùng để lấy dữ liệu từ một bảng?",
+      "options": [
+        "UPDATE",
+        "DELETE",
+        "SELECT",
+        "INSERT"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-F-v1-q004",
+      "type": "MC",
+      "question": "Để lọc dữ liệu theo một điều kiện nhất định trong SQL, ta dùng từ khóa nào?",
+      "options": [
+        "FROM",
+        "JOIN",
+        "WHERE",
+        "ORDER BY"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-F-v1-q005",
+      "type": "MC",
+      "question": "Khi tạo bảng, để một trường tự động tăng giá trị em chọn thuộc tính nào?",
+      "options": [
+        "Primary Key",
+        "Auto Increment",
+        "Foreign Key",
+        "Default"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-F-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Để xóa một bản ghi trong SQL, ta sử dụng lệnh ...",
+      "options": [],
+      "correct": "DELETE",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-F-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Lệnh ... dùng để thêm dữ liệu mới vào bảng trong SQL.",
+      "options": [],
+      "correct": "INSERT",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-F-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Trong thực hành CSDL âm nhạc, ta sử dụng mệnh đề ... để kết nối dữ liệu từ hai bảng.",
+      "options": [],
+      "correct": "JOIN",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-F-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Kiểu dữ liệu ... được dùng cho các trường chứa văn bản ngắn như tên nhạc sĩ.",
+      "options": [],
+      "correct": "VARCHAR",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-F-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Trường được gán làm ... chính sẽ có biểu tượng hình chìa khóa trong HeidiSQL.",
+      "options": [],
+      "correct": "khóa",
+      "duration_in_seconds": 20
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-8-B-v1",
+  "questionSetTitle": "Tin học lớp 8 KNTTVCS - Chủ đề 2 - Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 8,
+  "topicLetter": "B",
+  "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-8-B-v1-q001",
+      "type": "MC",
+      "question": "Đặc điểm nào dưới đây mô tả đúng nhất về thông tin số?",
+      "options": [
+        "Khó tìm kiếm",
+        "Khó sao chép",
+        "Dễ dàng được nhân bản và chia sẻ",
+        "Chỉ tồn tại ở dạng văn bản"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-B-v1-q002",
+      "type": "MC",
+      "question": "Tại sao cần phải đánh giá độ tin cậy của thông tin trên Internet?",
+      "options": [
+        "Vì thông tin trên mạng luôn đúng",
+        "Vì có nhiều thông tin sai lệch, thiếu chính xác",
+        "Vì thông tin trên mạng rất rẻ",
+        "Vì không ai kiểm soát Internet"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-B-v1-q003",
+      "type": "MC",
+      "question": "Công cụ nào giúp người dùng tìm kiếm thông tin trên Internet hiệu quả nhất?",
+      "options": [
+        "Phần mềm soạn thảo",
+        "Máy tìm kiếm",
+        "Phần mềm diệt virus",
+        "Hệ điều hành"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-B-v1-q004",
+      "type": "MC",
+      "question": "Dữ liệu được số hóa và lưu trữ trong máy tính được gọi là gì?",
+      "options": [
+        "Dữ liệu số",
+        "Dữ liệu giấy",
+        "Tín hiệu tương tự",
+        "Thông tin thực tế"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-B-v1-q005",
+      "type": "MC",
+      "question": "Việc sử dụng thông tin số giúp con người điều gì?",
+      "options": [
+        "Tiết kiệm chi phí in ấn và lưu trữ",
+        "Làm chậm quá trình trao đổi",
+        "Hạn chế khả năng sáng tạo",
+        "Làm máy tính chạy chậm hơn"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-B-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Thông tin số có thể được ____ và truy cập từ xa thông qua mạng máy tính.",
+      "options": [],
+      "correct": "chia sẻ",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-B-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Để tìm kiếm thông tin nhanh, em nên nhập ____ sát với nội dung cần tìm vào máy tìm kiếm.",
+      "options": [],
+      "correct": "từ khóa",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-B-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Các thiết bị lưu trữ như USB, thẻ nhớ giúp con người mang theo lượng thông tin rất ____.",
+      "options": [],
+      "correct": "lớn",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-B-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Thông tin số là tài nguyên quý giá của quốc gia trong kỷ nguyên ____.",
+      "options": [],
+      "correct": "tri thức",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-B-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Khai thác tốt thông tin số giúp em mở rộng hiểu biết và hỗ trợ ____ hiệu quả.",
+      "options": [],
+      "correct": "học tập",
+      "duration_in_seconds": 20
+    }
+  ]
+}

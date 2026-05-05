@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-12-D-v1",
+  "questionSetTitle": "Tin học lớp 12 KNTTVCS - Chủ đề 4 - Giải quyết vấn đề (Thiết kế Web)",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 12,
+  "topicLetter": "D",
+  "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-12-D-v1-q001",
+      "type": "MC",
+      "question": "Ngôn ngữ nào được dùng để xây dựng cấu trúc và nội dung của trang web?",
+      "options": [
+        "CSS",
+        "HTML",
+        "Python",
+        "SQL"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-D-v1-q002",
+      "type": "MC",
+      "question": "Để định dạng cách hiển thị (màu sắc, phông chữ, bố cục) cho trang web, ta dùng ngôn ngữ nào?",
+      "options": [
+        "HTML",
+        "C++",
+        "CSS",
+        "Java"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-D-v1-q003",
+      "type": "MC",
+      "question": "Thẻ HTML nào sau đây được dùng để tạo một siêu liên kết (hyperlink)?",
+      "options": [
+        "<img>",
+        "<a>",
+        "<p>",
+        "<h1>"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-D-v1-q004",
+      "type": "MC",
+      "question": "Trong thẻ liên kết <a>, thuộc tính nào dùng để chỉ định địa chỉ trang web đích?",
+      "options": [
+        "src",
+        "alt",
+        "href",
+        "type"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-D-v1-q005",
+      "type": "MC",
+      "question": "Để tạo một biểu mẫu cho người dùng nhập thông tin, ta sử dụng thẻ nào?",
+      "options": [
+        "<table>",
+        "<ul>",
+        "<form>",
+        "<header>"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-D-v1-q006",
+      "type": "TI",
+      "question": "Tệp văn bản chứa mã nguồn HTML thường có phần mở rộng mặc định là ...",
+      "options": [],
+      "correct": ".html",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-D-v1-q007",
+      "type": "TI",
+      "question": "Trong CSS, thuộc tính ... được dùng để thay đổi màu sắc của văn bản.",
+      "options": [],
+      "correct": "color",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-D-v1-q008",
+      "type": "TI",
+      "question": "Thẻ ... dùng để hiển thị tiêu đề có kích thước lớn nhất trên trang web.",
+      "options": [],
+      "correct": "<h1>",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-D-v1-q009",
+      "type": "TI",
+      "question": "Để chèn một hình ảnh vào trang web, em sử dụng thẻ ...",
+      "options": [],
+      "correct": "<img>",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-D-v1-q010",
+      "type": "TI",
+      "question": "Viết tắt của CSS bằng tiếng Anh là Cascading ... Sheets.",
+      "options": [],
+      "correct": "Style",
+      "duration_in_seconds": 20
+    }
+  ]
+}

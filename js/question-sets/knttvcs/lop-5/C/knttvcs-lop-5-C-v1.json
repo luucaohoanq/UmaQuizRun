@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-5-C-v1",
+  "questionSetTitle": "Tin học lớp 5 KNTTVCS - Chủ đề C - Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 5,
+  "topicLetter": "C",
+  "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-5-C-v1-q001",
+      "type": "MC",
+      "question": "Cách nào sau đây giúp em chia sẻ thông tin lưu trên máy tính cho bạn bè?",
+      "options": [
+        "Gửi tệp qua thư điện tử",
+        "Sao chép tệp vào thiết bị lưu trữ ngoài (USB)",
+        "Gửi qua các mạng xã hội",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-C-v1-q002",
+      "type": "MC",
+      "question": "Sắp xếp thư mục và tệp hợp lý mang lại lợi ích gì?",
+      "options": [
+        "Làm máy tính đẹp hơn",
+        "Giúp tìm kiếm thông tin nhanh chóng và dễ dàng",
+        "Làm tăng dung lượng ổ đĩa",
+        "Để máy tính không bị virus"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-C-v1-q003",
+      "type": "MC",
+      "question": "Trong cửa sổ This PC, ô tìm kiếm thường nằm ở vị trí nào?",
+      "options": [
+        "Góc dưới bên trái",
+        "Góc trên bên phải",
+        "Chính giữa màn hình",
+        "Phía sau các biểu tượng"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-C-v1-q004",
+      "type": "MC",
+      "question": "Khi tìm kiếm tệp bằng công cụ tìm kiếm của Windows, kết quả sẽ hiển thị những gì?",
+      "options": [
+        "Chỉ các thư mục",
+        "Chỉ các tệp tin",
+        "Các tệp và thư mục có tên chứa từ khóa tìm kiếm",
+        "Các tệp đã bị xóa"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-C-v1-q005",
+      "type": "MC",
+      "question": "Cấu trúc tổ chức thông tin trong máy tính phổ biến nhất là:",
+      "options": [
+        "Cấu trúc mạng",
+        "Cấu trúc vòng",
+        "Cấu trúc cây thư mục",
+        "Sắp xếp ngẫu nhiên"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-C-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Để chia sẻ một tệp văn bản qua mạng, em có thể đính kèm tệp đó vào ____.",
+      "options": [],
+      "correct": "thư điện tử",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-C-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Cấu trúc ____ thư mục gồm có thư mục gốc, các thư mục con và tệp tin.",
+      "options": [],
+      "correct": "cây",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-C-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Khi chỉ nhớ một phần tên tệp, em nhập phần tên đó vào ô ____ trong cửa sổ This PC.",
+      "options": [],
+      "correct": "tìm kiếm",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-C-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Việc đặt tên thư mục rõ ràng giúp em ____ thông tin hiệu quả hơn.",
+      "options": [],
+      "correct": "quản lí",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-C-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Một thư mục có thể chứa nhiều thư mục con và nhiều ____.",
+      "options": [],
+      "correct": "tệp",
+      "duration_in_seconds": 20
+    }
+  ]
+}

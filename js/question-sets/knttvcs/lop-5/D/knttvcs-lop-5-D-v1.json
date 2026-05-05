@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-5-D-v1",
+  "questionSetTitle": "Tin học lớp 5 KNTTVCS - Chủ đề D - Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 5,
+  "topicLetter": "D",
+  "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-5-D-v1-q001",
+      "type": "MC",
+      "question": "Tại sao em cần phải ghi rõ tên tác giả khi sử dụng các bài thơ, bài văn sưu tầm từ Internet?",
+      "options": [
+        "Để bài viết của em dài hơn",
+        "Để thể hiện sự tôn trọng bản quyền nội dung thông tin",
+        "Để máy tính không bị hỏng",
+        "Để không phải tự viết bài"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-D-v1-q002",
+      "type": "MC",
+      "question": "Bản quyền nội dung thông tin bảo vệ quyền lợi của ai?",
+      "options": [
+        "Người sử dụng thông tin",
+        "Người tạo ra nội dung (tác giả)",
+        "Người bán máy tính",
+        "Người quản lí mạng"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-D-v1-q003",
+      "type": "MC",
+      "question": "Hành động nào sau đây vi phạm đạo đức và tính hợp lệ khi truy cập nội dung?",
+      "options": [
+        "Đọc sách tại thư viện",
+        "Xem video học tập có bản quyền miễn phí",
+        "Sao chép tệp của bạn khi chưa được đồng ý",
+        "Ghi rõ nguồn khi trích dẫn văn bản"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-D-v1-q004",
+      "type": "MC",
+      "question": "Khi thấy một bài thơ hay trên mạng và muốn đưa vào báo tường, em nên:",
+      "options": [
+        "Tự nhận là mình viết",
+        "Để trống tên tác giả",
+        "Ghi rõ tên tác giả và nguồn gốc bài thơ",
+        "Thay đổi vài chữ rồi nhận là của mình"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-D-v1-q005",
+      "type": "MC",
+      "question": "Sử dụng trái phép thông tin của người khác có thể dẫn đến hậu quả gì?",
+      "options": [
+        "Được mọi người yêu quý",
+        "Vi phạm pháp luật và gây thiệt hại cho tác giả",
+        "Giúp tác giả nổi tiếng hơn",
+        "Không có hậu quả gì"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-D-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Quyền của tác giả đối với sản phẩm do mình sáng tạo ra được gọi là ____.",
+      "options": [],
+      "correct": "bản quyền",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-D-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Em cần xin ____ của tác giả trước khi sử dụng các sản phẩm có bản quyền.",
+      "options": [],
+      "correct": "phép",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-D-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Tôn trọng bản quyền là biểu hiện của người sử dụng công nghệ có ____.",
+      "options": [],
+      "correct": "văn hóa",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-D-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Việc ghi rõ ____ giúp người đọc biết được thông tin đó lấy từ đâu.",
+      "options": [],
+      "correct": "nguồn gốc",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-D-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Bảo vệ thông tin cá nhân và tôn trọng bản quyền giúp môi trường số trở nên ____ hơn.",
+      "options": [],
+      "correct": "lành mạnh",
+      "duration_in_seconds": 20
+    }
+  ]
+}

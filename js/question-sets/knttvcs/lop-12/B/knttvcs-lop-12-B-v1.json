@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-12-B-v1",
+  "questionSetTitle": "Tin học lớp 12 KNTTVCS - Chủ đề 2 - Mạng máy tính và Internet",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 12,
+  "topicLetter": "B",
+  "topicName": "Mạng máy tính và Internet",
+  "topicSlug": "mang-may-tinh-va-internet",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-12-B-v1-q001",
+      "type": "MC",
+      "question": "Thiết bị nào dùng để kết nối các máy tính trong mạng LAN và gửi tín hiệu đến TẤT CẢ các cổng còn lại?",
+      "options": [
+        "Router",
+        "Switch",
+        "Hub",
+        "Access Point"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-B-v1-q002",
+      "type": "MC",
+      "question": "Điểm khác biệt lớn nhất giữa Switch và Hub là gì?",
+      "options": [
+        "Switch rẻ hơn Hub",
+        "Switch chỉ gửi dữ liệu đến đúng cổng của máy nhận",
+        "Hub có nhiều cổng hơn Switch",
+        "Hub dùng để kết nối Wi-Fi"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-B-v1-q003",
+      "type": "MC",
+      "question": "Thiết bị nào dùng để kết nối các mạng máy tính khác nhau và định hướng (định tuyến) dữ liệu?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Router",
+        "Cáp mạng"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-B-v1-q004",
+      "type": "MC",
+      "question": "Hiện tượng 'xung đột' (collision) tín hiệu thường xảy ra trên thiết bị nào khi nhiều máy gửi dữ liệu cùng lúc?",
+      "options": [
+        "Router",
+        "Switch",
+        "Hub",
+        "Modem"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-B-v1-q005",
+      "type": "MC",
+      "question": "Thiết bị nào cho phép các thiết bị di động kết nối vào mạng LAN thông qua sóng vô tuyến?",
+      "options": [
+        "Modem",
+        "Switch",
+        "Access Point",
+        "Hub"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-B-v1-q006",
+      "type": "TI",
+      "question": "Thiết bị ... thông minh hơn Hub vì nó biết xác định đúng địa chỉ cổng để gửi dữ liệu.",
+      "options": [],
+      "correct": "Switch",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-B-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: ... là thiết bị trung tâm giúp kết nối và định tuyến giữa mạng nội bộ và Internet.",
+      "options": [],
+      "correct": "Router",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-B-v1-q008",
+      "type": "TI",
+      "question": "Cáp ... là phương tiện vật lí dùng để truyền dẫn tín hiệu trong mạng LAN.",
+      "options": [],
+      "correct": "mạng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-B-v1-q009",
+      "type": "TI",
+      "question": "Công nghệ ... (Wi-Fi) giúp kết nối mạng mà không cần dây dẫn.",
+      "options": [],
+      "correct": "không dây",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-B-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Thiết bị ... dùng để chuyển đổi tín hiệu số sang tương tự và ngược lại để truyền qua dây điện thoại.",
+      "options": [],
+      "correct": "Modem",
+      "duration_in_seconds": 20
+    }
+  ]
+}

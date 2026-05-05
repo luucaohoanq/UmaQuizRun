@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-7-A-v1",
+  "questionSetTitle": "Tin học lớp 7 KNTTVCS - Chủ đề 1 - Máy tính và cộng đồng",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 7,
+  "topicLetter": "A",
+  "topicName": "Máy tính và cộng đồng",
+  "topicSlug": "may-tinh-va-cong-dong",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-7-A-v1-q001",
+      "type": "MC",
+      "question": "Thiết bị nào sau đây là thiết bị vào của máy tính?",
+      "options": [
+        "Màn hình",
+        "Máy in",
+        "Bàn phím",
+        "Loa"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-A-v1-q002",
+      "type": "MC",
+      "question": "Đâu là ví dụ về phần mềm hệ thống?",
+      "options": [
+        "Microsoft Word",
+        "Hệ điều hành Windows 10",
+        "Trình duyệt Google Chrome",
+        "Phần mềm luyện gõ phím"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-A-v1-q003",
+      "type": "MC",
+      "question": "Thiết bị nào thực hiện chức năng ra của máy tính?",
+      "options": [
+        "Chuột",
+        "Máy quét",
+        "Màn hình",
+        "Micro"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-A-v1-q004",
+      "type": "MC",
+      "question": "Loại tệp nào thường có phần mở rộng là .docx?",
+      "options": [
+        "Tệp hình ảnh",
+        "Tệp âm thanh",
+        "Tệp văn bản",
+        "Tệp sơ đồ tư duy"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-A-v1-q005",
+      "type": "MC",
+      "question": "Mật khẩu nào sau đây được coi là mạnh nhất?",
+      "options": [
+        "12345678",
+        "AnMinhKhoa",
+        "matkhau.",
+        "2n#M1nhKh0a."
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-A-v1-q006",
+      "type": "TI",
+      "question": "Thiết bị ____ dùng để đưa dữ liệu từ bên ngoài vào máy tính.",
+      "options": [],
+      "correct": "vào",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-A-v1-q007",
+      "type": "TI",
+      "question": "Hệ điều hành đóng vai trò là ____ giữa người sử dụng và phần cứng máy tính.",
+      "options": [],
+      "correct": "môi trường",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-A-v1-q008",
+      "type": "TI",
+      "question": "Để bảo vệ dữ liệu, em nên thường xuyên ____ dữ liệu sang các thiết bị lưu trữ ngoài.",
+      "options": [],
+      "correct": "sao lưu",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-A-v1-q009",
+      "type": "TI",
+      "question": "Các chương trình giúp người dùng thực hiện những công việc cụ thể trên máy tính gọi là phần mềm ____.",
+      "options": [],
+      "correct": "ứng dụng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-A-v1-q010",
+      "type": "TI",
+      "question": "Máy tính để bàn gồm các bộ phận cơ bản: thân máy, màn hình, chuột và ____.",
+      "options": [],
+      "correct": "bàn phím",
+      "duration_in_seconds": 20
+    }
+  ]
+}

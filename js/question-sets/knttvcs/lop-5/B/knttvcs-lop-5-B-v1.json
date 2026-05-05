@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-5-B-v1",
+  "questionSetTitle": "Tin học lớp 5 KNTTVCS - Chủ đề B - Mạng máy tính và Internet",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 5,
+  "topicLetter": "B",
+  "topicName": "Mạng máy tính và Internet",
+  "topicSlug": "mang-may-tinh-va-internet",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-5-B-v1-q001",
+      "type": "MC",
+      "question": "Để tìm kiếm thông tin nhanh trên một website, em nên sử dụng công cụ nào?",
+      "options": [
+        "Cuộn trang từ đầu đến cuối",
+        "Thanh menu của trình duyệt",
+        "Ô tìm kiếm của website",
+        "Nhấn phím Enter nhiều lần"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-B-v1-q002",
+      "type": "MC",
+      "question": "Khi tìm thông tin về bóng đá trên báo Thiếu niên Tiền phong, em chọn chủ đề nào?",
+      "options": [
+        "Học đường",
+        "Giải trí",
+        "Chuyển động",
+        "Thể thao"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-B-v1-q003",
+      "type": "MC",
+      "question": "Từ khóa tìm kiếm là gì?",
+      "options": [
+        "Một mật khẩu để vào website",
+        "Cụm từ ngắn gọn phản ánh nội dung cần tìm",
+        "Tên của người dùng máy tính",
+        "Địa chỉ email của website"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-B-v1-q004",
+      "type": "MC",
+      "question": "Đâu là một địa chỉ website báo dành cho thiếu nhi?",
+      "options": [
+        "google.com",
+        "thieunien.vn",
+        "scratch.mit.edu",
+        "microsoft.com"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-B-v1-q005",
+      "type": "MC",
+      "question": "Sau khi nhập từ khóa vào ô tìm kiếm, em cần nhấn phím nào hoặc nháy chuột vào đâu?",
+      "options": [
+        "Phím Space",
+        "Biểu tượng chiếc kính lúp hoặc phím Enter",
+        "Phím Esc",
+        "Nháy chuột vào hình ảnh bất kỳ"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-B-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Website là tập hợp các trang web liên quan được truy cập qua một ____.",
+      "options": [],
+      "correct": "địa chỉ",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-B-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Để tìm kiếm hiệu quả, em cần chọn ____ phù hợp.",
+      "options": [],
+      "correct": "từ khóa",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-B-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Em có thể duyệt thông tin theo các ____ của website để tìm đúng lĩnh vực cần thiết.",
+      "options": [],
+      "correct": "chủ đề",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-B-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Khi kết quả tìm kiếm hiện ra, em nháy chuột vào dòng chữ ____ để xem chi tiết thông tin.",
+      "options": [],
+      "correct": "Xem chi tiết",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-B-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Website báo Thiếu niên Tiền phong và Nhi đồng cung cấp nhiều thông tin ____ với lứa tuổi học sinh.",
+      "options": [],
+      "correct": "phù hợp",
+      "duration_in_seconds": 20
+    }
+  ]
+}

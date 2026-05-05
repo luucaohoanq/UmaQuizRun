@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-11-D-v1",
+  "questionSetTitle": "Tin học 11 KNTTVCS - Chủ đề 4 - Giới thiệu các hệ cơ sở dữ liệu",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 11,
+  "topicLetter": "D",
+  "topicName": "Giới thiệu các hệ cơ sở dữ liệu",
+  "topicSlug": "gioi-thieu-cac-he-co-so-du-lieu",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-11-D-v1-q001",
+      "type": "MC",
+      "question": "Cơ sở dữ liệu (CSDL) là gì?",
+      "options": [
+        "Một tệp văn bản Word duy nhất",
+        "Tập hợp các dữ liệu có liên quan, được lưu trữ có tổ chức",
+        "Một bộ máy tính cấu hình mạnh",
+        "Danh sách các mật khẩu cá nhân"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-D-v1-q002",
+      "type": "MC",
+      "question": "Trong CSDL quan hệ, dữ liệu được tổ chức dưới dạng nào?",
+      "options": [
+        "Dạng cây",
+        "Dạng bảng (gồm hàng và cột)",
+        "Dạng danh sách liên kết",
+        "Dạng hình ảnh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-D-v1-q003",
+      "type": "MC",
+      "question": "Trường (Field) trong một bảng CSDL tương ứng với thành phần nào?",
+      "options": [
+        "Một hàng duy nhất",
+        "Một cột của bảng",
+        "Toàn bộ bảng dữ liệu",
+        "Mối liên kết giữa các bảng"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-D-v1-q004",
+      "type": "MC",
+      "question": "Khóa chính (Primary Key) dùng để làm gì?",
+      "options": [
+        "Để mã hóa dữ liệu",
+        "Để định danh duy nhất mỗi bản ghi trong bảng",
+        "Để trang trí bảng dữ liệu",
+        "Để lưu trữ tệp hình ảnh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-D-v1-q005",
+      "type": "MC",
+      "question": "Ngôn ngữ truy vấn có cấu trúc thường dùng để khai thác CSDL là gì?",
+      "options": [
+        "Pascal",
+        "Python",
+        "SQL",
+        "Java"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-D-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Phần mềm cung cấp phương thức lưu trữ, cập nhật và truy xuất dữ liệu gọi là Hệ ... cơ sở dữ liệu.",
+      "options": [],
+      "correct": "quản trị",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-D-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Một ... (Record) tương ứng với dữ liệu của một đối tượng cụ thể trong bảng.",
+      "options": [],
+      "correct": "bản ghi",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-D-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Khóa ... là một trường được dùng để liên kết với khóa chính của bảng khác.",
+      "options": [],
+      "correct": "ngoại",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-D-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Thuộc tính ... dữ liệu đảm bảo rằng dữ liệu trong CSDL luôn chính xác và nhất quán.",
+      "options": [],
+      "correct": "toàn vẹn",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-D-v1-q010",
+      "type": "TI",
+      "question": "CSDL viết tắt của cụm từ tiếng Anh nào?",
+      "options": [],
+      "correct": "Database",
+      "duration_in_seconds": 20
+    }
+  ]
+}

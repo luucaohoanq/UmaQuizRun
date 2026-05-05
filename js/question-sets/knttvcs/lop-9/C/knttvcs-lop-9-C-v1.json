@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-9-C-v1",
+  "questionSetTitle": "Tin học lớp 9 KNTTVCS - Chủ đề 3 - Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 9,
+  "topicLetter": "C",
+  "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-9-C-v1-q001",
+      "type": "MC",
+      "question": "Hành vi nào sau đây là vi phạm pháp luật trên không gian mạng?",
+      "options": [
+        "Đăng tải thông tin sai sự thật, xúc phạm danh dự người khác",
+        "Phát tán virus máy tính qua các liên kết lừa đảo",
+        "Quảng cáo hàng hoá, dịch vụ bị cấm",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-C-v1-q002",
+      "type": "MC",
+      "question": "Mặt trái của công nghệ kĩ thuật số đối với đời sống con người là gì?",
+      "options": [
+        "Quyền riêng tư dễ bị ảnh hưởng",
+        "Dễ bị lừa đảo, đánh cắp tài khoản",
+        "Gây nghiện Internet, thiếu giao tiếp trực tiếp",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-C-v1-q003",
+      "type": "MC",
+      "question": "Khi sử dụng các dịch vụ Internet, người dùng cần có trách nhiệm gì?",
+      "options": [
+        "Tuân thủ pháp luật và ứng xử lành mạnh, có văn hoá",
+        "Chỉ sử dụng khi không mất phí",
+        "Có thể chia sẻ mọi thông tin mình thích",
+        "Không cần quan tâm đến bản quyền"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-C-v1-q004",
+      "type": "MC",
+      "question": "Hành vi nào thể hiện con người có văn hoá khi giao tiếp trên mạng?",
+      "options": [
+        "Sử dụng tài khoản giả để nói xấu người khác",
+        "Tôn trọng mọi người và thận trọng khi chia sẻ thông tin",
+        "Bình luận gây mâu thuẫn vùng miền",
+        "Lan truyền các video bạo lực"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-C-v1-q005",
+      "type": "MC",
+      "question": "Văn bản quy phạm pháp luật nào quy định các hành vi bị cấm trên mạng tại Việt Nam?",
+      "options": [
+        "Luật Giáo dục",
+        "Luật Công nghệ thông tin",
+        "Luật An ninh mạng",
+        "Luật Trẻ em"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-C-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Việc sử dụng trái phép tài khoản của tổ chức, cá nhân khác là hành vi ____ pháp luật.",
+      "options": [],
+      "correct": "vi phạm",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-C-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Khi tham gia môi trường số, em cần tránh vi phạm ____ khi sử dụng dữ liệu, phần mềm.",
+      "options": [],
+      "correct": "bản quyền",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-C-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Để tránh các tác động tiêu cực, em không nên sử dụng thiết bị số trong thời gian ____ và liên tục.",
+      "options": [],
+      "correct": "dài",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-C-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Lan truyền thông tin xuyên tạc lịch sử, phủ nhận thành tựu cách mạng là hành vi bị ____.",
+      "options": [],
+      "correct": "cấm",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-C-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Cẩn trọng, tránh vi phạm bản quyền và tôn trọng người khác là biểu hiện của người có ____.",
+      "options": [],
+      "correct": "văn hoá",
+      "duration_in_seconds": 20
+    }
+  ]
+}

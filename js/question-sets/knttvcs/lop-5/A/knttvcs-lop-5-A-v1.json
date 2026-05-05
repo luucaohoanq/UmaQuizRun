@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-5-A-v1",
+  "questionSetTitle": "Tin học lớp 5 KNTTVCS - Chủ đề A - Máy tính và em",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 5,
+  "topicLetter": "A",
+  "topicName": "Máy tính và em",
+  "topicSlug": "may-tinh-va-em",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-5-A-v1-q001",
+      "type": "MC",
+      "question": "Máy tính có thể giúp em thực hiện những hoạt động nào sau đây?",
+      "options": [
+        "Học tập và giải trí",
+        "Trao đổi thông tin",
+        "Hợp tác với bạn bè",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-A-v1-q002",
+      "type": "MC",
+      "question": "Phần mềm nào giúp em tìm hiểu thế giới tự nhiên và lịch sử?",
+      "options": [
+        "Kids Games Learning Science",
+        "Google Translate",
+        "Scratch",
+        "Paint"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-A-v1-q003",
+      "type": "MC",
+      "question": "Ứng dụng nào sau đây hỗ trợ em và các bạn thảo luận nhóm trực tuyến?",
+      "options": [
+        "Unikey",
+        "Google Meet",
+        "Kiran's Typing Tutor",
+        "Windows Explorer"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-A-v1-q004",
+      "type": "MC",
+      "question": "Sử dụng máy tính thành thạo giúp em điều gì?",
+      "options": [
+        "Làm hỏng máy tính nhanh hơn",
+        "Hoàn thành công việc nhanh và hiệu quả hơn",
+        "Không cần đi học nữa",
+        "Tiết kiệm tiền mua sách giấy"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-A-v1-q005",
+      "type": "MC",
+      "question": "Em có thể tạo ra sản phẩm số nào bằng phần mềm Scratch?",
+      "options": [
+        "Một bài văn soạn thảo",
+        "Một bảng tính điểm",
+        "Một chương trình trò chơi",
+        "Một bức ảnh chụp trực tiếp"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-A-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Sử dụng máy tính giúp con người nâng cao ____ công việc và tiết kiệm thời gian.",
+      "options": [],
+      "correct": "chất lượng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-A-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Máy tính giúp em học tập và tạo ra sản phẩm số theo ____ cá nhân.",
+      "options": [],
+      "correct": "ý tưởng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-A-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Nhờ Internet, em có thể giao tiếp với bạn bè qua thư điện tử hoặc các ứng dụng ____.",
+      "options": [],
+      "correct": "nhắn tin",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-A-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Để dịch một câu tiếng Anh sang tiếng Việt, em có thể dùng công cụ ____.",
+      "options": [],
+      "correct": "Google Translate",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-A-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Học sinh lớp 5 cần biết cách sử dụng máy tính và truy cập Internet một cách ____.",
+      "options": [],
+      "correct": "an toàn",
+      "duration_in_seconds": 20
+    }
+  ]
+}

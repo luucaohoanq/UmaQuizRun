@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-8-E-v1",
+  "questionSetTitle": "Tin học lớp 8 KNTTVCS - Chủ đề 5 - Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 8,
+  "topicLetter": "E",
+  "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-8-E-v1-q001",
+      "type": "MC",
+      "question": "Chương trình máy tính là gì?",
+      "options": [
+        "Một tập hợp các linh kiện",
+        "Dãy các lệnh hướng dẫn máy tính thực hiện công việc",
+        "Một loại màn hình mới",
+        "Vật mang tin"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-E-v1-q002",
+      "type": "MC",
+      "question": "Thuật toán là:",
+      "options": [
+        "Một ngôn ngữ lập trình",
+        "Một thiết bị vào",
+        "Dãy các bước chỉ dẫn để giải quyết một bài toán",
+        "Kết quả của một chương trình"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-E-v1-q003",
+      "type": "MC",
+      "question": "Cấu trúc điều khiển nào dùng để thực hiện các bước lặp lại nhiều lần?",
+      "options": [
+        "Cấu trúc tuần tự",
+        "Cấu trúc rẽ nhánh",
+        "Cấu trúc lặp",
+        "Cấu trúc mảng"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-E-v1-q004",
+      "type": "MC",
+      "question": "Việc tìm và sửa lỗi trong một chương trình máy tính được gọi là gì?",
+      "options": [
+        "Nhập dữ liệu",
+        "Gỡ lỗi",
+        "Mã hóa",
+        "Số hóa"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-E-v1-q005",
+      "type": "MC",
+      "question": "Kiểu dữ liệu nào dùng để lưu trữ các con số có thể tính toán được?",
+      "options": [
+        "Kiểu văn bản",
+        "Kiểu số",
+        "Kiểu lôgic",
+        "Kiểu âm thanh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-E-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Để lưu trữ giá trị có thể thay đổi trong chương trình, em sử dụng các ____.",
+      "options": [],
+      "correct": "biến",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-E-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Cấu trúc ____ giúp chương trình thực hiện các lệnh khác nhau tùy vào điều kiện đúng hay sai.",
+      "options": [],
+      "correct": "rẽ nhánh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-E-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Các bước giải quyết bài toán trên máy tính gồm: Xác định vấn đề, Xây dựng thuật toán và ____ chương trình.",
+      "options": [],
+      "correct": "viết",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-E-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Scratch là một ngôn ngữ lập trình ____ phù hợp cho học sinh.",
+      "options": [],
+      "correct": "trực quan",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-E-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Việc biểu diễn ____ một cách khoa học giúp máy tính xử lí thông tin hiệu quả.",
+      "options": [],
+      "correct": "dữ liệu",
+      "duration_in_seconds": 20
+    }
+  ]
+}

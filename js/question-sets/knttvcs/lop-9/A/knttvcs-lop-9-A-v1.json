@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-9-A-v1",
+  "questionSetTitle": "Tin học lớp 9 KNTTVCS - Chủ đề 1 - Máy tính và cộng đồng",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 9,
+  "topicLetter": "A",
+  "topicName": "Máy tính và cộng đồng",
+  "topicSlug": "may-tinh-va-cong-dong",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-9-A-v1-q001",
+      "type": "MC",
+      "question": "Công nghệ thông tin giúp con người thực hiện tốt nhất hoạt động nào sau đây?",
+      "options": [
+        "Khám phá tri thức mới",
+        "Kết nối cá nhân với thế giới",
+        "Hỗ trợ học tập và lao động",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-A-v1-q002",
+      "type": "MC",
+      "question": "Thiết bị nào sau đây được gắn bộ xử lí (microprocessor) để hoạt động thông minh hơn?",
+      "options": [
+        "Đồng hồ thông minh",
+        "Điện thoại thông minh",
+        "Máy tính xách tay",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-A-v1-q003",
+      "type": "MC",
+      "question": "Trong giáo dục, công nghệ thông tin giúp con người làm điều gì hiệu quả nhất?",
+      "options": [
+        "Chỉ dùng để chơi game",
+        "Chia sẻ kiến thức, kĩ năng và cổ vũ thái độ sống tích cực",
+        "Thay thế hoàn toàn giáo viên",
+        "Làm bài tập hộ học sinh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-A-v1-q004",
+      "type": "MC",
+      "question": "Việc sử dụng công nghệ thông tin không đúng cách có thể dẫn đến tác động tiêu cực nào?",
+      "options": [
+        "Giúp cơ thể khỏe mạnh hơn",
+        "Ảnh hưởng xấu đến sức khoẻ thể chất và tinh thần",
+        "Làm tăng trí nhớ",
+        "Giúp giao tiếp tốt hơn"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-A-v1-q005",
+      "type": "MC",
+      "question": "Đặc điểm nào của máy tính giúp nó xử lí thông tin hiệu quả hơn con người?",
+      "options": [
+        "Có khả năng cảm thụ âm nhạc",
+        "Lưu trữ lượng thông tin rất lớn và hoạt động bền bỉ",
+        "Biết suy nghĩ như con người",
+        "Không cần nguồn điện"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-A-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: ... là phương tiện được dùng để lưu trữ và truyền tải thông tin (ví dụ: đĩa CD, thẻ nhớ).",
+      "options": [],
+      "correct": "Vật mang tin",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-A-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Những thiết bị số được gắn bộ ... có thể thực hiện các hoạt động xử lí thông tin tự động.",
+      "options": [],
+      "correct": "xử lí",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-A-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Nhiều dữ liệu trên Internet là ..., người dùng có thể bổ sung hiểu biết của mình bất kì lúc nào.",
+      "options": [],
+      "correct": "miễn phí",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-A-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Cách sử dụng thông tin sẽ quyết định tác động của nó là có lợi hay có ... cho xã hội.",
+      "options": [],
+      "correct": "hại",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-A-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Công nghệ thông tin có tác động mạnh mẽ, đem lại những thay đổi ... trong mọi lĩnh vực.",
+      "options": [],
+      "correct": "tích cực",
+      "duration_in_seconds": 20
+    }
+  ]
+}

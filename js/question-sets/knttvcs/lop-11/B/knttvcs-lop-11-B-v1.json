@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-11-B-v1",
+  "questionSetTitle": "Tin học 11 KNTTVCS - Chủ đề 2 - Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 11,
+  "topicLetter": "B",
+  "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-11-B-v1-q001",
+      "type": "MC",
+      "question": "Công nghệ nào cho phép người dùng lưu trữ dữ liệu trên các máy chủ Internet?",
+      "options": [
+        "Công nghệ Bluetooth",
+        "Công nghệ đám mây",
+        "Công nghệ in ấn",
+        "Công nghệ ngoại vi"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-B-v1-q002",
+      "type": "MC",
+      "question": "Lợi ích của việc lưu trữ và chia sẻ tệp trên Internet là gì?",
+      "options": [
+        "Chỉ truy cập được từ một máy cố định",
+        "Có thể truy cập mọi lúc, mọi nơi khi có mạng",
+        "Dễ bị mất khi máy tính cá nhân hỏng",
+        "Không cần tài khoản đăng nhập"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-B-v1-q003",
+      "type": "MC",
+      "question": "Để tìm kiếm thông tin chuyên sâu và tin cậy trên Internet, em nên làm gì?",
+      "options": [
+        "Nhập từ khóa ngắn nhất có thể",
+        "Sử dụng các máy tìm kiếm chuyên dụng hoặc các trang học thuật",
+        "Chỉ tin vào bài đăng trên mạng xã hội",
+        "Nhấn vào kết quả đầu tiên hiện ra"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-B-v1-q004",
+      "type": "MC",
+      "question": "Dịch vụ lưu trữ đám mây phổ biến hiện nay là:",
+      "options": [
+        "Notepad",
+        "Google Drive",
+        "Windows Media Player",
+        "Calculator"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-B-v1-q005",
+      "type": "MC",
+      "question": "Việc trao đổi thông tin qua mạng xã hội giúp:",
+      "options": [
+        "Kết nối mọi người không giới hạn khoảng cách",
+        "Làm hỏng máy tính",
+        "Chỉ dùng để chơi game",
+        "Thay thế hoàn toàn việc gặp mặt trực tiếp"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-B-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: ... là việc tạo ra bản sao của dữ liệu và lưu trữ ở nơi an toàn để phòng trường hợp tệp gốc bị hỏng.",
+      "options": [],
+      "correct": "Sao lưu",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-B-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Dịch vụ lưu trữ trực tuyến OneDrive thuộc sở hữu của tập đoàn ...",
+      "options": [],
+      "correct": "Microsoft",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-B-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Sử dụng trình ... web để truy cập và tìm kiếm thông tin trên Internet.",
+      "options": [],
+      "correct": "duyệt",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-B-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Để chia sẻ tệp cho người khác qua Drive, em cần cung cấp ... truy cập hoặc địa chỉ email của họ.",
+      "options": [],
+      "correct": "quyền",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-B-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Công cụ tìm kiếm phổ biến nhất thế giới hiện nay là ...",
+      "options": [],
+      "correct": "Google",
+      "duration_in_seconds": 20
+    }
+  ]
+}

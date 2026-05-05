@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-6-E-v1",
+  "questionSetTitle": "Tin học lớp 6 KNTTVCS - Chủ đề E - Ứng dụng tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 6,
+  "topicLetter": "E",
+  "topicName": "Ứng dụng tin học",
+  "topicSlug": "ung-dung-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-6-E-v1-q001",
+      "type": "MC",
+      "question": "Sơ đồ tư duy là công cụ dùng để làm gì? [14]",
+      "options": [
+        "Chỉ dùng để vẽ tranh nghệ thuật",
+        "Tổ chức, tóm tắt và biểu diễn ý tưởng",
+        "Tính toán dãy số phức tạp",
+        "Chỉnh sửa video"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-E-v1-q002",
+      "type": "MC",
+      "question": "Trong phần mềm soạn thảo văn bản, để trình bày thông tin dạng bảng, em vào thẻ nào? [2]",
+      "options": [
+        "Home",
+        "Design",
+        "Insert",
+        "View"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-E-v1-q003",
+      "type": "MC",
+      "question": "Lợi ích của việc tạo sơ đồ tư duy trên máy tính là gì? [14]",
+      "options": [
+        "Dễ dàng chỉnh sửa và thay đổi nội dung",
+        "Tiết kiệm giấy và mực",
+        "Có thể chia sẻ nhanh chóng qua mạng",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-E-v1-q004",
+      "type": "MC",
+      "question": "Để tóm tắt nội dung một bài học lịch sử, công cụ nào là phù hợp nhất? [14]",
+      "options": [
+        "Bảng tính Excel",
+        "Sơ đồ tư duy",
+        "Phần mềm diệt virus",
+        "Máy tính bỏ túi"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-E-v1-q005",
+      "type": "MC",
+      "question": "Trong một bảng của văn bản, phần giao giữa hàng và cột được gọi là gì? [2]",
+      "options": [
+        "Đường kẻ",
+        "Ô",
+        "Tiêu đề",
+        "Phông nền"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-E-v1-q006",
+      "type": "TI",
+      "question": "Sơ đồ tư duy bao gồm chủ đề ____ và các nhánh con. [14]",
+      "options": [],
+      "correct": "trung tâm",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-E-v1-q007",
+      "type": "TI",
+      "question": "Trong văn bản, ____ giúp trình bày thông tin một cách cô đọng và dễ so sánh. [2]",
+      "options": [],
+      "correct": "bảng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-E-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Để thêm một hàng mới vào bảng, em có thể sử dụng các lệnh trong thẻ ____. [2]",
+      "options": [],
+      "correct": "Layout",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-E-v1-q009",
+      "type": "TI",
+      "question": "Các phần mềm như MindMeister, XMind là phần mềm hỗ trợ tạo ____. [14]",
+      "options": [],
+      "correct": "sơ đồ tư duy",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-E-v1-q010",
+      "type": "TI",
+      "question": "Để thay đổi màu sắc của các nhánh trong sơ đồ tư duy, em sử dụng chức năng ____. [14]",
+      "options": [],
+      "correct": "định dạng",
+      "duration_in_seconds": 20
+    }
+  ]
+}

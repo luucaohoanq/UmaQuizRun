@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-5-F-v1",
+  "questionSetTitle": "Tin học lớp 5 KNTTVCS - Chủ đề F - Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 5,
+  "topicLetter": "F",
+  "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-5-F-v1-q001",
+      "type": "MC",
+      "question": "Cấu trúc tuần tự trong chương trình máy tính là:",
+      "options": [
+        "Các lệnh được thực hiện lặp lại",
+        "Các lệnh được thực hiện lần lượt theo thứ tự từ trên xuống dưới",
+        "Máy tính tự chọn lệnh để chạy",
+        "Các lệnh chỉ chạy khi có điều kiện"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-F-v1-q002",
+      "type": "MC",
+      "question": "Để nhân vật thực hiện một công việc lặp lại nhiều lần, em sử dụng cấu trúc nào?",
+      "options": [
+        "Cấu trúc tuần tự",
+        "Cấu trúc lặp",
+        "Cấu trúc rẽ nhánh",
+        "Cấu trúc biến"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-F-v1-q003",
+      "type": "MC",
+      "question": "Khối lệnh 'Nếu... thì...' trong Scratch dùng để thể hiện cấu trúc nào?",
+      "options": [
+        "Cấu trúc lặp",
+        "Cấu trúc tuần tự",
+        "Cấu trúc rẽ nhánh",
+        "Cấu trúc xóa"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-F-v1-q004",
+      "type": "MC",
+      "question": "Biến trong chương trình máy tính dùng để làm gì?",
+      "options": [
+        "Để trang trí nhân vật",
+        "Để lưu trữ dữ liệu có thể thay đổi trong quá trình chạy chương trình",
+        "Để nhân vật nói chuyện",
+        "Để dừng chương trình"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-F-v1-q005",
+      "type": "MC",
+      "question": "Phép toán nào sau đây có thể sử dụng trong biểu thức của Scratch?",
+      "options": [
+        "Cộng (+)",
+        "Trừ (-)",
+        "Nhân (*) và Chia (/)",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-5-F-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Để chương trình hoạt động đúng, các bước trong cấu trúc tuần tự phải được sắp xếp theo đúng ____.",
+      "options": [],
+      "correct": "thứ tự",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-F-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Khối lệnh ____ trong Scratch giúp em giảm bớt việc phải kéo nhiều khối lệnh giống hệt nhau.",
+      "options": [],
+      "correct": "lặp",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-F-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Cấu trúc ____ cho phép chương trình thực hiện các hành động khác nhau tùy thuộc vào một điều kiện.",
+      "options": [],
+      "correct": "rẽ nhánh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-F-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Trước khi viết chương trình phức tạp, em nên xây dựng một ____ cụ thể.",
+      "options": [],
+      "correct": "kịch bản",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-5-F-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Trong Scratch, em có thể tạo và đặt tên cho các ____ để lưu số điểm của trò chơi.",
+      "options": [],
+      "correct": "biến",
+      "duration_in_seconds": 20
+    }
+  ]
+}

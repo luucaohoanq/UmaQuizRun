@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-8-A-v1",
+  "questionSetTitle": "Tin học lớp 8 KNTTVCS - Chủ đề 1 - Máy tính và cộng đồng",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 8,
+  "topicLetter": "A",
+  "topicName": "Máy tính và cộng đồng",
+  "topicSlug": "may-tinh-va-cong-dong",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-8-A-v1-q001",
+      "type": "MC",
+      "question": "Ai được coi là cha đẻ của công nghệ máy tính?",
+      "options": [
+        "Blaise Pascal",
+        "Charles Babbage",
+        "Ada Lovelace",
+        "Bill Gates"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-A-v1-q002",
+      "type": "MC",
+      "question": "Máy tính Pascaline do Blaise Pascal sáng chế sử dụng cơ chế nào để tính toán?",
+      "options": [
+        "Đèn điện tử chân không",
+        "Bánh răng cơ khí",
+        "Mạch tích hợp",
+        "Bộ vi xử lí"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-A-v1-q003",
+      "type": "MC",
+      "question": "Thế hệ máy tính thứ nhất (1945-1955) sử dụng thành phần điện tử chính là gì?",
+      "options": [
+        "Bóng bán dẫn",
+        "Mạch tích hợp (IC)",
+        "Đèn điện tử chân không",
+        "Vi mạch xử lí (LSI)"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-A-v1-q004",
+      "type": "MC",
+      "question": "Sự ra đời của thành phần nào đã giúp máy tính trở nên nhỏ gọn, tiêu thụ ít điện năng và tốc độ cao hơn ở thế hệ thứ hai?",
+      "options": [
+        "Bóng bán dẫn",
+        "Bánh răng",
+        "Bàn tính",
+        "Đèn chân không"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-A-v1-q005",
+      "type": "MC",
+      "question": "Máy tính hiện nay đang ở thế hệ thứ mấy với đặc trưng là các thiết bị thông minh và AI?",
+      "options": [
+        "Thế hệ thứ ba",
+        "Thế hệ thứ tư",
+        "Thế hệ thứ năm",
+        "Thế hệ thứ sáu"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-A-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Chiếc máy tính cơ khí đầu tiên thực hiện được 4 phép tính số học do Charles Babbage thiết kế có tên là máy ____.",
+      "options": [],
+      "correct": "phân tích",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-A-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Máy tính ____ là chiếc máy tính điện tử đầu tiên, chiếm diện tích bằng cả một căn phòng.",
+      "options": [],
+      "correct": "ENIAC",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-A-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Sự ra đời của ____ tích hợp giúp máy tính trở nên phổ biến và có thể đặt trên bàn làm việc ở thế hệ thứ ba.",
+      "options": [],
+      "correct": "vi mạch",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-A-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Thế hệ máy tính thứ tư sử dụng vi mạch mật độ rất cao, gọi là bộ ____.",
+      "options": [],
+      "correct": "vi xử lí",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-A-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Thế giới đang biến đổi nhanh chóng nhờ sự phát triển mạnh mẽ của công nghệ ____.",
+      "options": [],
+      "correct": "máy tính",
+      "duration_in_seconds": 20
+    }
+  ]
+}

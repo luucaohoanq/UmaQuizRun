@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-4-F-v1",
+  "questionSetTitle": "Tin học lớp 4 KNTTVCS - Chủ đề F - Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 4,
+  "topicLetter": "F",
+  "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-4-F-v1-q001",
+      "type": "MC",
+      "question": "Trong phần mềm Scratch, nhân vật mặc định xuất hiện là con vật nào? [1, 12]",
+      "options": [
+        "Con chó",
+        "Con rùa",
+        "Con mèo",
+        "Con bướm"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-F-v1-q002",
+      "type": "MC",
+      "question": "Để nhân vật bắt đầu thực hiện lệnh trong Scratch, em nháy chuột vào biểu tượng nào? [1, 20]",
+      "options": [
+        "Hình vuông màu đỏ",
+        "Lá cờ màu xanh",
+        "Dấu nhân",
+        "Hình tròn vàng"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-F-v1-q003",
+      "type": "MC",
+      "question": "Trong lập trình trực quan, các lệnh được kết nối với nhau như thế nào? [1, 12]",
+      "options": [
+        "Gõ mã văn bản phức tạp",
+        "Kéo và ghép các khối lệnh",
+        "Vẽ bằng tay",
+        "Nói qua micro"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-F-v1-q004",
+      "type": "MC",
+      "question": "Khu vực hiển thị kết quả hoạt động của nhân vật trong Scratch được gọi là gì? [1, 20]",
+      "options": [
+        "Vùng chứa nhân vật",
+        "Sân khấu",
+        "Bảng chọn",
+        "Thanh công cụ"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-F-v1-q005",
+      "type": "MC",
+      "question": "Lệnh nào làm nhân vật di chuyển 10 bước trong Scratch? [20, 21]",
+      "options": [
+        "Nói Hello",
+        "Phát âm thanh",
+        "Di chuyển 10 bước",
+        "Xoay 15 độ"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-F-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Scratch 3 là một phần mềm giúp em tập làm quen với ____ trực quan. [1, 12]",
+      "options": [],
+      "correct": "lập trình",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-F-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Một ____ máy tính là dãy các bước hướng dẫn máy tính thực hiện công việc. [1, 21]",
+      "options": [],
+      "correct": "chương trình",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-F-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Để nhân vật đổi hướng, em sử dụng nhóm lệnh ____. [20, 21]",
+      "options": [],
+      "correct": "Chuyển động",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-F-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Trong lập trình, các bước phải được thực hiện theo đúng ____ để có kết quả đúng. [21]",
+      "options": [],
+      "correct": "thứ tự",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-F-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Nháy chuột vào hình ____ màu đỏ để dừng chương trình Scratch. [20]",
+      "options": [],
+      "correct": "tròn",
+      "duration_in_seconds": 20
+    }
+  ]
+}

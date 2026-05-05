@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-11-C-v1",
+  "questionSetTitle": "Tin học 11 KNTTVCS - Chủ đề 3 - Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 11,
+  "topicLetter": "C",
+  "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-11-C-v1-q001",
+      "type": "MC",
+      "question": "Hành vi nào sau đây vi phạm luật bản quyền trong tin học?",
+      "options": [
+        "Sử dụng phần mềm có bản quyền đã mua",
+        "Tự viết chương trình máy tính",
+        "Sao chép và bẻ khóa (crack) phần mềm trả phí",
+        "Trích dẫn nguồn thông tin rõ ràng"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-C-v1-q002",
+      "type": "MC",
+      "question": "Để bảo vệ an toàn thông tin cá nhân trên mạng, em nên làm gì?",
+      "options": [
+        "Đặt mật khẩu đơn giản cho dễ nhớ",
+        "Chia sẻ mật khẩu cho bạn thân",
+        "Sử dụng xác thực hai lớp (2FA)",
+        "Đăng mọi thông tin cá nhân lên công khai"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-C-v1-q003",
+      "type": "MC",
+      "question": "Hành vi lan truyền tin giả trên mạng xã hội là hành vi:",
+      "options": [
+        "Thể hiện sự thông minh",
+        "Vi phạm pháp luật và đạo đức",
+        "Giúp mọi người giải trí",
+        "Đúng với quyền tự do ngôn luận"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-C-v1-q004",
+      "type": "MC",
+      "question": "Phần mềm độc hại nào có khả năng tự lây lan mà không cần sự can thiệp của người dùng?",
+      "options": [
+        "Virus",
+        "Sâu máy tính (Worm)",
+        "Trojan",
+        "Spyware"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-C-v1-q005",
+      "type": "MC",
+      "question": "Quyền của tác giả đối với tác phẩm do mình sáng tạo ra được bảo hộ bởi:",
+      "options": [
+        "Luật An ninh mạng",
+        "Luật Sở hữu trí tuệ",
+        "Luật Hình sự",
+        "Quy định của nhà trường"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-C-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: ... là hành vi bắt nạt, đe dọa hoặc làm nhục người khác qua các phương tiện điện tử.",
+      "options": [],
+      "correct": "Bắt nạt qua mạng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-C-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Khi sử dụng sản phẩm của người khác, em cần ghi rõ ... tác giả và nguồn trích dẫn.",
+      "options": [],
+      "correct": "tên",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-C-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Luật ... mạng năm 2018 quy định các hành vi bị cấm trên không gian mạng tại Việt Nam.",
+      "options": [],
+      "correct": "An ninh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-C-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Tôn trọng bản quyền nội dung thông tin là biểu hiện của người sử dụng công nghệ có ...",
+      "options": [],
+      "correct": "văn hóa",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-C-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Không nên mở các tệp đính kèm hoặc nhấp vào liên kết lạ trong ... điện tử từ người lạ.",
+      "options": [],
+      "correct": "thư",
+      "duration_in_seconds": 20
+    }
+  ]
+}

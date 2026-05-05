@@ -1,0 +1,244 @@
+{
+  "setId": "knttvcs-lop-3-B-v1",
+  "questionSetTitle": "Tin học lớp 3 KNTTVCS - Chủ đề B - Mạng máy tính và Internet",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 3,
+  "topicLetter": "B",
+  "topicName": "Mạng máy tính và Internet",
+  "topicSlug": "mang-may-tinh-va-internet",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-3-B-v1-q001",
+      "type": "MC",
+      "question": "Internet được ví như một kho thông tin như thế nào?",
+      "options": [
+        "Nhỏ bé",
+        "Khổng lồ",
+        "Bình thường",
+        "Không có thông tin"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10,
+      "citation": "[1]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q002",
+      "type": "TI",
+      "question": "Điền từ còn thiếu: Internet là kho thông tin ...",
+      "options": [],
+      "correct": "khổng lồ",
+      "duration_in_seconds": 20,
+      "citation": "[1]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q003",
+      "type": "MC",
+      "question": "Em có thể xem những nội dung nào sau đây trên Internet?",
+      "options": [
+        "Phim hoạt hình",
+        "Lịch thi đấu bóng đá",
+        "Video dạy nấu ăn",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10,
+      "citation": "[2], [3]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q004",
+      "type": "TI",
+      "question": "Khi sử dụng Internet, em cần sự hướng dẫn và cho phép của ai?",
+      "options": [],
+      "correct": "người lớn",
+      "duration_in_seconds": 20,
+      "citation": "[1]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q005",
+      "type": "MC",
+      "question": "Nội dung nào sau đây KHÔNG phù hợp với lứa tuổi của em trên Internet?",
+      "options": [
+        "Trang tin về lịch sử",
+        "Các trò chơi dân gian",
+        "Thông tin có nội dung bạo lực",
+        "Chương trình dạy học"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10,
+      "citation": "[4]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Thông tin trên Internet rất đa dạng và ...",
+      "options": [],
+      "correct": "phong phú",
+      "duration_in_seconds": 20,
+      "citation": "[4]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q007",
+      "type": "MC",
+      "question": "Khi muốn tìm thông tin không có sẵn trong máy tính, em nên làm gì?",
+      "options": [
+        "Tắt máy tính",
+        "Tìm kiếm thông tin trên Internet",
+        "Xóa tệp tin",
+        "Không làm gì cả"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10,
+      "citation": "[1]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q008",
+      "type": "TI",
+      "question": "Thông tin trên Internet được cập nhật như thế nào?",
+      "options": [],
+      "correct": "thường xuyên",
+      "duration_in_seconds": 20,
+      "citation": "[1]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q009",
+      "type": "MC",
+      "question": "Trước khi mua một món đồ, tại sao chị của Khoa thường vào Internet để tìm hiểu trước?",
+      "options": [
+        "Để xem món đồ đó có đẹp không",
+        "Để so sánh giá và tìm nơi bán",
+        "Để chơi trò chơi",
+        "Để học nấu ăn"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10,
+      "citation": "[4]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q010",
+      "type": "TI",
+      "question": "Internet giúp em ... với ông bà, người thân hay bạn bè ở xa.",
+      "options": [],
+      "correct": "nói chuyện",
+      "duration_in_seconds": 20,
+      "citation": "[4]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q011",
+      "type": "MC",
+      "question": "Đâu là một đặc điểm của thông tin trên Internet?",
+      "options": [
+        "Luôn luôn chính xác 100%",
+        "Chỉ có văn bản",
+        "Được cập nhật thường xuyên",
+        "Chỉ dùng được vào buổi tối"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10,
+      "citation": "[4]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q012",
+      "type": "TI",
+      "question": "Khi gặp nội dung xấu trên mạng, em cần chia sẻ với ... mà em tin cậy.",
+      "options": [],
+      "correct": "người lớn",
+      "duration_in_seconds": 20,
+      "citation": "[4]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q013",
+      "type": "MC",
+      "question": "Nếu em muốn biết cách gấp một chiếc máy bay giấy, Internet có thể giúp gì?",
+      "options": [
+        "Không thể giúp gì",
+        "Cung cấp video hướng dẫn từng bước",
+        "Làm hộ em chiếc máy bay",
+        "Gửi máy bay giấy đến nhà em"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10,
+      "citation": "[5]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q014",
+      "type": "TI",
+      "question": "Chương trình giải trí mà em có thể xem trên Internet là phim ...",
+      "options": [],
+      "correct": "hoạt hình",
+      "duration_in_seconds": 20,
+      "citation": "[3]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q015",
+      "type": "MC",
+      "question": "Hành động nào sau đây thể hiện việc sử dụng Internet hợp lí?",
+      "options": [
+        "Tự ý truy cập vào mọi trang web",
+        "Dành toàn bộ thời gian rảnh để lên mạng",
+        "Nhờ người lớn hướng dẫn vào trang web phù hợp",
+        "Chia sẻ thông tin cá nhân cho người lạ trên mạng"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10,
+      "citation": "[1], [4]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q016",
+      "type": "TI",
+      "question": "Mẹ và chị gái của Khoa sử dụng Internet để tìm một số ... nấu ăn.",
+      "options": [],
+      "correct": "công thức",
+      "duration_in_seconds": 20,
+      "citation": "[2]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q017",
+      "type": "MC",
+      "question": "Vì sao không phải thông tin nào trên Internet cũng phù hợp với em?",
+      "options": [
+        "Vì có thông tin sai lệch hoặc không chính xác",
+        "Vì có nội dung xấu gây lo lắng, sợ hãi",
+        "Cả A và B đều đúng",
+        "Vì Internet quá đắt tiền"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10,
+      "citation": "[4]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q018",
+      "type": "TI",
+      "question": "Internet có thể giúp em tìm hiểu về các ... của đội bóng mà em yêu thích.",
+      "options": [],
+      "correct": "bàn thắng",
+      "duration_in_seconds": 20,
+      "citation": "[4]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q019",
+      "type": "MC",
+      "question": "Bạn Minh đã làm gì khi thấy toàn những nội dung khó hiểu trên mạng?",
+      "options": [
+        "Cố gắng đọc hết",
+        "Tắt máy đi ngủ",
+        "Nhờ mẹ giúp tìm trang thông tin phù hợp",
+        "Khóc vì không hiểu bài"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10,
+      "citation": "[1]"
+    },
+    {
+      "id": "knttvcs-lop-3-B-v1-q020",
+      "type": "TI",
+      "question": "Thông tin trên Internet có thể giúp em tìm hiểu về ... tự nhiên.",
+      "options": [],
+      "correct": "thế giới",
+      "duration_in_seconds": 20,
+      "citation": "[6]"
+    }
+  ]
+}

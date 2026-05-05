@@ -116,7 +116,8 @@ const GameStartTransition = {
 
     draw() {
         // Draw appropriate boost background based on game mode
-        const bgKey = currentGameMode === GAME_MODES.RANDOM_10 ? 'bgBoost1' : 'bgBoost2';
+        const isFiniteMode = isFiniteQuestionMode(currentGameMode);
+        const bgKey = isFiniteMode ? 'bgBoost1' : 'bgBoost2';
         const boostBg = assets.backgrounds[bgKey];
 
         if (boostBg && boostBg.complete) {
@@ -124,8 +125,8 @@ const GameStartTransition = {
         } else {
             // Fallback gradient
             const gradient = config.ctx.createLinearGradient(0, 0, config.width, config.height);
-            gradient.addColorStop(0, currentGameMode === GAME_MODES.RANDOM_10 ? '#FF6B35' : '#4ECDC4');
-            gradient.addColorStop(1, currentGameMode === GAME_MODES.RANDOM_10 ? '#F7931E' : '#44A08D');
+            gradient.addColorStop(0, isFiniteMode ? '#FF6B35' : '#4ECDC4');
+            gradient.addColorStop(1, isFiniteMode ? '#F7931E' : '#44A08D');
             config.ctx.fillStyle = gradient;
             config.ctx.fillRect(0, 0, config.width, config.height);
         }

@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-11-E-v1",
+  "questionSetTitle": "Tin học 11 KNTTVCS - Chủ đề 5 - Hướng nghiệp với Tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 11,
+  "topicLetter": "E",
+  "topicName": "Hướng nghiệp với Tin học",
+  "topicSlug": "huong-nghiep-voi-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-11-E-v1-q001",
+      "type": "MC",
+      "question": "Người chịu trách nhiệm thiết kế, cài đặt và bảo mật hệ thống CSDL được gọi là gì?",
+      "options": [
+        "Lập trình viên",
+        "Nhà thiết kế đồ họa",
+        "Nhà quản trị cơ sở dữ liệu",
+        "Kiểm thử viên"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-E-v1-q002",
+      "type": "MC",
+      "question": "Nhu cầu nhân lực quản trị CSDL tăng cao trong bối cảnh nào?",
+      "options": [
+        "Thanh toán bằng tiền mặt",
+        "Cuộc cách mạng công nghiệp 4.0 và chuyển đổi số",
+        "Khi máy tính không còn phổ biến",
+        "Chỉ ở các trường học"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-E-v1-q003",
+      "type": "MC",
+      "question": "Công việc nào sau đây là của nhà quản trị CSDL?",
+      "options": [
+        "Lắp ráp bàn ghế văn phòng",
+        "Thực hiện sao lưu và khôi phục dữ liệu",
+        "Vẽ tranh minh họa",
+        "Soạn thảo văn bản hành chính"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-E-v1-q004",
+      "type": "MC",
+      "question": "Nhà quản trị CSDL cần có kỹ năng nào quan trọng nhất?",
+      "options": [
+        "Tư duy hệ thống và tính cẩn thận",
+        "Khả năng hát karaoke",
+        "Biết tất cả các loại ngôn ngữ thế giới",
+        "Kỹ năng sửa chữa ổ cắm điện"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-E-v1-q005",
+      "type": "MC",
+      "question": "Hướng nghiệp tin học trong CSDL giúp học sinh nhận thức gì?",
+      "options": [
+        "Chỉ nam giới mới làm được",
+        "Cơ hội nghề nghiệp rộng mở cho cả nam và nữ",
+        "Ngành này sẽ biến mất sớm",
+        "Chỉ dành cho người giỏi toán"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-E-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Nghề ... cơ sở dữ liệu đóng vai trò quan trọng trong việc đảm bảo dữ liệu an toàn và thông suốt.",
+      "options": [],
+      "correct": "quản trị",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-E-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Để làm quản trị CSDL, em cần hiểu biết sâu sắc về các hệ ... CSDL.",
+      "options": [],
+      "correct": "quản trị",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-E-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Việc định hướng nghề nghiệp giúp học sinh chuẩn bị tốt về kiến thức và ... cần thiết.",
+      "options": [],
+      "correct": "kỹ năng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-E-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Ngành công nghệ thông tin nói chung và CSDL nói riêng luôn đề cao tính ... học hỏi.",
+      "options": [],
+      "correct": "tự",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-E-v1-q010",
+      "type": "TI",
+      "question": "Viết tắt tiếng Anh của chức danh Nhà quản trị CSDL là gì?",
+      "options": [],
+      "correct": "DBA",
+      "duration_in_seconds": 20
+    }
+  ]
+}

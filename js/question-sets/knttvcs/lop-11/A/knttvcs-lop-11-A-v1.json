@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-11-A-v1",
+  "questionSetTitle": "Tin học 11 KNTTVCS - Chủ đề 1 - Máy tính và Xã hội tri thức",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 11,
+  "topicLetter": "A",
+  "topicName": "Máy tính và Xã hội tri thức",
+  "topicSlug": "may-tinh-va-xa-hoi-tri-thuc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-11-A-v1-q001",
+      "type": "MC",
+      "question": "Phần mềm nào sau đây đóng vai trò là môi trường trung gian giữa người dùng và phần cứng?",
+      "options": [
+        "Phần mềm ứng dụng",
+        "Hệ điều hành",
+        "Phần mềm đồ họa",
+        "Trình duyệt web"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-A-v1-q002",
+      "type": "MC",
+      "question": "Đâu là một ví dụ về phần mềm nguồn mở?",
+      "options": [
+        "Windows 10",
+        "Microsoft Office",
+        "Hệ điều hành Linux",
+        "Adobe Photoshop"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-A-v1-q003",
+      "type": "MC",
+      "question": "Đặc điểm chính của phần mềm chạy trên Internet là gì?",
+      "options": [
+        "Phải cài đặt vào ổ cứng",
+        "Sử dụng trực tiếp qua trình duyệt",
+        "Không cần kết nối mạng",
+        "Chỉ chạy được trên máy tính để bàn"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-A-v1-q004",
+      "type": "MC",
+      "question": "Thiết bị nào sau đây được coi là thiết bị thông minh?",
+      "options": [
+        "Máy tính bỏ túi Casio",
+        "Đồng hồ thông minh (Smartwatch)",
+        "Loa phường",
+        "Ổ cắm điện thông thường"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-A-v1-q005",
+      "type": "MC",
+      "question": "Ưu điểm của phần mềm nguồn mở là gì?",
+      "options": [
+        "Người dùng có quyền sửa mã nguồn",
+        "Luôn có phí bản quyền cao",
+        "Không bao giờ có lỗi",
+        "Chỉ dùng cho mục đích cá nhân"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-11-A-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: ... là phần mềm hệ thống quản lí và điều khiển hoạt động chung của máy tính.",
+      "options": [],
+      "correct": "Hệ điều hành",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-A-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Phần mềm ... là phần mềm cung cấp mã nguồn để mọi người có thể tự do sử dụng và chỉnh sửa.",
+      "options": [],
+      "correct": "nguồn mở",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-A-v1-q008",
+      "type": "TI",
+      "question": "Viết tắt của phần mềm nguồn mở bằng tiếng Anh là gì?",
+      "options": [],
+      "correct": "OSS",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-A-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Các thiết bị có khả năng xử lí thông tin và kết nối mạng được gọi là thiết bị ...",
+      "options": [],
+      "correct": "thông minh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-11-A-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Hệ điều hành Android và iOS thường được dùng cho các thiết bị ...",
+      "options": [],
+      "correct": "di động",
+      "duration_in_seconds": 20
+    }
+  ]
+}

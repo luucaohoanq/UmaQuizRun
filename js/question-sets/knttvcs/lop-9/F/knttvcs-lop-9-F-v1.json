@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-9-F-v1",
+  "questionSetTitle": "Tin học lớp 9 KNTTVCS - Chủ đề 6 - Hướng nghiệp với Tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 9,
+  "topicLetter": "F",
+  "topicName": "Hướng nghiệp với Tin học",
+  "topicSlug": "huong-nghiep-voi-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-9-F-v1-q001",
+      "type": "MC",
+      "question": "Những nhóm nghề thuộc hướng 'Khoa học máy tính' có đặc điểm chung là gì?",
+      "options": [
+        "Chủ yếu sử dụng phần mềm có sẵn",
+        "Nghiên cứu lí thuyết về thông tin, thuật toán và cách biểu diễn dữ liệu",
+        "Chỉ đi sửa chữa máy tính",
+        "Làm việc trong các cửa hàng bán điện thoại"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-F-v1-q002",
+      "type": "MC",
+      "question": "Nhóm nghề 'Tin học ứng dụng' thường tập trung vào điều gì?",
+      "options": [
+        "Sáng tạo ra các ngôn ngữ lập trình mới",
+        "Sử dụng phương tiện và công cụ công nghệ thông tin để giải quyết các vấn đề thực tế",
+        "Nghiên cứu cấu trúc sâu bên trong bộ vi xử lí",
+        "Không cần sử dụng máy tính"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-F-v1-q003",
+      "type": "MC",
+      "question": "Phụ nữ có ưu thế gì khi làm việc trong ngành Tin học?",
+      "options": [
+        "Sự cẩn thận, chu đáo và khả năng ghi nhớ tốt",
+        "Chỉ làm được thiết kế đồ hoạ",
+        "Không phù hợp vì Tin học rất khô khan",
+        "Chỉ phù hợp với việc nhập dữ liệu"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-F-v1-q004",
+      "type": "MC",
+      "question": "Nghề nghiệp nào sau đây thuộc lĩnh vực Tin học?",
+      "options": [
+        "Lập trình viên",
+        "Quản trị hệ thống",
+        "Kiểm thử phần mềm",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-F-v1-q005",
+      "type": "MC",
+      "question": "Sự phát triển của ngành Tin học tạo ra cơ hội tiếp cận nghề nghiệp cho đối tượng nào?",
+      "options": [
+        "Chỉ dành cho nam giới",
+        "Chỉ dành cho người trẻ tuổi",
+        "Mọi người, không phân biệt giới tính, độ tuổi nếu có sở thích và năng lực",
+        "Chỉ những người giỏi toán"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-9-F-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Nhóm nghề nghiệp liên quan đến Tin học rất đa dạng và có mức ____ cao.",
+      "options": [],
+      "correct": "thu nhập",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-F-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Để theo đuổi nghề nghiệp Tin học, em cần rèn luyện tư duy ____ và khả năng tự học.",
+      "options": [],
+      "correct": "lôgic",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-F-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Nghề ____ dữ liệu liên quan đến việc thu thập và phân tích thông tin để đưa ra các dự báo.",
+      "options": [],
+      "correct": "phân tích",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-F-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Tin học xuất hiện trong hầu hết các cơ quan, tổ chức, từ y tế, giáo dục đến ____.",
+      "options": [],
+      "correct": "kinh doanh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-9-F-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Lựa chọn nghề nghiệp phù hợp với ____ và nhu cầu của xã hội là rất quan trọng.",
+      "options": [],
+      "correct": "sở thích",
+      "duration_in_seconds": 20
+    }
+  ]
+}

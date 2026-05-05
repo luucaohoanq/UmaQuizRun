@@ -1,0 +1,808 @@
+{
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grades": [
+    {
+      "grade": 3,
+      "code": "IT-3",
+      "slug": "lop-3",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-3-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và em",
+          "topicSlug": "may-tinh-va-em",
+          "setId": "knttvcs-lop-3-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-3/A/knttvcs-lop-3-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-3-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Mạng máy tính và Internet",
+          "topicSlug": "mang-may-tinh-va-internet",
+          "setId": "knttvcs-lop-3-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-3/B/knttvcs-lop-3-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-3-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+          "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+          "setId": "knttvcs-lop-3-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-3/C/knttvcs-lop-3-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-3-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-3-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-3/D/knttvcs-lop-3-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-3-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Ứng dụng tin học",
+          "topicSlug": "ung-dung-tin-hoc",
+          "setId": "knttvcs-lop-3-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-3/E/knttvcs-lop-3-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "code": "IT-3-06",
+          "topicLetter": "F",
+          "part": 1,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-3-F-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-3/F/knttvcs-lop-3-F-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "code": "IT-4",
+      "slug": "lop-4",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-4-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và em",
+          "topicSlug": "may-tinh-va-em",
+          "setId": "knttvcs-lop-4-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-4/A/knttvcs-lop-4-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-4-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Mạng máy tính và Internet",
+          "topicSlug": "mang-may-tinh-va-internet",
+          "setId": "knttvcs-lop-4-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-4/B/knttvcs-lop-4-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-4-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+          "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+          "setId": "knttvcs-lop-4-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-4/C/knttvcs-lop-4-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-4-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-4-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-4/D/knttvcs-lop-4-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-4-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Ứng dụng tin học",
+          "topicSlug": "ung-dung-tin-hoc",
+          "setId": "knttvcs-lop-4-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-4/E/knttvcs-lop-4-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "code": "IT-4-06",
+          "topicLetter": "F",
+          "part": 1,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-4-F-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-4/F/knttvcs-lop-4-F-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "code": "IT-5",
+      "slug": "lop-5",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-5-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và em",
+          "topicSlug": "may-tinh-va-em",
+          "setId": "knttvcs-lop-5-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-5/A/knttvcs-lop-5-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-5-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Mạng máy tính và Internet",
+          "topicSlug": "mang-may-tinh-va-internet",
+          "setId": "knttvcs-lop-5-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-5/B/knttvcs-lop-5-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-5-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+          "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+          "setId": "knttvcs-lop-5-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-5/C/knttvcs-lop-5-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-5-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-5-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-5/D/knttvcs-lop-5-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-5-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Ứng dụng tin học",
+          "topicSlug": "ung-dung-tin-hoc",
+          "setId": "knttvcs-lop-5-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-5/E/knttvcs-lop-5-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "code": "IT-5-06",
+          "topicLetter": "F",
+          "part": 1,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-5-F-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-5/F/knttvcs-lop-5-F-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "code": "IT-6",
+      "slug": "lop-6",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-6-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và cộng đồng",
+          "topicSlug": "may-tinh-va-cong-dong",
+          "setId": "knttvcs-lop-6-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-6/A/knttvcs-lop-6-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-6-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Mạng máy tính và Internet",
+          "topicSlug": "mang-may-tinh-va-internet",
+          "setId": "knttvcs-lop-6-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-6/B/knttvcs-lop-6-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-6-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+          "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+          "setId": "knttvcs-lop-6-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-6/C/knttvcs-lop-6-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-6-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-6-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-6/D/knttvcs-lop-6-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-6-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Ứng dụng tin học",
+          "topicSlug": "ung-dung-tin-hoc",
+          "setId": "knttvcs-lop-6-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-6/E/knttvcs-lop-6-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "code": "IT-6-06",
+          "topicLetter": "F",
+          "part": 1,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-6-F-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-6/F/knttvcs-lop-6-F-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "code": "IT-7",
+      "slug": "lop-7",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-7-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và cộng đồng",
+          "topicSlug": "may-tinh-va-cong-dong",
+          "setId": "knttvcs-lop-7-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-7/A/knttvcs-lop-7-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-7-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+          "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+          "setId": "knttvcs-lop-7-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-7/B/knttvcs-lop-7-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-7-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-7-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-7/C/knttvcs-lop-7-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-7-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Ứng dụng tin học",
+          "topicSlug": "ung-dung-tin-hoc",
+          "setId": "knttvcs-lop-7-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-7/D/knttvcs-lop-7-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-7-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-7-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-7/E/knttvcs-lop-7-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "code": "IT-8",
+      "slug": "lop-8",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-8-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và cộng đồng",
+          "topicSlug": "may-tinh-va-cong-dong",
+          "setId": "knttvcs-lop-8-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-8/A/knttvcs-lop-8-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-8-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+          "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+          "setId": "knttvcs-lop-8-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-8/B/knttvcs-lop-8-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-8-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-8-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-8/C/knttvcs-lop-8-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-8-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Ứng dụng tin học",
+          "topicSlug": "ung-dung-tin-hoc",
+          "setId": "knttvcs-lop-8-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-8/D/knttvcs-lop-8-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-8-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-8-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-8/E/knttvcs-lop-8-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "code": "IT-8-06",
+          "topicLetter": "F",
+          "part": 1,
+          "topicName": "Hướng nghiệp với Tin học",
+          "topicSlug": "huong-nghiep-voi-tin-hoc",
+          "setId": "knttvcs-lop-8-F-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-8/F/knttvcs-lop-8-F-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "code": "IT-9",
+      "slug": "lop-9",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-9-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và cộng đồng",
+          "topicSlug": "may-tinh-va-cong-dong",
+          "setId": "knttvcs-lop-9-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-9/A/knttvcs-lop-9-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-9-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+          "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+          "setId": "knttvcs-lop-9-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-9/B/knttvcs-lop-9-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-9-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-9-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-9/C/knttvcs-lop-9-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-9-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Ứng dụng tin học",
+          "topicSlug": "ung-dung-tin-hoc",
+          "setId": "knttvcs-lop-9-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-9/D/knttvcs-lop-9-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-9-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-9-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-9/E/knttvcs-lop-9-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "code": "IT-9-06",
+          "topicLetter": "F",
+          "part": 1,
+          "topicName": "Hướng nghiệp với Tin học",
+          "topicSlug": "huong-nghiep-voi-tin-hoc",
+          "setId": "knttvcs-lop-9-F-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-9/F/knttvcs-lop-9-F-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "code": "IT-10",
+      "slug": "lop-10",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-10-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và Xã hội tri thức",
+          "topicSlug": "may-tinh-va-xa-hoi-tri-thuc",
+          "setId": "knttvcs-lop-10-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-10/A/knttvcs-lop-10-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-10-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Mạng máy tính và Internet",
+          "topicSlug": "mang-may-tinh-va-internet",
+          "setId": "knttvcs-lop-10-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-10/B/knttvcs-lop-10-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-10-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-10-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-10/C/knttvcs-lop-10-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-10-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Ứng dụng tin học",
+          "topicSlug": "ung-dung-tin-hoc",
+          "setId": "knttvcs-lop-10-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-10/D/knttvcs-lop-10-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-10-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-10-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-10/E/knttvcs-lop-10-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "code": "IT-10-06",
+          "topicLetter": "F",
+          "part": 1,
+          "topicName": "Hướng nghiệp với Tin học",
+          "topicSlug": "huong-nghiep-voi-tin-hoc",
+          "setId": "knttvcs-lop-10-F-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-10/F/knttvcs-lop-10-F-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "code": "IT-11",
+      "slug": "lop-11",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-11-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và Xã hội tri thức",
+          "topicSlug": "may-tinh-va-xa-hoi-tri-thuc",
+          "setId": "knttvcs-lop-11-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-11/A/knttvcs-lop-11-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-11-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+          "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+          "setId": "knttvcs-lop-11-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-11/B/knttvcs-lop-11-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-11-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-11-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-11/C/knttvcs-lop-11-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-11-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Giới thiệu các hệ cơ sở dữ liệu",
+          "topicSlug": "gioi-thieu-cac-he-co-so-du-lieu",
+          "setId": "knttvcs-lop-11-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-11/D/knttvcs-lop-11-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-11-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Hướng nghiệp với Tin học",
+          "topicSlug": "huong-nghiep-voi-tin-hoc",
+          "setId": "knttvcs-lop-11-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-11/E/knttvcs-lop-11-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "code": "IT-11-06",
+          "topicLetter": "F",
+          "part": 1,
+          "topicName": "Thực hành tạo và khai thác cơ sở dữ liệu",
+          "topicSlug": "thuc-hanh-tao-va-khai-thac-co-so-du-lieu",
+          "setId": "knttvcs-lop-11-F-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-11/F/knttvcs-lop-11-F-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 7,
+          "code": "IT-11-07",
+          "topicLetter": "G",
+          "part": 1,
+          "topicName": "Phần mềm chỉnh sửa ảnh và làm video",
+          "topicSlug": "phan-mem-chinh-sua-anh-va-lam-video",
+          "setId": "knttvcs-lop-11-G-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-11/G/knttvcs-lop-11-G-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "code": "IT-12",
+      "slug": "lop-12",
+      "topics": [
+        {
+          "id": 1,
+          "code": "IT-12-01",
+          "topicLetter": "A",
+          "part": 1,
+          "topicName": "Máy tính và Xã hội tri thức",
+          "topicSlug": "may-tinh-va-xa-hoi-tri-thuc",
+          "setId": "knttvcs-lop-12-A-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-12/A/knttvcs-lop-12-A-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "code": "IT-12-02",
+          "topicLetter": "B",
+          "part": 1,
+          "topicName": "Mạng máy tính và Internet",
+          "topicSlug": "mang-may-tinh-va-internet",
+          "setId": "knttvcs-lop-12-B-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-12/B/knttvcs-lop-12-B-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "code": "IT-12-03",
+          "topicLetter": "C",
+          "part": 1,
+          "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+          "setId": "knttvcs-lop-12-C-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-12/C/knttvcs-lop-12-C-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "code": "IT-12-04",
+          "topicLetter": "D",
+          "part": 1,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-12-D-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-12/D/knttvcs-lop-12-D-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "code": "IT-12-05",
+          "topicLetter": "E",
+          "part": 1,
+          "topicName": "Hướng nghiệp với Tin học",
+          "topicSlug": "huong-nghiep-voi-tin-hoc",
+          "setId": "knttvcs-lop-12-E-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-12/E/knttvcs-lop-12-E-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "code": "IT-12-06",
+          "topicLetter": "F",
+          "part": 2,
+          "topicName": "Mạng máy tính và Internet",
+          "topicSlug": "mang-may-tinh-va-internet",
+          "setId": "knttvcs-lop-12-F-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-12/F/knttvcs-lop-12-F-v1.json",
+          "version": "v1",
+          "enabled": true
+        },
+        {
+          "id": 7,
+          "code": "IT-12-07",
+          "topicLetter": "G",
+          "part": 2,
+          "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+          "setId": "knttvcs-lop-12-G-v1",
+          "questionFile": "js/question-sets/knttvcs/lop-12/G/knttvcs-lop-12-G-v1.json",
+          "version": "v1",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

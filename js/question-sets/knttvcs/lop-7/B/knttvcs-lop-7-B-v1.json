@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-7-B-v1",
+  "questionSetTitle": "Tin học lớp 7 KNTTVCS - Chủ đề 2 - Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 7,
+  "topicLetter": "B",
+  "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-7-B-v1-q001",
+      "type": "MC",
+      "question": "Đâu là một ví dụ về mạng xã hội phổ biến hiện nay?",
+      "options": [
+        "Microsoft PowerPoint",
+        "Facebook",
+        "Windows Explorer",
+        "Adobe Photoshop"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-B-v1-q002",
+      "type": "MC",
+      "question": "Chức năng chính của mạng xã hội là gì?",
+      "options": [
+        "Sửa chữa phần cứng máy tính",
+        "Kết nối, chia sẻ và trao đổi thông tin",
+        "Dùng để gõ văn bản offline",
+        "Chỉ dùng để cài đặt hệ điều hành"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-B-v1-q003",
+      "type": "MC",
+      "question": "Ưu điểm của việc trao đổi thông tin qua mạng xã hội là gì?",
+      "options": [
+        "Thông tin luôn chính xác 100%",
+        "Tương tác nhanh và thuận tiện",
+        "Không bao giờ bị nhiễm virus",
+        "Không cần kết nối Internet"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-B-v1-q004",
+      "type": "MC",
+      "question": "Kênh trao đổi thông tin nào sau đây thuộc nhóm nhắn tin tức thời?",
+      "options": [
+        "Báo giấy",
+        "Zalo",
+        "Tạp chí",
+        "Truyền thanh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-B-v1-q005",
+      "type": "MC",
+      "question": "Rủi ro khi sử dụng mạng xã hội là gì?",
+      "options": [
+        "Được học hỏi kiến thức mới",
+        "Bị lộ thông tin cá nhân",
+        "Kết nối với bạn bè ở xa",
+        "Tìm kiếm thông tin nhanh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-7-B-v1-q006",
+      "type": "TI",
+      "question": "____ xã hội là ứng dụng web kết nối các thành viên để chia sẻ thông tin.",
+      "options": [],
+      "correct": "Mạng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-B-v1-q007",
+      "type": "TI",
+      "question": "Em có thể sử dụng ____ điện tử để gửi tệp đính kèm cho nhiều người.",
+      "options": [],
+      "correct": "thư",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-B-v1-q008",
+      "type": "TI",
+      "question": "Trên mạng xã hội, người dùng có thể biểu đạt cảm xúc qua các biểu tượng hoặc các ____ dưới bài đăng.",
+      "options": [],
+      "correct": "bình luận",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-B-v1-q009",
+      "type": "TI",
+      "question": "Việc sử dụng mạng xã hội quá nhiều có thể gây ra bệnh nghiện ____.",
+      "options": [],
+      "correct": "Internet",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-7-B-v1-q010",
+      "type": "TI",
+      "question": "Trao đổi thông tin qua mạng giúp giảm bớt khoảng cách về ____.",
+      "options": [],
+      "correct": "không gian",
+      "duration_in_seconds": 20
+    }
+  ]
+}

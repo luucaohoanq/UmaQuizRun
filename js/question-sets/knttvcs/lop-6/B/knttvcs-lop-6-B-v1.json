@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-6-B-v1",
+  "questionSetTitle": "Tin học lớp 6 KNTTVCS - Chủ đề B - Mạng máy tính và Internet",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 6,
+  "topicLetter": "B",
+  "topicName": "Mạng máy tính và Internet",
+  "topicSlug": "mang-may-tinh-va-internet",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-6-B-v1-q001",
+      "type": "MC",
+      "question": "Mạng máy tính là gì? [6]",
+      "options": [
+        "Một máy tính đơn lẻ",
+        "Hai hay nhiều máy tính kết nối để truyền thông tin",
+        "Dây cáp điện thoại",
+        "Hệ thống các vật mang tin"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-B-v1-q002",
+      "type": "MC",
+      "question": "Lợi ích cơ bản của mạng máy tính là gì? [6]",
+      "options": [
+        "Giúp máy tính chạy nhanh hơn",
+        "Tiết kiệm điện năng",
+        "Liên lạc và chia sẻ dữ liệu, thiết bị",
+        "Thay thế hoàn toàn con người"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-B-v1-q003",
+      "type": "MC",
+      "question": "Thiết bị nào sau đây thường dùng để kết nối mạng không dây? [7]",
+      "options": [
+        "Cáp mạng",
+        "Bộ định tuyến không dây (Wi-Fi)",
+        "Chuột có dây",
+        "Loa máy tính"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-B-v1-q004",
+      "type": "MC",
+      "question": "Internet là mạng kết nối các máy tính trên phạm vi nào? [8]",
+      "options": [
+        "Trong một gia đình",
+        "Trong một trường học",
+        "Toàn cầu",
+        "Trong một quốc gia"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-B-v1-q005",
+      "type": "MC",
+      "question": "Thành phần nào giúp các máy tính trong mạng có thể 'hiểu' và giao tiếp với nhau? [9]",
+      "options": [
+        "Các thiết bị đầu cuối",
+        "Các thiết bị kết nối",
+        "Phần mềm mạng (Giao thức)",
+        "Dây cáp mạng"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-B-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Internet là mạng của các ____ máy tính. [8]",
+      "options": [],
+      "correct": "mạng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-B-v1-q007",
+      "type": "TI",
+      "question": "Các thiết bị như máy tính xách tay, điện thoại khi kết nối mạng được gọi là thiết bị ____. [7]",
+      "options": [],
+      "correct": "đầu cuối",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-B-v1-q008",
+      "type": "TI",
+      "question": "Mạng ____ sử dụng sóng vô tuyến để truyền dữ liệu mà không cần dây dẫn. [7]",
+      "options": [],
+      "correct": "không dây",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-B-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Người sử dụng truy cập Internet để tìm kiếm, chia sẻ và ____ thông tin. [8]",
+      "options": [],
+      "correct": "trao đổi",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-B-v1-q010",
+      "type": "TI",
+      "question": "Để truy cập Internet, người dùng cần đăng kí với nhà cung cấp dịch vụ Internet viết tắt là ____. [8]",
+      "options": [],
+      "correct": "ISP",
+      "duration_in_seconds": 20
+    }
+  ]
+}

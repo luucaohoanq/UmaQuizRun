@@ -382,8 +382,9 @@ const Game = {
     // Start the appropriate game mode
     start() {
         console.log('Starting game with mode:', currentGameMode);
+        QuizSessionTracker.startSession(currentGameMode);
 
-        if (currentGameMode === GAME_MODES.RANDOM_10) {
+        if (isFiniteQuestionMode(currentGameMode)) {
             Game10Questions.init();
         } else if (currentGameMode === GAME_MODES.ENDLESS) {
             GameEndless.init();

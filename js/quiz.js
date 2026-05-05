@@ -3,6 +3,7 @@
 const Quiz = {
     // State for answer feedback effects
     answerEffect: null,
+    isAnswerLocked: false,
 
     // Helper to wrap long text into multiple lines within a max width
     wrapText(ctx, text, maxWidth) {
@@ -28,14 +29,43 @@ const Quiz = {
         return lines;
     },
 
+    getReadableCorrectAnswer(question) {
+        if (!question) return '';
+
+        if (question.type === 'MC' && Array.isArray(question.options)) {
+            return question.options[question.correct] || '';
+        }
+
+        return question.correct || '';
+    },
+
+    completeAnswerEffect() {
+        if (!this.answerEffect) return;
+
+        const onComplete = this.answerEffect.onComplete;
+        this.answerEffect = null;
+        this.isAnswerLocked = false;
+
+        if (typeof onComplete === 'function') {
+            onComplete();
+        }
+    },
+
     // Trigger visual feedback for answers
-    triggerAnswerEffect(type) {
-        const duration = type === 'correct' ? 800 : 500; // ms
+    triggerAnswerEffect(type, options = {}) {
+        const duration = options.duration ?? (type === 'correct' ? 800 : 2800);
         const effect = {
             type,
             startTime: Date.now(),
-            duration
+            duration,
+            title: options.title || '',
+            subtitle: options.subtitle || '',
+            submittedAnswerText: options.submittedAnswerText || '',
+            correctAnswerText: options.correctAnswerText || '',
+            onComplete: options.onComplete || null,
         };
+
+        this.isAnswerLocked = type === 'wrong';
 
         if (type === 'correct') {
             const centerX = config.width / 2;
@@ -64,6 +94,16 @@ const Quiz = {
     // Draw quiz UI
     draw() {
         if (!currentQuestion) return;
+
+        if (this.isAnswerLocked && this.answerEffect?.type === 'wrong') {
+            const elapsed = Date.now() - this.answerEffect.startTime;
+            if (this.answerEffect.duration !== null && elapsed > this.answerEffect.duration) {
+                this.completeAnswerEffect();
+                return;
+            }
+            this.drawWrongEffect(elapsed);
+            return;
+        }
 
         // Semi-transparent overlay with Duolingo green
         // config.ctx.fillStyle = 'rgba(0, 8, 2, 0.81)';
@@ -230,6 +270,14 @@ const Quiz = {
     handleKeyboard(e) {
         if (!isQuizActive || !currentQuestion) return;
 
+        if (this.isAnswerLocked && this.answerEffect?.type === 'wrong') {
+            if (e.key === 'Enter' || e.key === ' ') {
+                this.completeAnswerEffect();
+                e.preventDefault();
+            }
+            return;
+        }
+
         if (currentQuestion.type === 'TI') {
             // Handle text input quiz with Vietnamese UTF-8 support
             if (e.key === 'Enter') {
@@ -256,19 +304,21 @@ const Quiz = {
     drawEffects() {
         if (!this.answerEffect) return;
 
+        if (this.answerEffect.type !== 'correct') {
+            return;
+        }
+
         const now = Date.now();
         const { type, startTime, duration } = this.answerEffect;
         const elapsed = now - startTime;
 
-        if (elapsed > duration) {
-            this.answerEffect = null;
+        if (duration !== null && elapsed > duration) {
+            this.completeAnswerEffect();
             return;
         }
 
         if (type === 'correct') {
             this.drawFireworkEffect(elapsed, duration);
-        } else if (type === 'wrong') {
-            this.drawWrongEffect(elapsed, duration);
         }
     },
 
@@ -299,53 +349,147 @@ const Quiz = {
         ctx.restore();
     },
 
-    drawWrongEffect(elapsed, duration) {
-    const ctx = config.ctx;
-    const progress = elapsed / duration;
-    const intensity = 12 * (1 - progress);
-    const offsetX = (Math.random() - 0.5) * intensity;
+    drawWrongEffect(elapsed) {
+        const effect = this.answerEffect;
+        if (!effect) return;
 
-    const boxWidth = 800;
-    const boxHeight = 250;
-    const boxX = (config.width - boxWidth) / 2;
-    const boxY = (config.height - boxHeight) / 2;
+        const ctx = config.ctx;
+        const progress = Math.min(elapsed / 250, 1);
+        const intensity = 10 * Math.max(0, 1 - progress * 1.8);
+        const offsetX = (Math.random() - 0.5) * intensity;
+        const boxWidth = 960;
+        const boxHeight = 360;
+        const boxX = (config.width - boxWidth) / 2;
+        const boxY = (config.height - boxHeight) / 2;
 
-    ctx.save();
-    ctx.translate(offsetX, 0);
+        ctx.save();
+        ctx.translate(offsetX, 0);
 
-    // red flash
-    ctx.fillStyle = `rgba(255, 75, 75, ${0.25 * (1 - progress)})`;
-    ctx.beginPath();
-    ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 24);
-    ctx.fill();
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.38)';
+        ctx.fillRect(0, 0, config.width, config.height);
 
-    // glow border
-    ctx.shadowColor = 'rgba(255,75,75,0.8)';
-    ctx.shadowBlur = 20;
-    ctx.strokeStyle = 'rgba(255, 75, 75, 0.9)';
-    ctx.lineWidth = 6;
-    ctx.stroke();
+        ctx.fillStyle = '#fff7f7';
+        ctx.beginPath();
+        ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 24);
+        ctx.fill();
 
-    // big X
-    ctx.shadowBlur = 0;
-    ctx.fillStyle = 'rgba(255,75,75,0.9)';
-    ctx.font = 'bold 64px sans-serif';
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.fillText('✖', boxX + boxWidth/2, boxY + boxHeight/2);
+        ctx.shadowColor = 'rgba(255,75,75,0.28)';
+        ctx.shadowBlur = 22;
+        ctx.strokeStyle = '#ef4444';
+        ctx.lineWidth = 5;
+        ctx.stroke();
+        ctx.shadowBlur = 0;
 
-    ctx.restore();
-},
+        ctx.fillStyle = '#ef4444';
+        ctx.font = 'bold 34px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText(effect.title || 'CHƯA ĐÚNG!', config.width / 2, boxY + 58);
+
+        ctx.fillStyle = '#475569';
+        ctx.font = '18px Arial';
+        ctx.fillText(
+            effect.subtitle || 'Xem đáp án đúng trước khi tiếp tục.',
+            config.width / 2,
+            boxY + 90,
+        );
+
+        const answerCardWidth = boxWidth - 120;
+        const answerCardX = boxX + 60;
+
+        ctx.fillStyle = '#fee2e2';
+        ctx.beginPath();
+        ctx.roundRect(answerCardX, boxY + 118, answerCardWidth, 98, 18);
+        ctx.fill();
+        ctx.strokeStyle = '#fca5a5';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.fillStyle = '#991b1b';
+        ctx.font = 'bold 18px Arial';
+        ctx.textAlign = 'left';
+        ctx.fillText('Đáp án đúng', answerCardX + 24, boxY + 150);
+
+        ctx.fillStyle = '#7f1d1d';
+        ctx.font = 'bold 26px Arial';
+        ctx.textAlign = 'center';
+        const correctLines = this.wrapText(
+            ctx,
+            effect.correctAnswerText || 'Không có dữ liệu',
+            answerCardWidth - 48,
+        );
+        correctLines.slice(0, 2).forEach((line, index) => {
+            ctx.fillText(line, config.width / 2, boxY + 184 + index * 30);
+        });
+
+        if (effect.submittedAnswerText) {
+            ctx.fillStyle = '#e2e8f0';
+            ctx.beginPath();
+            ctx.roundRect(answerCardX, boxY + 236, answerCardWidth, 74, 18);
+            ctx.fill();
+            ctx.strokeStyle = '#cbd5e1';
+            ctx.lineWidth = 2;
+            ctx.stroke();
+
+            ctx.fillStyle = '#334155';
+            ctx.font = 'bold 16px Arial';
+            ctx.textAlign = 'left';
+            ctx.fillText('Bạn đã chọn / nhập', answerCardX + 24, boxY + 262);
+
+            ctx.fillStyle = '#0f172a';
+            ctx.font = '20px Arial';
+            const submittedLines = this.wrapText(
+                ctx,
+                effect.submittedAnswerText,
+                answerCardWidth - 48,
+            );
+            submittedLines.slice(0, 1).forEach((line, index) => {
+                ctx.fillText(line, answerCardX + 24, boxY + 290 + index * 24);
+            });
+        }
+
+        ctx.fillStyle = '#64748b';
+        ctx.font = '16px Arial';
+        ctx.fillText(
+            'Nhấn Enter hoặc bấm chuột để tiếp tục',
+            config.width / 2,
+            boxY + boxHeight - 24,
+        );
+
+        ctx.restore();
+    },
+
+    showWrongAnswerFeedback({
+        submittedAnswerText = '',
+        isTimeout = false,
+        onComplete = null,
+    } = {}) {
+        this.triggerAnswerEffect('wrong', {
+            duration: 2800,
+            title: isTimeout ? 'HẾT GIỜ!' : 'CHƯA ĐÚNG!',
+            subtitle: isTimeout
+                ? 'Đã hết thời gian. Xem lại đáp án đúng.'
+                : 'Đây là đáp án đúng của câu này.',
+            submittedAnswerText: submittedAnswerText || '',
+            correctAnswerText: this.getReadableCorrectAnswer(currentQuestion),
+            onComplete,
+        });
+    },
 
     // Check text input answer
     checkTextAnswer() {
         const userAnswer = this.normalizeVietnameseText(quizInput);
         const correctAnswer = this.normalizeVietnameseText(currentQuestion.correct);
+        const submittedText = quizInput;
 
         if (userAnswer === correctAnswer) {
+            QuizSessionTracker.recordQuestionResult({
+                outcome: 'correct',
+                selectedAnswerText: submittedText,
+                answeredAt: Date.now(),
+            });
             this.triggerAnswerEffect('correct');
             // Correct answer
-            if (currentGameMode === GAME_MODES.RANDOM_10) {
+            if (isFiniteQuestionMode(currentGameMode)) {
                 Game10Questions.handleCorrectAnswer();
             } else {
                 // Endless mode
@@ -359,23 +503,36 @@ const Quiz = {
                 this.resetQuiz();
             }
         } else {
-            this.triggerAnswerEffect('wrong');
-            // Wrong answer
-            if (currentGameMode === GAME_MODES.RANDOM_10) {
-                Game10Questions.handleWrongAnswer();
-            } else {
-                // Endless mode
-                GameEndless.handleWrongAnswer();
-            }
+            QuizSessionTracker.recordQuestionResult({
+                outcome: 'wrong',
+                selectedAnswerText: submittedText,
+                answeredAt: Date.now(),
+            });
+            this.showWrongAnswerFeedback({
+                submittedAnswerText: submittedText,
+                onComplete: () => {
+                    if (isFiniteQuestionMode(currentGameMode)) {
+                        Game10Questions.handleWrongAnswer();
+                    } else {
+                        GameEndless.handleWrongAnswer();
+                    }
+                },
+            });
         }
     },
 
     // Check multiple choice answer
     checkMultipleChoiceAnswer(selectedIndex) {
         if (selectedIndex === currentQuestion.correct) {
+            QuizSessionTracker.recordQuestionResult({
+                outcome: 'correct',
+                selectedAnswerText: currentQuestion.options[selectedIndex] || '',
+                selectedOptionIndex: selectedIndex,
+                answeredAt: Date.now(),
+            });
             this.triggerAnswerEffect('correct');
             // Correct answer
-            if (currentGameMode === GAME_MODES.RANDOM_10) {
+            if (isFiniteQuestionMode(currentGameMode)) {
                 Game10Questions.handleCorrectAnswer();
             } else {
                 // Endless mode
@@ -389,14 +546,22 @@ const Quiz = {
                 this.resetQuiz();
             }
         } else {
-            this.triggerAnswerEffect('wrong');
-            // Wrong answer
-            if (currentGameMode === GAME_MODES.RANDOM_10) {
-                Game10Questions.handleWrongAnswer();
-            } else {
-                // Endless mode
-                GameEndless.handleWrongAnswer();
-            }
+            QuizSessionTracker.recordQuestionResult({
+                outcome: 'wrong',
+                selectedAnswerText: currentQuestion.options[selectedIndex] || '',
+                selectedOptionIndex: selectedIndex,
+                answeredAt: Date.now(),
+            });
+            this.showWrongAnswerFeedback({
+                submittedAnswerText: currentQuestion.options[selectedIndex] || '',
+                onComplete: () => {
+                    if (isFiniteQuestionMode(currentGameMode)) {
+                        Game10Questions.handleWrongAnswer();
+                    } else {
+                        GameEndless.handleWrongAnswer();
+                    }
+                },
+            });
         }
     },
 
@@ -420,6 +585,11 @@ const Quiz = {
 
     // Handle mouse move for hover cursor over answers/input
     handleMouseMove(e) {
+        if (!currentQuestion) {
+            config.canvas.style.cursor = 'default';
+            return;
+        }
+
         const rect = config.canvas.getBoundingClientRect();
         const scaleX = config.canvas.width / rect.width;
         const scaleY = config.canvas.height / rect.height;
@@ -431,6 +601,11 @@ const Quiz = {
         const offsetY = (config.canvas.height / config.scale - config.height) / 2;
         const adjustedX = x - offsetX;
         const adjustedY = y - offsetY;
+
+        if (this.isAnswerLocked && this.answerEffect?.type === 'wrong') {
+            config.canvas.style.cursor = 'pointer';
+            return;
+        }
 
         const boxWidth = 1200;
         const boxHeight = 600;
@@ -473,6 +648,10 @@ const Quiz = {
     },
 
     handleClick(e) {
+        if (!currentQuestion) {
+            return;
+        }
+
         const rect = config.canvas.getBoundingClientRect();
         const scaleX = config.canvas.width / rect.width;
         const scaleY = config.canvas.height / rect.height;
@@ -484,6 +663,11 @@ const Quiz = {
         const offsetY = (config.canvas.height / config.scale - config.height) / 2;
         const adjustedX = x - offsetX;
         const adjustedY = y - offsetY;
+
+        if (this.isAnswerLocked && this.answerEffect?.type === 'wrong') {
+            this.completeAnswerEffect();
+            return;
+        }
 
         const boxWidth = 1200;
         const boxHeight = 600;

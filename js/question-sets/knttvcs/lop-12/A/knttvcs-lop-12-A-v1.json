@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-12-A-v1",
+  "questionSetTitle": "Tin học lớp 12 KNTTVCS - Chủ đề 1 - Máy tính và Xã hội tri thức",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 12,
+  "topicLetter": "A",
+  "topicName": "Máy tính và Xã hội tri thức",
+  "topicSlug": "may-tinh-va-xa-hoi-tri-thuc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-12-A-v1-q001",
+      "type": "MC",
+      "question": "Năm 1950, ai là người đưa ra phép thử để đánh giá khả năng của máy tính trong việc thể hiện trí thông minh?",
+      "options": [
+        "Blaise Pascal",
+        "Charles Babbage",
+        "Alan Turing",
+        "Bill Gates"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-A-v1-q002",
+      "type": "MC",
+      "question": "Đâu là một ví dụ điển hình về ứng dụng của Trí tuệ nhân tạo (AI)?",
+      "options": [
+        "Máy tính bỏ túi thực hiện phép nhân",
+        "Ấm đun nước tự ngắt khi nước sôi",
+        "Hệ thống tìm kiếm thông tin thông minh trên Internet",
+        "Bánh xe nước (guồng nước) tự quay"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-A-v1-q003",
+      "type": "MC",
+      "question": "Theo 'phép thử Turing', một hệ thống máy tính được coi là 'thông minh' khi nào?",
+      "options": [
+        "Khi nó có tốc độ xử lí nhanh hơn con người",
+        "Khi con người không phân biệt được đó là máy hay người thông qua đối thoại",
+        "Khi nó có thể lưu trữ vô hạn dữ liệu",
+        "Khi nó chạy bằng nguồn năng lượng mặt trời"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-A-v1-q004",
+      "type": "MC",
+      "question": "Thuật ngữ AI là viết tắt của cụm từ tiếng Anh nào?",
+      "options": [
+        "Advanced Informatics",
+        "Automated Information",
+        "Artificial Intelligence",
+        "Analysis Integration"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-A-v1-q005",
+      "type": "MC",
+      "question": "AI có khả năng thực hiện các nhiệm vụ thông minh mà trước đây chỉ ai mới làm được?",
+      "options": [
+        "Máy hơi nước",
+        "Con người",
+        "Động vật",
+        "Siêu máy tính"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-A-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Trí tuệ ... là khả năng của máy tính thực hiện các nhiệm vụ thông minh thay thế con người.",
+      "options": [],
+      "correct": "nhân tạo",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-A-v1-q007",
+      "type": "TI",
+      "question": "Alan Turing đưa ra phép thử nổi tiếng để đánh giá trí thông minh của máy vào năm ...",
+      "options": [],
+      "correct": "1950",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-A-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Máy tính AI có khả năng tự ... và cải thiện hiệu suất từ dữ liệu.",
+      "options": [],
+      "correct": "học",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-A-v1-q009",
+      "type": "TI",
+      "question": "Hệ thống AI giúp con người ra ... dựa trên việc phân tích khối lượng dữ liệu khổng lồ.",
+      "options": [],
+      "correct": "quyết định",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-A-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Trí tuệ nhân tạo đang làm thay đổi sâu sắc đời sống và ... của con người.",
+      "options": [],
+      "correct": "khoa học",
+      "duration_in_seconds": 20
+    }
+  ]
+}

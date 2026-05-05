@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-8-C-v1",
+  "questionSetTitle": "Tin học lớp 8 KNTTVCS - Chủ đề 3 - Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 8,
+  "topicLetter": "C",
+  "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-8-C-v1-q001",
+      "type": "MC",
+      "question": "Hành động nào dưới đây vi phạm đạo đức khi sử dụng công nghệ kĩ thuật số?",
+      "options": [
+        "Ghi rõ nguồn khi trích dẫn văn bản",
+        "Tự ý chỉnh sửa ảnh của bạn rồi đăng lên mạng khi chưa được phép",
+        "Dùng phần mềm miễn phí có bản quyền",
+        "Tham gia các khóa học trực tuyến miễn phí"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-C-v1-q002",
+      "type": "MC",
+      "question": "Hầu hết các thông tin trên Internet có đặc điểm gì về pháp lí?",
+      "options": [
+        "Luôn luôn miễn phí",
+        "Không có chủ sở hữu",
+        "Hầu hết đều có bản quyền",
+        "Mọi người đều có quyền chỉnh sửa"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-C-v1-q003",
+      "type": "MC",
+      "question": "Khi tạo ra một sản phẩm số (như blog, video), điều gì cần lưu ý để đảm bảo tính văn hóa?",
+      "options": [
+        "Sử dụng ngôn ngữ lịch sự, chuẩn mực",
+        "Dùng ảnh của người khác thoải mái",
+        "Đăng tin giật gân để lấy lượt tương tác",
+        "Tiết lộ thông tin cá nhân của bạn bè"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-C-v1-q004",
+      "type": "MC",
+      "question": "Hành vi nào sau đây được coi là trung thực khi tạo sản phẩm số?",
+      "options": [
+        "Chỉnh sửa bài viết của người khác rồi nhận là của mình",
+        "Sử dụng thông tin không đáng tin cậy",
+        "Sử dụng thông tin do mình tự tạo hoặc ghi rõ nguồn nếu tham khảo",
+        "Nhận giải thưởng cho sản phẩm copy"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-C-v1-q005",
+      "type": "MC",
+      "question": "Chia sẻ địa chỉ một trang web có nội dung vi phạm pháp luật là hành vi:",
+      "options": [
+        "Đúng pháp luật",
+        "Giúp bạn bè giải trí",
+        "Vi phạm đạo đức và pháp luật",
+        "Thể hiện tính sáng tạo"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-C-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Chỉ sử dụng những sản phẩm số khi có sự ____ của tác giả hoặc có bản quyền sử dụng.",
+      "options": [],
+      "correct": "cho phép",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-C-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Khi trích dẫn một bài văn từ Internet, em cần ghi rõ ____ tác giả.",
+      "options": [],
+      "correct": "tên",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-C-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Việc lan truyền thông tin sai trái trên mạng xã hội là hành vi thiếu ____.",
+      "options": [],
+      "correct": "văn hóa",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-C-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Tôn trọng ____ nội dung thông tin là tự bảo vệ mình và tôn trọng người khác.",
+      "options": [],
+      "correct": "bản quyền",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-C-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Em không được tự ý tiết lộ ____ cá nhân của người khác trên môi trường số.",
+      "options": [],
+      "correct": "thông tin",
+      "duration_in_seconds": 20
+    }
+  ]
+}

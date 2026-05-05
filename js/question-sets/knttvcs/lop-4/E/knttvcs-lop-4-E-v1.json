@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-4-E-v1",
+  "questionSetTitle": "Tin học lớp 4 KNTTVCS - Chủ đề E - Ứng dụng tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 4,
+  "topicLetter": "E",
+  "topicName": "Ứng dụng tin học",
+  "topicSlug": "ung-dung-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-4-E-v1-q001",
+      "type": "MC",
+      "question": "Phần mềm nào sau đây dùng để tạo các bài trình chiếu đơn giản? [15]",
+      "options": [
+        "Microsoft Paint",
+        "Microsoft PowerPoint",
+        "Kiran's Typing Tutor",
+        "Unikey"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-E-v1-q002",
+      "type": "MC",
+      "question": "Trong kiểu gõ Telex, để có chữ 'â', em gõ như thế nào? [15]",
+      "options": [
+        "Gõ phím a và 6",
+        "Gõ hai lần phím a (aa)",
+        "Gõ phím a và s",
+        "Gõ phím a và j"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-E-v1-q003",
+      "type": "MC",
+      "question": "Để gõ chữ hoa, em nhấn giữ phím nào đồng thời với chữ cái? [15]",
+      "options": [
+        "Phím Shift",
+        "Phím Enter",
+        "Phím Cách",
+        "Phím Ctrl"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-E-v1-q004",
+      "type": "MC",
+      "question": "Lệnh nào dùng để lưu bài trình chiếu của em vào đúng thư mục? [15]",
+      "options": [
+        "Lệnh New",
+        "Lệnh Open",
+        "Lệnh Save",
+        "Lệnh Close"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-E-v1-q005",
+      "type": "MC",
+      "question": "Trang chiếu có thể chứa những thành phần nào? [15]",
+      "options": [
+        "Chữ hoa và chữ thường",
+        "Hình ảnh",
+        "Cả hai đáp án trên",
+        "Không chứa gì cả"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-E-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Để trình bày thông tin sinh động, em nên thêm ____ vào bài trình chiếu. [15]",
+      "options": [],
+      "correct": "hình ảnh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-E-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Trong kiểu gõ Telex, để được chữ 'ô', em gõ phím 'o' và phím ____. [15]",
+      "options": [],
+      "correct": "o",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-E-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Phím ____ giúp em xuống dòng khi kết thúc một đoạn văn bản. [2, 15]",
+      "options": [],
+      "correct": "Enter",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-E-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Unikey, Vietkey là các phần mềm hỗ trợ ____ tiếng Việt. [15]",
+      "options": [],
+      "correct": "gõ",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-E-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Gõ bàn phím đúng cách giúp em gõ ____ và chính xác hơn. [2]",
+      "options": [],
+      "correct": "nhanh",
+      "duration_in_seconds": 20
+    }
+  ]
+}

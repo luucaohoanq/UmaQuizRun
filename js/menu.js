@@ -5,6 +5,7 @@ const Menu = {
     selectedIndex: 0,
     options: [
         { text: 'Chế độ 10 câu hỏi', mode: GAME_MODES.RANDOM_10 },
+        { text: 'Chế độ tùy chỉnh số câu', mode: GAME_MODES.CUSTOM },
         { text: 'Chế độ vô tận', mode: GAME_MODES.ENDLESS },
         { text: 'Hướng dẫn', mode: 'help' }
     ],
@@ -110,12 +111,12 @@ ctx.textAlign = 'center';
 // back layers (depth)
 for (let i = 8; i > 0; i--) {
     ctx.fillStyle = `rgb(${40 + i*2}, ${40 + i*2}, ${40 + i*2})`;
-    ctx.fillText('HCMR', x + i, y + i);
+    ctx.fillText('Uma Quiz Run', x + i, y + i);
 }
 
 // front
 ctx.fillStyle = '#fff';
-ctx.fillText('HCMR', x, y);
+ctx.fillText('Uma Quiz Run', x, y);
 
         // Menu options
         this.options.forEach((option, index) => {
@@ -175,10 +176,14 @@ ctx.fillText('HCMR', x, y);
                 if (selectedOption.mode === 'help') {
                     config.gameState = 'help';
                     HelpUI.start();
+                } else if (selectedOption.mode === GAME_MODES.CUSTOM) {
+                    currentGameMode = selectedOption.mode;
+                    config.gameState = 'customQuestionCount';
+                    CustomQuestionCountInput.start();
                 } else {
                     currentGameMode = selectedOption.mode;
-                    config.gameState = 'characterSelect';
-                    CharacterSelection.start();
+                    config.gameState = 'questionSetSelect';
+                    QuestionSetSelection.start();
                 }
                 break;
         }
@@ -206,7 +211,7 @@ ctx.fillText('HCMR', x, y);
             this.update();
             this.draw();
             requestAnimationFrame(this.loop.bind(this));
-        } else if (config.gameState === 'characterSelect') {
+        } else {
             if (this.handleInputBound) {
                 document.removeEventListener('keydown', this.handleInputBound);
                 this.handleInputBound = null;
@@ -220,6 +225,7 @@ const HelpUI = {
     backgroundImage: null,
     helpImage1: null,
     helpImage2: null,
+    handleInputBound: null,
 
     draw() {
         // Background image
@@ -253,21 +259,28 @@ const HelpUI = {
         yPos += 50;
         config.ctx.font = '22px Arial';
         config.ctx.fillText('Giúp nhân vật yêu thích vượt qua các chướng ngại vật bằng cách trả lời đúng câu hỏi trắc nghiệm.', leftMargin, yPos);
-        yPos += 70;
+        yPos += 60;
 
         config.ctx.font = 'bold 28px Arial';
         config.ctx.fillText('Chế độ 10 câu hỏi:', leftMargin, yPos);
         yPos += 50;
         config.ctx.font = '22px Arial';
         config.ctx.fillText('Trả lời đúng 10 câu hỏi để hoàn thành màn chơi.', leftMargin, yPos);
-        yPos += 70;
+        yPos += 60;
+
+        config.ctx.font = 'bold 28px Arial';
+        config.ctx.fillText('Chế độ tùy chỉnh số câu:', leftMargin, yPos);
+        yPos += 50;
+        config.ctx.font = '22px Arial';
+        config.ctx.fillText('Nhập nhanh số câu bạn muốn chạy để demo, hệ thống sẽ lấy đúng số câu đó.', leftMargin, yPos);
+        yPos += 60;
 
         config.ctx.font = 'bold 28px Arial';
         config.ctx.fillText('Chế độ vô tận:', leftMargin, yPos);
         yPos += 50;
         config.ctx.font = '22px Arial';
         config.ctx.fillText('Trả lời liên tục các câu hỏi mà không giới hạn số lượng.', leftMargin, yPos);
-        yPos += 90;
+        yPos += 70;
 
         // Placeholder for image 1
         const placeholderWidth = 500;
@@ -354,7 +367,12 @@ const HelpUI = {
             this.helpImage2.src = 'assets/background/ex-2.png';
         }
         
-        document.addEventListener('keydown', this.handleInput.bind(this));
+        if (this.handleInputBound) {
+            document.removeEventListener('keydown', this.handleInputBound);
+        }
+
+        this.handleInputBound = this.handleInput.bind(this);
+        document.addEventListener('keydown', this.handleInputBound);
         this.loop();
     },
 
@@ -363,9 +381,722 @@ const HelpUI = {
             this.draw();
             requestAnimationFrame(this.loop.bind(this));
         } else {
-            document.removeEventListener('keydown', this.handleInput.bind(this));
+            if (this.handleInputBound) {
+                document.removeEventListener('keydown', this.handleInputBound);
+                this.handleInputBound = null;
+            }
         }
     }
+};
+
+const CustomQuestionCountInput = {
+    inputValue: '',
+    errorMessage: null,
+    handleInputBound: null,
+    shouldReplaceOnNextDigit: false,
+
+    draw() {
+        if (assets.backgrounds.bgMenu && assets.backgrounds.bgMenu.complete) {
+            config.ctx.drawImage(assets.backgrounds.bgMenu, 0, 0, config.width, config.height);
+            config.ctx.fillStyle = 'rgba(0, 0, 0, 0.55)';
+            config.ctx.fillRect(0, 0, config.width, config.height);
+        } else {
+            const gradient = config.ctx.createLinearGradient(0, 0, 0, config.height);
+            gradient.addColorStop(0, '#1a1a2e');
+            gradient.addColorStop(1, '#16213e');
+            config.ctx.fillStyle = gradient;
+            config.ctx.fillRect(0, 0, config.width, config.height);
+        }
+
+        const boxWidth = 760;
+        const boxHeight = 420;
+        const boxX = (config.width - boxWidth) / 2;
+        const boxY = (config.height - boxHeight) / 2;
+
+        config.ctx.fillStyle = 'rgba(15, 23, 42, 0.95)';
+        config.ctx.beginPath();
+        config.ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 24);
+        config.ctx.fill();
+
+        config.ctx.strokeStyle = '#facc15';
+        config.ctx.lineWidth = 4;
+        config.ctx.stroke();
+
+        config.ctx.fillStyle = '#fff';
+        config.ctx.font = 'bold 46px Arial';
+        config.ctx.textAlign = 'center';
+        config.ctx.fillText('NHẬP SỐ CÂU HỎI', config.width / 2, boxY + 80);
+
+        config.ctx.fillStyle = '#cbd5e1';
+        config.ctx.font = '24px Arial';
+        config.ctx.fillText(
+            'Dùng bàn phím số để nhập nhanh số câu muốn chạy demo.',
+            config.width / 2,
+            boxY + 140,
+        );
+
+        const inputBoxWidth = 280;
+        const inputBoxHeight = 86;
+        const inputBoxX = config.width / 2 - inputBoxWidth / 2;
+        const inputBoxY = boxY + 180;
+
+        config.ctx.fillStyle = '#fff';
+        config.ctx.beginPath();
+        config.ctx.roundRect(inputBoxX, inputBoxY, inputBoxWidth, inputBoxHeight, 18);
+        config.ctx.fill();
+
+        config.ctx.strokeStyle = '#58cc02';
+        config.ctx.lineWidth = 3;
+        config.ctx.stroke();
+
+        config.ctx.fillStyle = '#0f172a';
+        config.ctx.font = 'bold 40px Arial';
+        config.ctx.fillText(this.inputValue || '0', config.width / 2, inputBoxY + 55);
+
+        config.ctx.fillStyle = '#94a3b8';
+        config.ctx.font = '20px Arial';
+        config.ctx.fillText(
+            `Mặc định: ${DEFAULT_CUSTOM_QUESTION_COUNT} câu • Tối đa nhập: ${MAX_CUSTOM_QUESTION_COUNT}`,
+            config.width / 2,
+            boxY + 310,
+        );
+        config.ctx.fillText(
+            'Khi vào game, số câu thực tế sẽ không vượt quá số câu của bộ đề.',
+            config.width / 2,
+            boxY + 345,
+        );
+
+        if (this.errorMessage) {
+            config.ctx.fillStyle = '#fecaca';
+            config.ctx.font = 'bold 20px Arial';
+            config.ctx.fillText(this.errorMessage, config.width / 2, boxY + 380);
+        } else {
+            config.ctx.fillStyle = '#fef08a';
+            config.ctx.font = '20px Arial';
+            config.ctx.fillText(
+                'Enter để xác nhận • Backspace để xóa • Esc để quay lại',
+                config.width / 2,
+                boxY + 380,
+            );
+        }
+    },
+
+    confirm() {
+        const parsedValue = Number.parseInt(this.inputValue, 10);
+        if (!Number.isInteger(parsedValue) || parsedValue <= 0) {
+            this.errorMessage = 'Vui lòng nhập số nguyên lớn hơn 0.';
+            return;
+        }
+
+        customQuestionCount = Math.min(parsedValue, MAX_CUSTOM_QUESTION_COUNT);
+        this.errorMessage = null;
+        currentGameMode = GAME_MODES.CUSTOM;
+        config.gameState = 'questionSetSelect';
+        QuestionSetSelection.start();
+    },
+
+    handleInput(e) {
+        if (config.gameState !== 'customQuestionCount') return;
+
+        if (/^[0-9]$/.test(e.key)) {
+            if (
+                this.shouldReplaceOnNextDigit ||
+                this.inputValue.length < String(MAX_CUSTOM_QUESTION_COUNT).length
+            ) {
+                this.inputValue = this.shouldReplaceOnNextDigit
+                    ? e.key
+                    : `${this.inputValue}${e.key}`;
+                this.shouldReplaceOnNextDigit = false;
+                this.errorMessage = null;
+            }
+            return;
+        }
+
+        switch (e.key) {
+            case 'Backspace':
+                this.inputValue = this.inputValue.slice(0, -1);
+                this.shouldReplaceOnNextDigit = false;
+                this.errorMessage = null;
+                break;
+            case 'Enter':
+                this.confirm();
+                break;
+            case 'Escape':
+                config.gameState = 'menu';
+                Menu.start();
+                break;
+        }
+    },
+
+    start() {
+        this.inputValue = String(customQuestionCount || DEFAULT_CUSTOM_QUESTION_COUNT);
+        this.errorMessage = null;
+        this.shouldReplaceOnNextDigit = true;
+
+        if (this.handleInputBound) {
+            document.removeEventListener('keydown', this.handleInputBound);
+        }
+
+        this.handleInputBound = this.handleInput.bind(this);
+        document.addEventListener('keydown', this.handleInputBound);
+        this.loop();
+    },
+
+    loop() {
+        if (config.gameState === 'customQuestionCount') {
+            this.draw();
+            requestAnimationFrame(this.loop.bind(this));
+            return;
+        }
+
+        if (this.handleInputBound) {
+            document.removeEventListener('keydown', this.handleInputBound);
+            this.handleInputBound = null;
+        }
+    }
+};
+
+const QuestionSetSelection = {
+    selectedBookIndex: 0,
+    selectedGradeIndex: 0,
+    selectedTopicIndex: 0,
+    selectedPartIndex: 0,
+    currentStep: 'book',
+    listScrollOffset: 0,
+    isLoading: false,
+    errorMessage: null,
+    handleInputBound: null,
+    handleClickBound: null,
+    handleWheelBound: null,
+
+    wrapText(text, maxWidth, font = '18px Arial') {
+        if (!text) return [];
+
+        const ctx = config.ctx;
+        const previousFont = ctx.font;
+        ctx.font = font;
+
+        const words = text.split(' ');
+        const lines = [];
+        let currentLine = '';
+
+        words.forEach((word) => {
+            const testLine = currentLine ? `${currentLine} ${word}` : word;
+            if (ctx.measureText(testLine).width > maxWidth && currentLine) {
+                lines.push(currentLine);
+                currentLine = word;
+            } else {
+                currentLine = testLine;
+            }
+        });
+
+        if (currentLine) {
+            lines.push(currentLine);
+        }
+
+        ctx.font = previousFont;
+        return lines;
+    },
+
+    getListLayout() {
+        const listTop = 248;
+        const listBottom = config.height - 150;
+        const boxWidth = 900;
+        const boxHeight = 92;
+        const gap = 18;
+        const boxX = (config.width - boxWidth) / 2;
+        const viewportHeight = Math.max(listBottom - listTop, boxHeight);
+        return {
+            listTop,
+            listBottom,
+            boxWidth,
+            boxHeight,
+            gap,
+            boxX,
+            viewportHeight,
+        };
+    },
+
+    getListMetrics(stepItems = this.getStepItems()) {
+        const layout = this.getListLayout();
+        const totalHeight = Math.max(
+            stepItems.length * (layout.boxHeight + layout.gap) - layout.gap,
+            0,
+        );
+        const maxScroll = Math.max(0, totalHeight - layout.viewportHeight);
+
+        return {
+            ...layout,
+            totalHeight,
+            maxScroll,
+        };
+    },
+
+    clampScrollOffset(stepItems = this.getStepItems()) {
+        const { maxScroll } = this.getListMetrics(stepItems);
+        this.listScrollOffset = Math.min(Math.max(this.listScrollOffset, 0), maxScroll);
+    },
+
+    ensureSelectionVisible(stepItems = this.getStepItems()) {
+        const { boxHeight, gap, viewportHeight } = this.getListMetrics(stepItems);
+        const selectedIndex = this.getSelectedIndex();
+        const itemTop = selectedIndex * (boxHeight + gap);
+        const itemBottom = itemTop + boxHeight;
+
+        if (itemTop < this.listScrollOffset) {
+            this.listScrollOffset = itemTop;
+        } else if (itemBottom > this.listScrollOffset + viewportHeight) {
+            this.listScrollOffset = itemBottom - viewportHeight;
+        }
+
+        this.clampScrollOffset(stepItems);
+    },
+
+    getAvailableBooks() {
+        return getAvailableBooks();
+    },
+
+    getSelectedBookEntry() {
+        return this.getAvailableBooks()[this.selectedBookIndex] || null;
+    },
+
+    getAvailableGrades() {
+        return getAvailableGrades();
+    },
+
+    getSelectedGradeEntry() {
+        return this.getAvailableGrades()[this.selectedGradeIndex] || null;
+    },
+
+    getTopicGroups() {
+        const selectedGrade = this.getSelectedGradeEntry();
+        if (!selectedGrade) return [];
+        return getTopicGroupsForGrade(selectedGrade.grade);
+    },
+
+    getSelectedTopicGroup() {
+        return this.getTopicGroups()[this.selectedTopicIndex] || null;
+    },
+
+    getSelectedPartEntry() {
+        return this.getSelectedTopicGroup()?.items?.[this.selectedPartIndex] || null;
+    },
+
+    getStepItems() {
+        if (this.currentStep === 'book') {
+            return this.getAvailableBooks().map((bookEntry) => ({
+                id: bookEntry.bookCode,
+                title: bookEntry.bookTitle || bookEntry.bookCode,
+                subtitle: bookEntry.bookCode,
+                description:
+                    bookEntry.bookCode === quizCatalogIndex?.defaultBookCode
+                        ? 'Mặc định'
+                        : '',
+            }));
+        }
+
+        if (this.currentStep === 'grade') {
+            return this.getAvailableGrades().map((gradeEntry) => ({
+                id: String(gradeEntry.grade),
+                title: `Lớp ${gradeEntry.grade}`,
+                subtitle: `${gradeEntry.topics.filter((topic) => topic.enabled && topic.questionFile).length} bộ câu hỏi khả dụng`,
+                description: '',
+            }));
+        }
+
+        if (this.currentStep === 'topic') {
+            return this.getTopicGroups().map((topicGroup) => ({
+                id: topicGroup.topicLetter,
+                title: `Chủ đề ${topicGroup.topicLetter}`,
+                subtitle: topicGroup.topicName,
+                description: '',
+            }));
+        }
+
+        return (this.getSelectedTopicGroup()?.items || []).map((topicEntry) => ({
+            id: `${topicEntry.topicLetter}-${topicEntry.part || 1}`,
+            title: `Phần ${topicEntry.part || 1}`,
+            subtitle: topicEntry.topicName,
+            description: topicEntry.code || '',
+        }));
+    },
+
+    getSelectedIndex() {
+        if (this.currentStep === 'book') return this.selectedBookIndex;
+        if (this.currentStep === 'grade') return this.selectedGradeIndex;
+        if (this.currentStep === 'topic') return this.selectedTopicIndex;
+        return this.selectedPartIndex;
+    },
+
+    setSelectedIndex(index) {
+        if (this.currentStep === 'book') this.selectedBookIndex = index;
+        else if (this.currentStep === 'grade') this.selectedGradeIndex = index;
+        else if (this.currentStep === 'topic') this.selectedTopicIndex = index;
+        else this.selectedPartIndex = index;
+        this.ensureSelectionVisible();
+    },
+
+    draw() {
+        if (assets.backgrounds.bgMenu && assets.backgrounds.bgMenu.complete) {
+            config.ctx.drawImage(assets.backgrounds.bgMenu, 0, 0, config.width, config.height);
+            config.ctx.fillStyle = 'rgba(4, 12, 24, 0.20)';
+            config.ctx.fillRect(0, 0, config.width, config.height);
+        } else {
+            const gradient = config.ctx.createLinearGradient(0, 0, 0, config.height);
+            gradient.addColorStop(0, '#1a1a2e');
+            gradient.addColorStop(1, '#16213e');
+            config.ctx.fillStyle = gradient;
+            config.ctx.fillRect(0, 0, config.width, config.height);
+        }
+
+        config.ctx.fillStyle = '#fff';
+        config.ctx.font = 'bold 52px Arial';
+        config.ctx.textAlign = 'center';
+        config.ctx.fillText('CHỌN BÀI HỌC', config.width / 2, 120);
+
+        const modeLabel = getGameModeLabel(currentGameMode);
+        const selectedBookEntry = this.getSelectedBookEntry();
+        const currentBookLabel =
+            selectedBookEntry?.bookTitle ||
+            activeBookCatalog?.bookTitle ||
+            quizCatalogIndex?.defaultBookCode ||
+            'KNTTVCS';
+        config.ctx.fillStyle = '#d1d5db';
+        config.ctx.font = '22px Arial';
+        config.ctx.fillText(
+            `${currentBookLabel} • ${modeLabel}`,
+            config.width / 2,
+            168,
+        );
+
+        const stepItems = this.getStepItems();
+        const stepTitle =
+            this.currentStep === 'book'
+                ? 'Bước 1: Chọn bộ sách'
+                : this.currentStep === 'grade'
+                    ? 'Bước 2: Chọn lớp'
+                    : this.currentStep === 'topic'
+                        ? 'Bước 3: Chọn chủ đề'
+                        : 'Bước 4: Chọn phần';
+
+        config.ctx.fillStyle = '#fef08a';
+        config.ctx.font = 'bold 24px Arial';
+        config.ctx.fillText(stepTitle, config.width / 2, 210);
+
+        if ((this.currentStep !== 'book' && !activeBookCatalog) || stepItems.length === 0) {
+            config.ctx.fillStyle = '#fca5a5';
+            config.ctx.font = 'bold 24px Arial';
+            config.ctx.fillText(
+                quizDataLoadError || 'Chưa có bộ câu hỏi khả dụng.',
+                config.width / 2,
+                config.height / 2,
+            );
+            config.ctx.fillStyle = '#fff';
+            config.ctx.font = '18px Arial';
+            config.ctx.fillText('Nhấn ESC để quay lại menu', config.width / 2, config.height - 60);
+            return;
+        }
+
+        const {
+            listTop,
+            listBottom,
+            boxWidth,
+            boxHeight,
+            gap,
+            boxX,
+            viewportHeight,
+            totalHeight,
+            maxScroll,
+        } = this.getListMetrics(stepItems);
+
+        config.ctx.fillStyle = 'rgba(15, 23, 42, 0.48)';
+        config.ctx.beginPath();
+        config.ctx.roundRect(boxX - 18, listTop - 16, boxWidth + 36, viewportHeight + 32, 24);
+        config.ctx.fill();
+
+        config.ctx.save();
+        config.ctx.beginPath();
+        config.ctx.rect(boxX - 8, listTop - 8, boxWidth + 16, viewportHeight + 16);
+        config.ctx.clip();
+
+        stepItems.forEach((item, index) => {
+            const isSelected = index === this.getSelectedIndex();
+            const boxY = listTop + index * (boxHeight + gap) - this.listScrollOffset;
+
+            config.ctx.fillStyle = isSelected ? 'rgba(88, 204, 2, 0.94)' : 'rgba(17, 24, 39, 0.92)';
+            config.ctx.beginPath();
+            config.ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 18);
+            config.ctx.fill();
+
+            config.ctx.strokeStyle = isSelected ? '#fef08a' : 'rgba(255, 255, 255, 0.15)';
+            config.ctx.lineWidth = isSelected ? 4 : 2;
+            config.ctx.stroke();
+
+            config.ctx.fillStyle = '#fff';
+            config.ctx.textAlign = 'left';
+            config.ctx.font = isSelected ? 'bold 26px Arial' : 'bold 23px Arial';
+            config.ctx.fillText(item.title, boxX + 28, boxY + 34);
+
+            config.ctx.fillStyle = isSelected ? '#f7fee7' : '#cbd5e1';
+            const subtitleLines = this.wrapText(item.subtitle || '', boxWidth - 220, '18px Arial');
+            config.ctx.font = '18px Arial';
+            subtitleLines.slice(0, 2).forEach((line, lineIndex) => {
+                config.ctx.fillText(line, boxX + 28, boxY + 62 + lineIndex * 24);
+            });
+
+            if (item.description) {
+                config.ctx.fillStyle = isSelected ? '#dcfce7' : '#94a3b8';
+                config.ctx.font = '16px Arial';
+                config.ctx.fillText(item.description, boxX + 28, boxY + boxHeight - 12);
+            }
+
+            if (isSelected) {
+                config.ctx.fillStyle = '#fef08a';
+                config.ctx.font = 'bold 18px Arial';
+                config.ctx.textAlign = 'right';
+                config.ctx.fillText('ENTER để chọn', boxX + boxWidth - 30, boxY + 52);
+            }
+        });
+        config.ctx.restore();
+
+        if (maxScroll > 0) {
+            const trackX = boxX + boxWidth + 18;
+            const trackY = listTop;
+            const trackHeight = viewportHeight;
+            const thumbHeight = Math.max(70, (viewportHeight / totalHeight) * trackHeight);
+            const thumbY =
+                trackY + (this.listScrollOffset / maxScroll) * (trackHeight - thumbHeight);
+
+            config.ctx.fillStyle = 'rgba(15, 23, 42, 0.45)';
+            config.ctx.beginPath();
+            config.ctx.roundRect(trackX, trackY, 10, trackHeight, 10);
+            config.ctx.fill();
+
+            config.ctx.fillStyle = 'rgba(250, 204, 21, 0.9)';
+            config.ctx.beginPath();
+            config.ctx.roundRect(trackX, thumbY, 10, thumbHeight, 10);
+            config.ctx.fill();
+        }
+
+        if (this.errorMessage) {
+            config.ctx.fillStyle = '#fecaca';
+            config.ctx.font = 'bold 18px Arial';
+            config.ctx.textAlign = 'center';
+            config.ctx.fillText(this.errorMessage, config.width / 2, config.height - 92);
+        } else if (this.isLoading) {
+            config.ctx.fillStyle = '#fde68a';
+            config.ctx.font = 'bold 18px Arial';
+            config.ctx.textAlign = 'center';
+            config.ctx.fillText('Đang tải bộ đề...', config.width / 2, config.height - 92);
+        } else {
+            config.ctx.fillStyle = '#fff';
+            config.ctx.font = '18px Arial';
+            config.ctx.textAlign = 'center';
+            config.ctx.fillText('↑ ↓ để chọn • Enter để tiếp tục • Esc để quay lại', config.width / 2, config.height - 60);
+        }
+    },
+
+    async selectCurrentSet() {
+        if (this.isLoading) return;
+        if (this.getStepItems().length === 0) {
+            this.errorMessage = quizDataLoadError || 'Chưa có bộ câu hỏi khả dụng ở bước này.';
+            return;
+        }
+
+        this.isLoading = true;
+        this.errorMessage = null;
+
+        try {
+            if (this.currentStep === 'book') {
+                const selectedBook = this.getSelectedBookEntry();
+                if (!selectedBook) {
+                    throw new Error('Không tìm thấy bộ sách đã chọn.');
+                }
+
+                await loadBookCatalog(selectedBook.bookCode);
+                this.selectedGradeIndex = 0;
+                this.selectedTopicIndex = 0;
+                this.selectedPartIndex = 0;
+                this.listScrollOffset = 0;
+                this.currentStep = 'grade';
+                return;
+            }
+
+            if (this.currentStep === 'grade') {
+                this.selectedTopicIndex = 0;
+                this.selectedPartIndex = 0;
+                this.listScrollOffset = 0;
+                this.currentStep = 'topic';
+                return;
+            }
+
+            if (this.currentStep === 'topic') {
+                const selectedTopicGroup = this.getSelectedTopicGroup();
+                if (!selectedTopicGroup) {
+                    throw new Error('Không tìm thấy chủ đề đã chọn.');
+                }
+
+                if ((selectedTopicGroup.items || []).length > 1) {
+                    this.selectedPartIndex = 0;
+                    this.listScrollOffset = 0;
+                    this.currentStep = 'part';
+                    return;
+                }
+
+                await loadQuizData(selectedTopicGroup.items[0].setId);
+            } else {
+                const selectedPart = this.getSelectedPartEntry();
+                if (!selectedPart) {
+                    throw new Error('Không tìm thấy phần đã chọn.');
+                }
+                await loadQuizData(selectedPart.setId);
+            }
+
+            config.gameState = 'characterSelect';
+            CharacterSelection.start();
+        } catch (error) {
+            this.errorMessage = error.message || 'Không tải được bộ đề đã chọn.';
+        } finally {
+            this.isLoading = false;
+        }
+    },
+
+    handleInput(e) {
+        if (config.gameState !== 'questionSetSelect') return;
+
+        const stepItems = this.getStepItems();
+        if (stepItems.length === 0 && e.key !== 'Escape') {
+            return;
+        }
+
+        switch (e.key) {
+            case 'ArrowUp':
+                this.setSelectedIndex(Math.max(0, this.getSelectedIndex() - 1));
+                break;
+            case 'ArrowDown':
+                this.setSelectedIndex(
+                    Math.min(stepItems.length - 1, this.getSelectedIndex() + 1),
+                );
+                break;
+            case 'Enter':
+                void this.selectCurrentSet();
+                break;
+            case 'Escape':
+                if (this.currentStep === 'part') {
+                    this.listScrollOffset = 0;
+                    this.currentStep = 'topic';
+                } else if (this.currentStep === 'topic') {
+                    this.listScrollOffset = 0;
+                    this.currentStep = 'grade';
+                } else if (this.currentStep === 'grade') {
+                    this.listScrollOffset = 0;
+                    this.currentStep = 'book';
+                } else {
+                    config.gameState = 'menu';
+                    Menu.start();
+                }
+                break;
+        }
+    },
+
+    handleWheel(e) {
+        if (config.gameState !== 'questionSetSelect') return;
+
+        const stepItems = this.getStepItems();
+        const { maxScroll } = this.getListMetrics(stepItems);
+        if (maxScroll <= 0) return;
+
+        e.preventDefault();
+        this.listScrollOffset += Math.sign(e.deltaY) * 64;
+        this.clampScrollOffset(stepItems);
+    },
+
+    handleClick(e) {
+        if (config.gameState !== 'questionSetSelect') return;
+
+        const rect = config.canvas.getBoundingClientRect();
+        const scaleX = config.canvas.width / rect.width;
+        const scaleY = config.canvas.height / rect.height;
+        const x = (e.clientX - rect.left) * scaleX / config.scale;
+        const y = (e.clientY - rect.top) * scaleY / config.scale;
+
+        const offsetX = (config.canvas.width / config.scale - config.width) / 2;
+        const offsetY = (config.canvas.height / config.scale - config.height) / 2;
+        const adjustedX = x - offsetX;
+        const adjustedY = y - offsetY;
+
+        const stepItems = this.getStepItems();
+        const { listTop, boxWidth, boxHeight, gap, boxX } = this.getListMetrics(stepItems);
+
+        stepItems.forEach((item, index) => {
+            const boxY = listTop + index * (boxHeight + gap) - this.listScrollOffset;
+
+            if (
+                adjustedX >= boxX &&
+                adjustedX <= boxX + boxWidth &&
+                adjustedY >= boxY &&
+                adjustedY <= boxY + boxHeight
+            ) {
+                this.setSelectedIndex(index);
+                void this.selectCurrentSet();
+            }
+        });
+    },
+
+    start() {
+        const defaultBookCode = quizCatalogIndex?.defaultBookCode || activeBookCatalog?.bookCode;
+        const defaultBookIndex = this.getAvailableBooks().findIndex(
+            (book) => book.bookCode === defaultBookCode,
+        );
+
+        this.selectedBookIndex = defaultBookIndex >= 0 ? defaultBookIndex : 0;
+        this.selectedGradeIndex = 0;
+        this.selectedTopicIndex = 0;
+        this.selectedPartIndex = 0;
+        this.currentStep = 'book';
+        this.listScrollOffset = 0;
+        this.isLoading = false;
+        this.errorMessage = quizDataLoadError;
+
+        if (this.handleInputBound) {
+            document.removeEventListener('keydown', this.handleInputBound);
+        }
+        if (this.handleClickBound) {
+            config.canvas.removeEventListener('click', this.handleClickBound);
+        }
+        if (this.handleWheelBound) {
+            config.canvas.removeEventListener('wheel', this.handleWheelBound);
+        }
+
+        this.handleInputBound = this.handleInput.bind(this);
+        this.handleClickBound = this.handleClick.bind(this);
+        this.handleWheelBound = this.handleWheel.bind(this);
+        document.addEventListener('keydown', this.handleInputBound);
+        config.canvas.addEventListener('click', this.handleClickBound);
+        config.canvas.addEventListener('wheel', this.handleWheelBound, { passive: false });
+        this.loop();
+    },
+
+    loop() {
+        if (config.gameState === 'questionSetSelect') {
+            this.draw();
+            requestAnimationFrame(this.loop.bind(this));
+            return;
+        }
+
+        if (this.handleInputBound) {
+            document.removeEventListener('keydown', this.handleInputBound);
+            this.handleInputBound = null;
+        }
+        if (this.handleClickBound) {
+            config.canvas.removeEventListener('click', this.handleClickBound);
+            this.handleClickBound = null;
+        }
+        if (this.handleWheelBound) {
+            config.canvas.removeEventListener('wheel', this.handleWheelBound);
+            this.handleWheelBound = null;
+        }
+    },
 };
 
 // Character Selection Screen
@@ -617,14 +1348,14 @@ ctx.fillText(currentChar.name, x, y);
                 this.selectCharacterAndStart();
                 break;
             case 'Escape':
-                config.gameState = 'menu';
+                config.gameState = 'questionSetSelect';
                 this.hasPlayedInitialSfx = false; // Reset flag khi quay về menu
                 // Clear any existing SFX timer
                 if (this.sfxTimer) {
                     clearTimeout(this.sfxTimer);
                     this.sfxTimer = null;
                 }
-                Menu.start();
+                QuestionSetSelection.start();
                 break;
         }
     },

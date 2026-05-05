@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-12-F-v1",
+  "questionSetTitle": "Tin học lớp 12 KNTTVCS - Chủ đề 6 - Mạng máy tính nâng cao",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 12,
+  "topicLetter": "F",
+  "topicName": "Mạng máy tính và Internet",
+  "topicSlug": "mang-may-tinh-va-internet-2",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-12-F-v1-q001",
+      "type": "MC",
+      "question": "Bộ giao thức truyền thông phổ biến nhất được sử dụng trên Internet hiện nay là gì?",
+      "options": [
+        "HTTP",
+        "TCP/IP",
+        "FTP",
+        "DNS"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-F-v1-q002",
+      "type": "MC",
+      "question": "Giao thức nào đảm bảo dữ liệu truyền qua mạng được chính xác và tin cậy theo từng ứng dụng?",
+      "options": [
+        "IP",
+        "TCP",
+        "ICMP",
+        "UDP"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-F-v1-q003",
+      "type": "MC",
+      "question": "Hệ thống nào giúp chuyển đổi tên miền (ví dụ: moet.edu.vn) sang địa chỉ IP?",
+      "options": [
+        "HTTP",
+        "DNS",
+        "World Wide Web",
+        "LAN"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-F-v1-q004",
+      "type": "MC",
+      "question": "Thiết bị hoặc phần mềm cung cấp dịch vụ cho các máy khách trong mạng được gọi là gì?",
+      "options": [
+        "Client",
+        "Modem",
+        "Server (Máy chủ)",
+        "User"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-F-v1-q005",
+      "type": "MC",
+      "question": "Địa chỉ IP phiên bản 4 (IPv4) gồm bao nhiêu nhóm số thập phân?",
+      "options": [
+        "2 nhóm",
+        "3 nhóm",
+        "4 nhóm",
+        "6 nhóm"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-F-v1-q006",
+      "type": "TI",
+      "question": "Giao thức ... quy định cách thiết lập địa chỉ cho các thiết bị tham gia mạng.",
+      "options": [],
+      "correct": "IP",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-F-v1-q007",
+      "type": "TI",
+      "question": "Máy tính gửi yêu cầu dịch vụ đến máy chủ được gọi là máy ...",
+      "options": [],
+      "correct": "khách",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-F-v1-q008",
+      "type": "TI",
+      "question": "Hệ thống tên miền ... cho phép dùng tên chữ thay cho dãy số IP khó nhớ.",
+      "options": [],
+      "correct": "DNS",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-F-v1-q009",
+      "type": "TI",
+      "question": "Lệnh ... dùng giao thức ICMP để kiểm tra sự kết nối giữa hai máy tính.",
+      "options": [],
+      "correct": "ping",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-F-v1-q010",
+      "type": "TI",
+      "question": "Server thường là các máy tính có cấu hình ... và hoạt động bền bỉ.",
+      "options": [],
+      "correct": "mạnh",
+      "duration_in_seconds": 20
+    }
+  ]
+}

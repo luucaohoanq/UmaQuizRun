@@ -40,31 +40,197 @@ function shuffleArray(array) {
     return shuffled;
 }
 
-// Load quiz data from JSON
-async function loadQuizData() {
+function normalizeQuestion(question, index, questionSetId) {
+    return {
+        ...question,
+        id:
+            typeof question.id === 'string'
+                ? question.id
+                : `${questionSetId}-q${String(index + 1).padStart(3, '0')}`,
+    };
+}
+
+function buildActiveQuestionSet(fileData, catalogEntry) {
+    return {
+        id: fileData.setId || catalogEntry.setId,
+        setId: fileData.setId || catalogEntry.setId,
+        title:
+            fileData.questionSetTitle ||
+            fileData.setTitle ||
+            `${fileData.bookTitle || activeBookCatalog?.bookTitle || 'Tin học'} - Lớp ${fileData.grade || catalogEntry.grade} - Chủ đề ${fileData.topicLetter || catalogEntry.topicLetter}`,
+        version: fileData.version || catalogEntry.version || 'v1',
+        description: fileData.description || catalogEntry.topicName || '',
+        shuffle: fileData.shuffle !== false,
+        bookCode: fileData.bookCode || catalogEntry.bookCode || activeBookCatalog?.bookCode || null,
+        bookTitle: fileData.bookTitle || catalogEntry.bookTitle || activeBookCatalog?.bookTitle || null,
+        grade: fileData.grade ?? catalogEntry.grade ?? null,
+        topicLetter: fileData.topicLetter || catalogEntry.topicLetter || null,
+        part: fileData.part ?? catalogEntry.part ?? null,
+        topicName: fileData.topicName || catalogEntry.topicName || null,
+        topicSlug: fileData.topicSlug || catalogEntry.topicSlug || null,
+        questionFile: catalogEntry.questionFile,
+    };
+}
+
+function getAvailableBooks() {
+    if (!quizCatalogIndex || !Array.isArray(quizCatalogIndex.books)) {
+        return [];
+    }
+
+    return quizCatalogIndex.books.filter(
+        (book) => book.enabled !== false && typeof book.catalogFile === 'string' && book.catalogFile,
+    );
+}
+
+function getAvailableGrades() {
+    if (!activeBookCatalog || !Array.isArray(activeBookCatalog.grades)) {
+        return [];
+    }
+
+    return activeBookCatalog.grades.filter((gradeEntry) =>
+        Array.isArray(gradeEntry.topics) &&
+        gradeEntry.topics.some((topic) => topic.enabled && topic.questionFile),
+    );
+}
+
+function getTopicGroupsForGrade(grade) {
+    const gradeEntry = getAvailableGrades().find((entry) => entry.grade === grade);
+    if (!gradeEntry || !Array.isArray(gradeEntry.topics)) {
+        return [];
+    }
+
+    const topicMap = new Map();
+
+    gradeEntry.topics
+        .filter((topic) => topic.enabled && topic.questionFile)
+        .forEach((topic) => {
+            const topicLetter = topic.topicLetter;
+            if (!topicMap.has(topicLetter)) {
+                topicMap.set(topicLetter, {
+                    topicLetter,
+                    topicName: topic.topicName,
+                    items: [],
+                });
+            }
+
+            topicMap.get(topicLetter).items.push(topic);
+        });
+
+    return Array.from(topicMap.values())
+        .map((group) => ({
+            ...group,
+            items: group.items.sort((left, right) => (left.part || 1) - (right.part || 1)),
+        }))
+        .sort((left, right) => left.topicLetter.localeCompare(right.topicLetter));
+}
+
+function getQuestionSetById(setId) {
+    for (const gradeEntry of activeBookCatalog?.grades || []) {
+        for (const topic of gradeEntry.topics || []) {
+            if (topic.setId === setId) {
+                return {
+                    ...topic,
+                    grade: gradeEntry.grade,
+                    gradeSlug: gradeEntry.slug,
+                };
+            }
+        }
+    }
+
+    return null;
+}
+
+async function loadBookCatalog(bookCode) {
+    const selectedBook = getAvailableBooks().find((book) => book.bookCode === bookCode);
+
+    if (!selectedBook || !selectedBook.catalogFile) {
+        throw new Error('Không tìm thấy bộ sách đã chọn.');
+    }
+
+    const bookResponse = await fetch(selectedBook.catalogFile);
+    if (!bookResponse.ok) {
+        throw new Error('Không tải được catalog bộ sách.');
+    }
+
+    const bookCatalog = await bookResponse.json();
+    activeBookCatalog = {
+        ...bookCatalog,
+        bookCode: bookCatalog.bookCode || selectedBook.bookCode,
+        bookTitle: bookCatalog.bookTitle || selectedBook.bookTitle || selectedBook.bookCode,
+    };
+    activeQuestionSet = null;
+    quizDataLoadError = null;
+}
+
+async function loadCurriculumCatalog() {
     try {
-        const response = await fetch('js/quizData.json');
+        const response = await fetch('js/catalog/index.json');
         if (!response.ok) {
-            throw new Error('Failed to load quiz data');
+            throw new Error('Failed to load curriculum catalog');
+        }
+        const catalogIndex = await response.json();
+        const availableBooks = Array.isArray(catalogIndex.books) ? catalogIndex.books : [];
+        const defaultBookCode =
+            catalogIndex.defaultBookCode ||
+            availableBooks.find((book) => book.enabled !== false)?.bookCode;
+        if (!defaultBookCode) {
+            throw new Error('Default book catalog is not configured');
+        }
+
+        quizCatalogIndex = catalogIndex;
+        await loadBookCatalog(defaultBookCode);
+    } catch (error) {
+        console.error('Error loading curriculum catalog:', error);
+        quizCatalogIndex = null;
+        activeBookCatalog = null;
+        quizDataLoadError = error.message || 'Không tải được danh mục bộ sách.';
+    }
+}
+
+async function loadQuizData(questionSetId) {
+    const selectedSet = getQuestionSetById(questionSetId);
+
+    if (!selectedSet) {
+        throw new Error('Question set not found');
+    }
+
+    try {
+        const response = await fetch(selectedSet.questionFile);
+        if (!response.ok) {
+            throw new Error('Failed to load question set');
         }
         const data = await response.json();
-        
-        // Check if data has new structure with shuffle flag
-        if (data.questions && Array.isArray(data.questions)) {
-            // New structure with shuffle flag
-            quizData = data.shuffle ? shuffleArray(data.questions) : data.questions;
-            console.log('Quiz data loaded:', quizData.length, 'questions', data.shuffle ? '(shuffled)' : '');
-        } else if (Array.isArray(data)) {
-            // Old structure (backward compatibility)
-            quizData = data;
-            console.log('Quiz data loaded (legacy format):', quizData.length, 'questions');
-        } else {
-            throw new Error('Invalid quiz data format');
+        const rawQuestions = Array.isArray(data.questions)
+            ? data.questions
+            : Array.isArray(data)
+                ? data
+                : [];
+
+        if (rawQuestions.length === 0) {
+            throw new Error('Question set is empty');
         }
+
+        const normalizedQuestions = rawQuestions.map((question, index) =>
+            normalizeQuestion(question, index, selectedSet.setId),
+        );
+
+        const resolvedQuestionSet = buildActiveQuestionSet(data, selectedSet);
+
+        quizData = resolvedQuestionSet.shuffle
+            ? shuffleArray(normalizedQuestions)
+            : normalizedQuestions;
+        activeQuestionSet = {
+            ...resolvedQuestionSet,
+            totalQuestions: normalizedQuestions.length,
+        };
+        quizDataLoadError = null;
+        console.log('Quiz data loaded:', activeQuestionSet.title, quizData.length, 'questions');
     } catch (error) {
         console.error('Error loading quiz data:', error);
-        // Fallback to empty array or default
         quizData = [];
+        activeQuestionSet = null;
+        quizDataLoadError = error.message || 'Không tải được bộ đề.';
+        throw error;
     }
 }
 

@@ -1,0 +1,322 @@
+{
+  "setId": "knttvcs-lop-3-C-v1",
+  "questionSetTitle": "Tin học lớp 3 KNTTVCS - Chủ đề C - Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 3,
+  "topicLetter": "C",
+  "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-3-C-v1-q001",
+      "type": "MC",
+      "question": "Sắp xếp đồ vật hợp lí sẽ giúp chúng ta điều gì?",
+      "options": [
+        "Quản lí đồ vật dễ dàng hơn và tìm kiếm nhanh hơn",
+        "Làm đồ vật đẹp hơn nhưng khó tìm hơn",
+        "Chỉ giúp tiết kiệm diện tích",
+        "Không có tác dụng gì"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q002",
+      "type": "MC",
+      "question": "Khi cần tìm cục tẩy, cách để đồ dùng học tập nào giúp em tìm nhanh hơn?",
+      "options": [
+        "Để lẫn tất cả đồ dùng vào một chỗ",
+        "Xếp đồ dùng theo từng nhóm",
+        "Để đồ dùng ở nhiều nơi khác nhau",
+        "Cất đồ dùng mà không cần quy tắc"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q003",
+      "type": "MC",
+      "question": "Chia thẻ tên con vật thành nhóm sống dưới nước và trên cạn là ví dụ của việc gì?",
+      "options": [
+        "Trang trí thẻ",
+        "Phân loại thông tin",
+        "Vẽ tranh",
+        "Chơi đoán chữ"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q004",
+      "type": "MC",
+      "question": "Sau khi đã chia con vật theo nơi sống, muốn tìm thẻ con voi nhanh hơn có thể tiếp tục làm gì?",
+      "options": [
+        "Đổi màu tất cả các thẻ",
+        "Bỏ hết thẻ ra ngoài",
+        "Phân nhóm con vật sống trên cạn thành sống trong rừng và nuôi trong gia đình",
+        "Trộn lại các thẻ với nhau"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 12
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q005",
+      "type": "MC",
+      "question": "Sơ đồ hình cây dùng để biểu diễn điều gì?",
+      "options": [
+        "Cách trồng cây xanh",
+        "Cách sắp xếp, phân loại đồ vật hoặc thông tin",
+        "Đường đi từ nhà đến trường",
+        "Cách vẽ một bức tranh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q006",
+      "type": "MC",
+      "question": "Trong trò chơi cây sở thích, lá ghi “Đá bóng” nên được dán ở cành nào?",
+      "options": [
+        "Học tập",
+        "Làm việc nhà",
+        "Giải trí",
+        "Thể thao"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q007",
+      "type": "MC",
+      "question": "Đặc điểm nào đúng với sơ đồ hình cây?",
+      "options": [
+        "Không có gốc và nhánh",
+        "Có một gốc và các nhánh phân chia thông tin",
+        "Chỉ dùng để vẽ cây thật",
+        "Chỉ có thể có đúng hai nhánh"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q008",
+      "type": "MC",
+      "question": "Trong các tên sau, đâu là tên tệp?",
+      "options": [
+        "Toan",
+        "Tieng viet",
+        "Ke hoach hoc tap.docx",
+        "Truyen tranh"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q009",
+      "type": "MC",
+      "question": "Trong các tên sau, đâu là tên thư mục?",
+      "options": [
+        "Bai tap du an.ppt",
+        "thoi khoa bieu.pdf",
+        "Anh.jpg",
+        "Toan"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q010",
+      "type": "MC",
+      "question": "Tệp trong máy tính có thể chứa dạng thông tin nào?",
+      "options": [
+        "Chỉ văn bản",
+        "Chỉ hình ảnh",
+        "Chỉ âm thanh",
+        "Văn bản, hình ảnh, âm thanh hoặc video"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q011",
+      "type": "MC",
+      "question": "Trong ví dụ ở bài học, ổ đĩa được nhắc đến là ổ nào?",
+      "options": [
+        "Ổ A",
+        "Ổ B",
+        "Ổ C",
+        "Ổ D"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q012",
+      "type": "MC",
+      "question": "Thư mục “Truyen tranh” trong ví dụ chứa tệp nào?",
+      "options": [
+        "Anh.jpg",
+        "Toan.docx",
+        "Co-nan.pdf",
+        "Hoc tap.png"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q013",
+      "type": "MC",
+      "question": "Thư mục “Co-nan” nằm trong thư mục nào?",
+      "options": [
+        "Toan",
+        "Truyen tranh",
+        "Hoc tap",
+        "Anh.jpg"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q014",
+      "type": "MC",
+      "question": "Trong một thư mục có thể chứa những gì?",
+      "options": [
+        "Chỉ chứa tệp",
+        "Chỉ chứa thư mục con",
+        "Thư mục con và tệp",
+        "Chỉ chứa hình ảnh"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q015",
+      "type": "MC",
+      "question": "Phần mềm nào giúp em quan sát ổ đĩa, thư mục và tệp trong máy tính?",
+      "options": [
+        "Paint",
+        "File Explorer",
+        "Calculator",
+        "Media Player"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q016",
+      "type": "MC",
+      "question": "Khi đặt tên thư mục để lưu bài học, em nên đặt như thế nào?",
+      "options": [
+        "Tên ngắn gọn, gợi nhớ nội dung",
+        "Tên thật dài và khó hiểu",
+        "Tên bất kì không liên quan",
+        "Không cần đặt tên"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q017",
+      "type": "MC",
+      "question": "Cách lưu ảnh du lịch nào hợp lí hơn?",
+      "options": [
+        "Để tất cả ảnh lẫn lộn trong một chỗ",
+        "Tạo thư mục theo chuyến đi hoặc địa điểm",
+        "Xóa tên tất cả các ảnh",
+        "Đổi mọi ảnh thành cùng một tên"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q018",
+      "type": "MC",
+      "question": "Biểu tượng nào thường dùng để chỉ thư mục?",
+      "options": [
+        "Một trang giấy",
+        "Một thư mục màu vàng",
+        "Một thùng rác",
+        "Một loa phát nhạc"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q019",
+      "type": "MC",
+      "question": "Đâu là một cách tổ chức thông tin hợp lí?",
+      "options": [
+        "Sắp xếp bài theo từng môn học",
+        "Trộn tất cả tệp vào một thư mục duy nhất",
+        "Đặt tên thư mục giống hệt nhau",
+        "Không phân nhóm dữ liệu"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q020",
+      "type": "MC",
+      "question": "Sơ đồ nào không phải là sơ đồ hình cây?",
+      "options": [
+        "Sơ đồ có một gốc và các nhánh",
+        "Sơ đồ có phân cấp rõ ràng từ trên xuống dưới",
+        "Sơ đồ không có gốc và không phân nhánh",
+        "Sơ đồ phân loại sách theo nhóm"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 12
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q021",
+      "type": "TI",
+      "question": "Điền từ còn thiếu: Sơ đồ hình cây thường có một ... và nhiều nhánh.",
+      "options": [],
+      "correct": "gốc",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q022",
+      "type": "TI",
+      "question": "Điền từ còn thiếu: Trong máy tính, file còn được gọi là ...",
+      "options": [],
+      "correct": "tệp",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q023",
+      "type": "TI",
+      "question": "Điền từ còn thiếu: Trong máy tính, folder còn được gọi là ...",
+      "options": [],
+      "correct": "thư mục",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q024",
+      "type": "TI",
+      "question": "Điền từ còn thiếu: Việc sắp xếp hợp lí giúp tìm kiếm ... hơn.",
+      "options": [],
+      "correct": "nhanh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q025",
+      "type": "TI",
+      "question": "Điền từ còn thiếu: Ổ D, ổ C là các ví dụ về ... trong máy tính.",
+      "options": [],
+      "correct": "ổ đĩa",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-C-v1-q026",
+      "type": "TI",
+      "question": "Điền từ còn thiếu: File Explorer giúp em xem các tệp và ... trong máy tính.",
+      "options": [],
+      "correct": "thư mục",
+      "duration_in_seconds": 20
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "defaultBookCode": "KNTTVCS",
+  "books": [
+    {
+      "bookCode": "KNTTVCS",
+      "bookTitle": "Kết nối tri thức với cuộc sống",
+      "catalogFile": "js/catalog/books/knttvcs.json",
+      "enabled": true
+    },
+    {
+      "bookCode": "CTST",
+      "bookTitle": "Chân trời sáng tạo",
+      "enabled": false
+    },
+    {
+      "bookCode": "CD",
+      "bookTitle": "Cánh diều",
+      "enabled": false
+    }
+  ]
+}

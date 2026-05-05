@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-12-C-v1",
+  "questionSetTitle": "Tin học lớp 12 KNTTVCS - Chủ đề 3 - Đạo đức, pháp luật và văn hóa",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 12,
+  "topicLetter": "C",
+  "topicName": "Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "topicSlug": "dao-duc-phap-luat-va-van-hoa-trong-moi-truong-so",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-12-C-v1-q001",
+      "type": "MC",
+      "question": "Hành vi nào sau đây là văn minh khi giao tiếp trên môi trường số?",
+      "options": [
+        "Lan truyền thông tin chưa kiểm chứng",
+        "Sử dụng ngôn ngữ lịch sự và tôn trọng người khác",
+        "Nói xấu bạn bè trên diễn đàn",
+        "Tiết lộ thông tin cá nhân của người khác"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-C-v1-q002",
+      "type": "MC",
+      "question": "Văn bản quy phạm pháp luật nào quy định các hành vi bị cấm trên mạng tại Việt Nam?",
+      "options": [
+        "Luật Giáo dục",
+        "Luật An ninh mạng",
+        "Luật Trẻ em",
+        "Luật Hôn nhân"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-C-v1-q003",
+      "type": "MC",
+      "question": "Hành vi nào bị coi là vi phạm pháp luật về an ninh quốc gia trên mạng?",
+      "options": [
+        "Đăng ảnh đi du lịch",
+        "Xuyên tạc lịch sử, phủ nhận thành tựu cách mạng",
+        "Học tiếng Anh trực tuyến",
+        "Gửi email chúc mừng sinh nhật"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-C-v1-q004",
+      "type": "MC",
+      "question": "Việc tự ý sao chép đoạn văn của người khác rồi nhận là của mình vi phạm điều gì?",
+      "options": [
+        "Luật Giao thông",
+        "Quyền tác giả và bản quyền",
+        "Luật Lao động",
+        "Quy tắc dùng điện"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-C-v1-q005",
+      "type": "MC",
+      "question": "Khi nhận thấy thông tin giả mạo trên mạng, em nên làm gì?",
+      "options": [
+        "Chia sẻ ngay cho mọi người biết",
+        "Báo cáo nội dung xấu và không lan truyền",
+        "Vào bình luận tranh cãi",
+        "Tải về máy tính để lưu trữ"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-C-v1-q006",
+      "type": "TI",
+      "question": "Mỗi cá nhân cần có ý thức bảo vệ ... cá nhân khi tham gia môi trường mạng.",
+      "options": [],
+      "correct": "thông tin",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-C-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: ... qua mạng là hành vi đe dọa, xúc phạm người khác qua phương tiện điện tử.",
+      "options": [],
+      "correct": "Bắt nạt",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-C-v1-q008",
+      "type": "TI",
+      "question": "Hành vi sử dụng trái phép tài khoản của người khác là hành vi ... pháp luật.",
+      "options": [],
+      "correct": "vi phạm",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-C-v1-q009",
+      "type": "TI",
+      "question": "Việc ghi rõ tên ... khi trích dẫn văn bản thể hiện sự tôn trọng bản quyền.",
+      "options": [],
+      "correct": "tác giả",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-C-v1-q010",
+      "type": "TI",
+      "question": "Internet là môi trường ... nơi mọi hành động đều có thể để lại dấu vết số.",
+      "options": [],
+      "correct": "công cộng",
+      "duration_in_seconds": 20
+    }
+  ]
+}

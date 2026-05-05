@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-6-F-v1",
+  "questionSetTitle": "Tin học lớp 6 KNTTVCS - Chủ đề F - Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 6,
+  "topicLetter": "F",
+  "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-6-F-v1-q001",
+      "type": "MC",
+      "question": "Một dãy các bước cụ thể để giải quyết một nhiệm vụ được gọi là gì? [15]",
+      "options": [
+        "Dữ liệu",
+        "Thông tin",
+        "Thuật toán",
+        "Phần mềm"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-F-v1-q002",
+      "type": "MC",
+      "question": "Trong sơ đồ khối của thuật toán, hình thoi được dùng để thể hiện điều gì? [15]",
+      "options": [
+        "Bắt đầu hoặc kết thúc",
+        "Thao tác tính toán",
+        "Kiểm tra điều kiện",
+        "Nhập hoặc xuất dữ liệu"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-F-v1-q003",
+      "type": "MC",
+      "question": "Cấu trúc nào thực hiện các bước tuần tự từ trên xuống dưới? [15]",
+      "options": [
+        "Cấu trúc rẽ nhánh",
+        "Cấu trúc tuần tự",
+        "Cấu trúc lặp",
+        "Cấu trúc hỗn hợp"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-F-v1-q004",
+      "type": "MC",
+      "question": "Trong Scratch, khu vực chứa các nhân vật và hiển thị kết quả chạy chương trình gọi là gì? [16]",
+      "options": [
+        "Sân khấu",
+        "Vùng lệnh",
+        "Bảng chọn",
+        "Thanh công cụ"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-F-v1-q005",
+      "type": "MC",
+      "question": "Để nhân vật thực hiện hành động khi nháy chuột vào lá cờ xanh, em dùng khối lệnh ở nhóm nào? [16]",
+      "options": [
+        "Chuyển động",
+        "Sự kiện",
+        "Âm thanh",
+        "Điều khiển"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-6-F-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Thuật toán là một dãy các chỉ dẫn rõ ràng để thực hiện một ____. [15]",
+      "options": [],
+      "correct": "nhiệm vụ",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-F-v1-q007",
+      "type": "TI",
+      "question": "Trong sơ đồ khối, hình ____ được dùng để thể hiện các bước xử lí, tính toán. [15]",
+      "options": [],
+      "correct": "chữ nhật",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-F-v1-q008",
+      "type": "TI",
+      "question": "Cấu trúc ____ dùng để thực hiện các bước tùy thuộc vào kết quả kiểm tra một điều kiện. [15]",
+      "options": [],
+      "correct": "rẽ nhánh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-F-v1-q009",
+      "type": "TI",
+      "question": "Trong phần mềm lập trình trực quan, các câu lệnh được kết nối với nhau dưới dạng các ____. [16]",
+      "options": [],
+      "correct": "khối lệnh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-6-F-v1-q010",
+      "type": "TI",
+      "question": "Nhân vật mặc định khi bắt đầu một chương trình Scratch mới là con ____. [16]",
+      "options": [],
+      "correct": "mèo",
+      "duration_in_seconds": 20
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-4-C-v1",
+  "questionSetTitle": "Tin học lớp 4 KNTTVCS - Chủ đề C - Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 4,
+  "topicLetter": "C",
+  "topicName": "Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "topicSlug": "to-chuc-luu-tru-tim-kiem-va-trao-doi-thong-tin",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-4-C-v1-q001",
+      "type": "MC",
+      "question": "Thư mục dùng để làm gì trong máy tính? [9]",
+      "options": [
+        "Để hiển thị hình ảnh",
+        "Để chứa các tệp và các thư mục con",
+        "Để phát âm thanh",
+        "Để gõ văn bản"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-C-v1-q002",
+      "type": "MC",
+      "question": "Biểu tượng của thư mục trong hệ điều hành Windows thường có màu gì? [9]",
+      "options": [
+        "Xanh dương",
+        "Đỏ",
+        "Vàng",
+        "Trắng"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-C-v1-q003",
+      "type": "MC",
+      "question": "Thao tác nào sau đây tạo ra một bản sao của tệp ở vị trí khác? [9]",
+      "options": [
+        "Delete",
+        "Rename",
+        "Copy và Paste",
+        "Cut và Paste"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-C-v1-q004",
+      "type": "MC",
+      "question": "Cách sắp xếp các thư mục trong máy tính giống như sơ đồ gì? [9, 11]",
+      "options": [
+        "Sơ đồ hình tròn",
+        "Sơ đồ hình cây",
+        "Sơ đồ mạng lưới",
+        "Sắp xếp ngẫu nhiên"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-C-v1-q005",
+      "type": "MC",
+      "question": "Để thay đổi tên của một tệp tin, em nháy nút phải chuột vào tệp rồi chọn lệnh nào? [9, 12]",
+      "options": [
+        "Delete",
+        "Copy",
+        "Rename",
+        "Paste"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-4-C-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Để lưu trữ thông tin có tổ chức trên ổ đĩa, em sử dụng các ____. [9]",
+      "options": [],
+      "correct": "thư mục",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-C-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Thao tác nhầm lẫn khi xóa tệp có thể dẫn đến hậu quả bị ____ dữ liệu quan trọng. [9]",
+      "options": [],
+      "correct": "mất",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-C-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Thao tác ____ tệp giúp em chuyển tệp sang một thư mục khác mà không để lại bản gốc. [9, 13]",
+      "options": [],
+      "correct": "di chuyển",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-C-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Một thư mục nằm bên trong một thư mục khác được gọi là thư mục ____. [9, 10]",
+      "options": [],
+      "correct": "con",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-4-C-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Tên tệp gồm hai phần là phần tên và phần ____. [14]",
+      "options": [],
+      "correct": "mở rộng",
+      "duration_in_seconds": 20
+    }
+  ]
+}

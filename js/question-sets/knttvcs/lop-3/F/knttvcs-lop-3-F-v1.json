@@ -1,0 +1,224 @@
+{
+  "setId": "knttvcs-lop-3-F-v1",
+  "questionSetTitle": "Tin học lớp 3 KNTTVCS - Chủ đề F - Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 3,
+  "topicLetter": "F",
+  "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-3-F-v1-q001",
+      "type": "MC",
+      "question": "Một công việc lớn nên được thực hiện như thế nào để dễ hoàn thành?",
+      "options": [
+        "Làm tất cả cùng một lúc",
+        "Chia thành các việc nhỏ hơn",
+        "Không cần thực hiện",
+        "Nhờ máy tính làm hộ hoàn toàn"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q002",
+      "type": "TI",
+      "question": "Điền từ: Một công việc được chia thành các việc nhỏ hơn, các bước phải được sắp xếp theo ...",
+      "options": [],
+      "correct": "thứ tự",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q003",
+      "type": "MC",
+      "question": "Bước nào là bước ĐẦU TIÊN trong việc chuẩn bị đi học buổi sáng?",
+      "options": [
+        "Ăn sáng",
+        "Vệ sinh cá nhân",
+        "Thức dậy",
+        "Đi giày dép"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q004",
+      "type": "TI",
+      "question": "Điền từ: Chia một việc lớn thành những việc nhỏ hơn giúp em dễ ... và thực hiện.",
+      "options": [],
+      "correct": "hiểu",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q005",
+      "type": "MC",
+      "question": "Trong trò chơi điều khiển rô-bốt, lệnh nào làm rô-bốt đi tới 1 ô?",
+      "options": [
+        "Quay trái",
+        "Quay phải",
+        "Tiến 1 ô",
+        "Nhặt đồ vật"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Máy tính thực hiện các công việc theo từng ...",
+      "options": [],
+      "correct": "bước",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q007",
+      "type": "MC",
+      "question": "Để tạo một bài trình chiếu, em cần làm việc gì sau khi đã chuẩn bị nội dung?",
+      "options": [
+        "Xóa tệp tin",
+        "Sử dụng phần mềm trình chiếu để tạo các trang",
+        "Tắt máy tính đi ngủ",
+        "Đi mua máy tính mới"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Việc vẽ sơ đồ các bước thực hiện công việc gọi là tạo ...",
+      "options": [],
+      "correct": "thuật toán",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q009",
+      "type": "MC",
+      "question": "Hành động nào dưới đây là một ví dụ về việc chia nhỏ công việc?",
+      "options": [
+        "Gộp tất cả các bài tập về nhà làm trong 1 phút",
+        "Liệt kê các bước để vẽ một hình vuông",
+        "Chơi trò chơi không nghỉ",
+        "Tự ý bật máy tính khi chưa hỏi người lớn"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Em có thể sử dụng ... để diễn tả ý tưởng, câu chuyện theo từng bước.",
+      "options": [],
+      "correct": "chương trình máy tính",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q011",
+      "type": "MC",
+      "question": "Để điều khiển nhân vật trong Scratch, em cần dùng các khối lệnh ở vùng nào?",
+      "options": [
+        "Vùng sân khấu",
+        "Vùng danh sách nhân vật",
+        "Vùng chứa các khối lệnh",
+        "Vùng phông nền"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q012",
+      "type": "TI",
+      "question": "Điền từ: Trong phần mềm lập trình trực quan, em thực hiện kéo các ... để tạo chương trình.",
+      "options": [],
+      "correct": "khối lệnh",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q013",
+      "type": "MC",
+      "question": "Khi thực hiện các bước để trồng hoa, việc 'Chuẩn bị dụng cụ' nằm ở vị trí nào?",
+      "options": [
+        "Sau khi hoa đã nở",
+        "Bước đầu tiên",
+        "Sau khi đã tưới nước",
+        "Sau khi đã thu hoạch"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q014",
+      "type": "TI",
+      "question": "Điền từ: Khi máy tính thực hiện các lệnh sai thứ tự, kết quả có thể bị ...",
+      "options": [],
+      "correct": "sai",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q015",
+      "type": "MC",
+      "question": "Để nhân vật trong Scratch bắt đầu thực hiện lệnh, em thường nháy chuột vào biểu tượng nào?",
+      "options": [
+        "Lá cờ màu xanh",
+        "Hình tròn màu đỏ",
+        "Dấu nhân",
+        "Hình vuông"
+      ],
+      "correct": 0,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q016",
+      "type": "TI",
+      "question": "Điền từ: Việc thay đổi phông nền sân khấu giúp chương trình máy tính sinh động ...",
+      "options": [],
+      "correct": "hơn",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q017",
+      "type": "MC",
+      "question": "Trong trò chơi rô-bốt, nếu rô-bốt cần lấy đồ vật ở bên trái, em cần ra lệnh gì trước?",
+      "options": [
+        "Tiến 1 ô",
+        "Quay trái",
+        "Quay phải",
+        "Lùi 1 ô"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q018",
+      "type": "TI",
+      "question": "Điền từ: Phần mềm ... là một công cụ lập trình trực quan phù hợp với lứa tuổi của em.",
+      "options": [],
+      "correct": "Scratch",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q019",
+      "type": "MC",
+      "question": "Việc nào sau đây KHÔNG cần sử dụng máy tính?",
+      "options": [
+        "Soạn thảo văn bản",
+        "Luyện gõ bàn phím",
+        "Đi bộ tập thể dục",
+        "Tìm kiếm thông tin trên Internet"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-3-F-v1-q020",
+      "type": "TI",
+      "question": "Điền từ: Để hoàn thành một sản phẩm số, em cần thực hiện theo các việc đã ...",
+      "options": [],
+      "correct": "chia nhỏ",
+      "duration_in_seconds": 20
+    }
+  ]
+}

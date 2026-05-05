@@ -1,7 +1,7 @@
-// 10 Questions Mode - Fixed 10 questions, score based on correct answers
+// Finite Questions Mode - fixed/custom number of questions, score based on correct answers
 // Wrong answers don't cause game over, just continue to next question
 
-// Result screen module for 10 Questions mode
+// Result screen module for finite questions mode
 const Game10QuestionsResult = {
     // Win animation configuration
     winAnimation: {
@@ -13,6 +13,238 @@ const Game10QuestionsResult = {
         hasPlayedOnce: false,
         hasPlayedWinSound: false
     },
+    reviewPage: 0,
+    reviewPageSize: 2,
+
+    getLayout() {
+        const boxWidth = 980;
+        const boxHeight = 620;
+        const boxX = (config.width - boxWidth) / 2;
+        const boxY = (config.height - boxHeight) / 2;
+
+        return {
+            boxWidth,
+            boxHeight,
+            boxX,
+            boxY,
+            menuButtonWidth: 150,
+            menuButtonHeight: 60,
+            menuButtonX: boxX + (boxWidth - 150) / 2,
+            menuButtonY: boxY + boxHeight - 90,
+            prevButtonX: boxX + 40,
+            nextButtonX: boxX + boxWidth - 120,
+            navButtonY: boxY + 530,
+            navButtonWidth: 80,
+            navButtonHeight: 44
+        };
+    },
+
+    getReviewItems() {
+        return (QuizSessionTracker.session?.questionResults || []).filter(
+            (question) => question.outcome !== 'correct',
+        );
+    },
+
+    getReviewPageCount() {
+        return Math.max(1, Math.ceil(this.getReviewItems().length / this.reviewPageSize));
+    },
+
+    getCurrentReviewItems() {
+        const reviewItems = this.getReviewItems();
+        const start = this.reviewPage * this.reviewPageSize;
+        return reviewItems.slice(start, start + this.reviewPageSize);
+    },
+
+    getOutcomeConfig(outcome) {
+        if (outcome === 'timeout') {
+            return {
+                label: 'Hết giờ',
+                bgColor: '#FEF3C7',
+                textColor: '#B45309',
+                borderColor: '#F59E0B'
+            };
+        }
+
+        return {
+            label: 'Sai',
+            bgColor: '#FEE2E2',
+            textColor: '#B91C1C',
+            borderColor: '#EF4444'
+        };
+    },
+
+    wrapText(ctx, text, maxWidth) {
+        if (!text) return [''];
+
+        const words = text.split(/\s+/);
+        const lines = [];
+        let currentLine = words[0] || '';
+
+        for (let i = 1; i < words.length; i++) {
+            const testLine = `${currentLine} ${words[i]}`;
+            if (ctx.measureText(testLine).width <= maxWidth) {
+                currentLine = testLine;
+            } else {
+                lines.push(currentLine);
+                currentLine = words[i];
+            }
+        }
+
+        if (currentLine) {
+            lines.push(currentLine);
+        }
+
+        return lines;
+    },
+
+    drawReviewSection(boxX, boxY, boxWidth) {
+        const ctx = config.ctx;
+        const reviewItems = this.getReviewItems();
+        const currentItems = this.getCurrentReviewItems();
+        const reviewX = boxX + 30;
+        const reviewY = boxY + 330;
+        const reviewWidth = boxWidth - 60;
+        const reviewHeight = 170;
+        const pageCount = this.getReviewPageCount();
+
+        ctx.fillStyle = '#F8FAFC';
+        ctx.beginPath();
+        ctx.roundRect(reviewX, reviewY, reviewWidth, reviewHeight, 20);
+        ctx.fill();
+
+        ctx.strokeStyle = '#E2E8F0';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.fillStyle = '#0F172A';
+        ctx.font = 'bold 22px Arial';
+        ctx.textAlign = 'left';
+        ctx.fillText('Review câu sai / hết giờ', reviewX + 24, reviewY + 34);
+
+        ctx.fillStyle = '#64748B';
+        ctx.font = '16px Arial';
+        ctx.textAlign = 'right';
+        ctx.fillText(
+            `${reviewItems.length} câu cần xem lại`,
+            reviewX + reviewWidth - 24,
+            reviewY + 34,
+        );
+
+        if (reviewItems.length === 0) {
+            ctx.fillStyle = '#16A34A';
+            ctx.font = 'bold 20px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText(
+                'Bạn đã trả lời đúng toàn bộ câu hỏi trong lượt này.',
+                reviewX + reviewWidth / 2,
+                reviewY + 95,
+            );
+
+            ctx.fillStyle = '#64748B';
+            ctx.font = '16px Arial';
+            ctx.fillText(
+                'Không có câu nào cần xem lại.',
+                reviewX + reviewWidth / 2,
+                reviewY + 125,
+            );
+            return;
+        }
+
+        currentItems.forEach((item, index) => {
+            const itemHeight = 54;
+            const itemY = reviewY + 52 + index * 58;
+            const outcomeConfig = this.getOutcomeConfig(item.outcome);
+            const promptMaxWidth = reviewWidth - 310;
+
+            ctx.fillStyle = '#FFFFFF';
+            ctx.beginPath();
+            ctx.roundRect(reviewX + 16, itemY, reviewWidth - 32, itemHeight, 14);
+            ctx.fill();
+
+            ctx.strokeStyle = '#CBD5E1';
+            ctx.lineWidth = 1.5;
+            ctx.stroke();
+
+            ctx.fillStyle = outcomeConfig.bgColor;
+            ctx.beginPath();
+            ctx.roundRect(reviewX + 28, itemY + 12, 100, 28, 14);
+            ctx.fill();
+
+            ctx.fillStyle = outcomeConfig.textColor;
+            ctx.font = 'bold 14px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText(
+                `Câu ${item.order} • ${outcomeConfig.label}`,
+                reviewX + 78,
+                itemY + 31,
+            );
+
+            ctx.textAlign = 'left';
+            ctx.fillStyle = '#0F172A';
+            ctx.font = 'bold 15px Arial';
+            const promptLine =
+                this.wrapText(ctx, item.prompt || '', promptMaxWidth)[0] || '';
+            ctx.fillText(promptLine, reviewX + 145, itemY + 22);
+
+            ctx.font = '14px Arial';
+            ctx.fillStyle = '#475569';
+            const selectedText = item.selectedAnswerText || 'Không trả lời';
+            const correctText = item.correctAnswerText || 'Không có';
+            ctx.fillText(
+                `Bạn chọn: ${selectedText}`,
+                reviewX + 145,
+                itemY + 42,
+            );
+            ctx.fillStyle = '#166534';
+            ctx.fillText(
+                `Đáp án đúng: ${correctText}`,
+                reviewX + reviewWidth / 2 + 50,
+                itemY + 42,
+            );
+        });
+
+        if (pageCount > 1) {
+            const layout = this.getLayout();
+            const isFirstPage = this.reviewPage === 0;
+            const isLastPage = this.reviewPage >= pageCount - 1;
+
+            ctx.fillStyle = isFirstPage ? '#CBD5E1' : '#E2E8F0';
+            ctx.beginPath();
+            ctx.roundRect(
+                layout.prevButtonX,
+                layout.navButtonY,
+                layout.navButtonWidth,
+                layout.navButtonHeight,
+                12,
+            );
+            ctx.fill();
+
+            ctx.fillStyle = isLastPage ? '#CBD5E1' : '#E2E8F0';
+            ctx.beginPath();
+            ctx.roundRect(
+                layout.nextButtonX,
+                layout.navButtonY,
+                layout.navButtonWidth,
+                layout.navButtonHeight,
+                12,
+            );
+            ctx.fill();
+
+            ctx.fillStyle = '#0F172A';
+            ctx.font = 'bold 18px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('◀', layout.prevButtonX + layout.navButtonWidth / 2, layout.navButtonY + 28);
+            ctx.fillText('▶', layout.nextButtonX + layout.navButtonWidth / 2, layout.navButtonY + 28);
+
+            ctx.fillStyle = '#475569';
+            ctx.font = '15px Arial';
+            ctx.fillText(
+                `Trang ${this.reviewPage + 1}/${pageCount} • Dùng phím ← → để chuyển`,
+                boxX + boxWidth / 2,
+                layout.navButtonY + 28,
+            );
+        }
+    },
 
     // Initialize result screen
     init() {
@@ -23,6 +255,7 @@ const Game10QuestionsResult = {
         this.winAnimation.isComplete = false;
         this.winAnimation.hasPlayedOnce = false;
         this.winAnimation.hasPlayedWinSound = false;
+        this.reviewPage = 0;
     },
 
     // Update win animation
@@ -70,6 +303,7 @@ const Game10QuestionsResult = {
 
     // Draw character win animation
     drawWinCharacter() {
+        const { boxX, boxY } = this.getLayout();
         const currentChar = CHARACTERS.find(c => c.id === characterConfig.currentCharacter);
         const winSprite = assets.characters[currentChar.id].win;
 
@@ -79,11 +313,9 @@ const Game10QuestionsResult = {
             const frameCount = Math.floor(winSprite.width / frameWidth);
 
             // Character display position (left side of the result box)
-            const charSize = 180;
-            const boxWidth = 700;
-            const boxX = (config.width - boxWidth) / 2;
+            const charSize = 170;
             const charX = boxX + 50; // Left side of box
-            const charY = (config.height / 2) - charSize / 2;
+            const charY = boxY + 85;
 
             // Draw current frame of win animation
             if (frameCount > 1) {
@@ -107,10 +339,7 @@ const Game10QuestionsResult = {
         config.ctx.fillRect(0, 0, config.width, config.height);
 
         // Result popup box
-        const boxWidth = 700;
-        const boxHeight = 550;
-        const boxX = (config.width - boxWidth) / 2;
-        const boxY = (config.height - boxHeight) / 2;
+        const { boxWidth, boxHeight, boxX, boxY, menuButtonX, menuButtonY, menuButtonWidth, menuButtonHeight } = this.getLayout();
 
         // Box background
         config.ctx.fillStyle = '#fff';
@@ -120,9 +349,10 @@ const Game10QuestionsResult = {
 
         // Box border with color based on performance
         const correctAnswers = Game10Questions.correctAnswers;
+        const performanceTier = Game10Questions.getPerformanceTier();
         let borderColor = '#ff4b4b'; // Poor performance
-        if (correctAnswers >= 8) borderColor = '#58cc02'; // Excellent
-        else if (correctAnswers >= 5) borderColor = '#ff9600'; // Good
+        if (performanceTier === 'excellent') borderColor = '#58cc02'; // Excellent
+        else if (performanceTier === 'good') borderColor = '#ff9600'; // Good
 
         config.ctx.strokeStyle = borderColor;
         config.ctx.lineWidth = 4;
@@ -133,7 +363,7 @@ const Game10QuestionsResult = {
 
         // Adjust text positions to account for character on left
         const textAreaX = boxX + 250; // Start text after character
-        const textCenterX = textAreaX + (boxWidth - 250) / 2;
+        const textCenterX = textAreaX + (boxWidth - 280) / 2;
 
         // Result title
         config.ctx.fillStyle = borderColor;
@@ -144,10 +374,10 @@ const Game10QuestionsResult = {
         // Performance message
         let performanceText = '';
         let performanceEmoji = '';
-        if (correctAnswers >= 8) {
+        if (performanceTier === 'excellent') {
             performanceText = 'XUẤT SẮC!';
             performanceEmoji = '🌟';
-        } else if (correctAnswers >= 5) {
+        } else if (performanceTier === 'good') {
             performanceText = 'HOÀN THÀNH TỐT!';
             performanceEmoji = '🎉';
         } else {
@@ -169,7 +399,9 @@ const Game10QuestionsResult = {
         config.ctx.fillText(`${currentScore}`, textCenterX, boxY + 230);
 
         // Accuracy percentage
-        const accuracy = Math.round((correctAnswers / 10) * 100);
+        const accuracy = Math.round(
+            (correctAnswers / Math.max(Game10Questions.maxQuestions, 1)) * 100,
+        );
         config.ctx.fillStyle = '#4a5568';
         config.ctx.font = 'bold 18px Arial';
         config.ctx.fillText(`Độ chính xác: ${accuracy}%`, textCenterX, boxY + 270);
@@ -180,18 +412,20 @@ const Game10QuestionsResult = {
         config.ctx.font = 'bold 16px Arial';
         config.ctx.fillText(currentChar ? currentChar.name : 'Unknown', textCenterX, boxY + 300);
 
-        // Buttons
-        const buttonWidth = 150;
-        const buttonHeight = 60;
-        const menuButtonX = boxX + (boxWidth - buttonWidth) / 2;
-        const buttonY = boxY + boxHeight - 120;
+        config.ctx.fillStyle = '#475569';
+        config.ctx.font = '16px Arial';
+        config.ctx.fillText(
+            `Đúng ${correctAnswers} • Sai ${Math.max(Game10Questions.maxQuestions - correctAnswers - (QuizSessionTracker.session?.timeoutCount || 0), 0)} • Hết giờ ${QuizSessionTracker.session?.timeoutCount || 0}`,
+            textCenterX,
+            boxY + 325,
+        );
 
+        this.drawReviewSection(boxX, boxY, boxWidth);
 
         // Back to Menu button
-
         config.ctx.fillStyle = '#4a5568';
         config.ctx.beginPath();
-        config.ctx.roundRect(menuButtonX, buttonY, buttonWidth, buttonHeight, 15);
+        config.ctx.roundRect(menuButtonX, menuButtonY, menuButtonWidth, menuButtonHeight, 15);
         config.ctx.fill();
         config.ctx.strokeStyle = '#fff';
         config.ctx.lineWidth = 2;
@@ -199,12 +433,22 @@ const Game10QuestionsResult = {
 
         config.ctx.fillStyle = '#fff';
         config.ctx.font = 'bold 16px Arial';
-        config.ctx.fillText('MENU', menuButtonX + buttonWidth / 2, buttonY + buttonHeight / 2 + 5);
+        config.ctx.fillText('MENU', menuButtonX + menuButtonWidth / 2, menuButtonY + menuButtonHeight / 2 + 5);
     },
 
     // Handle input
     handleInput(e) {
         if (config.gameState !== '10questionsResult') return;
+
+        if (e.key === 'ArrowLeft') {
+            this.reviewPage = Math.max(0, this.reviewPage - 1);
+            return;
+        }
+
+        if (e.key === 'ArrowRight') {
+            this.reviewPage = Math.min(this.getReviewPageCount() - 1, this.reviewPage + 1);
+            return;
+        }
 
         if (e.key === 'Enter' || e.key === ' ' || e.key === 'Escape') {
             window.location.reload();
@@ -227,20 +471,46 @@ const Game10QuestionsResult = {
         const adjustedX = x - offsetX;
         const adjustedY = y - offsetY;
 
-        const boxWidth = 700;
-        const boxHeight = 550;
-        const boxX = (config.width - boxWidth) / 2;
-        const boxY = (config.height - boxHeight) / 2;
-
-        const buttonWidth = 150;
-        const buttonHeight = 60;
-        const menuButtonX = boxX + (boxWidth - buttonWidth) / 2; // Center the button
-        const buttonY = boxY + boxHeight - 120;
+        const {
+            boxX,
+            boxY,
+            boxWidth,
+            boxHeight,
+            menuButtonX,
+            menuButtonY,
+            menuButtonWidth,
+            menuButtonHeight,
+            prevButtonX,
+            nextButtonX,
+            navButtonY,
+            navButtonWidth,
+            navButtonHeight
+        } = this.getLayout();
 
         // Menu button click detection
-        if (adjustedX >= menuButtonX && adjustedX <= menuButtonX + buttonWidth &&
-            adjustedY >= buttonY && adjustedY <= buttonY + buttonHeight) {
+        if (adjustedX >= menuButtonX && adjustedX <= menuButtonX + menuButtonWidth &&
+            adjustedY >= menuButtonY && adjustedY <= menuButtonY + menuButtonHeight) {
             window.location.reload();
+            return;
+        }
+
+        if (
+            adjustedX >= prevButtonX &&
+            adjustedX <= prevButtonX + navButtonWidth &&
+            adjustedY >= navButtonY &&
+            adjustedY <= navButtonY + navButtonHeight
+        ) {
+            this.reviewPage = Math.max(0, this.reviewPage - 1);
+            return;
+        }
+
+        if (
+            adjustedX >= nextButtonX &&
+            adjustedX <= nextButtonX + navButtonWidth &&
+            adjustedY >= navButtonY &&
+            adjustedY <= navButtonY + navButtonHeight
+        ) {
+            this.reviewPage = Math.min(this.getReviewPageCount() - 1, this.reviewPage + 1);
         }
     },
 
@@ -262,11 +532,21 @@ const Game10Questions = {
     isEndingGame: false,
     lastObstacleCleared: false,
 
-    // Initialize 10 questions mode
+    getPerformanceTier() {
+        const excellentThreshold = Math.max(1, Math.ceil(this.maxQuestions * 0.8));
+        const goodThreshold = Math.max(1, Math.ceil(this.maxQuestions * 0.5));
+
+        if (this.correctAnswers >= excellentThreshold) return 'excellent';
+        if (this.correctAnswers >= goodThreshold) return 'good';
+        return 'needs-practice';
+    },
+
+    // Initialize finite questions mode
     init() {
-        console.log('Starting 10 Questions Mode...');
+        console.log('Starting finite questions mode...');
         this.questionsAnswered = 0;
         this.correctAnswers = 0;
+        this.maxQuestions = getQuestionLimitForMode(currentGameMode, quizData.length);
         this.currentQuestionNumber = 1;
         this.endGameTime = null;
         this.isEndingGame = false;
@@ -274,6 +554,9 @@ const Game10Questions = {
         this.questionIndex = 0;
         this.shuffledQuestions = [...quizData].sort(() => Math.random() - 0.5);
         currentScore = 0;
+        
+        // Track game start time for duration calculation
+        gameStartTime = Date.now();
 
         // Reset all game state
         obstacles = [];
@@ -352,10 +635,11 @@ const Game10Questions = {
 
         // Play completion sound based on performance
         const currentChar = CHARACTERS.find(c => c.id === characterConfig.currentCharacter);
-        if (this.correctAnswers >= 8) {
+        const performanceTier = this.getPerformanceTier();
+        if (performanceTier === 'excellent') {
             // Excellent performance
             AudioManager.playSoundEffect('sounds/success.ogg', 0.7);
-        } else if (this.correctAnswers >= 5) {
+        } else if (performanceTier === 'good') {
             // Good performance 
             if (currentChar) {
                 const jumpSoundPath = `assets/characters/${currentChar.folder}/${currentChar.prefix}-jump.ogg`;
@@ -386,6 +670,11 @@ const Game10Questions = {
         obstacles = [];
         AudioManager.stopBackgroundMusic();
 
+        // Calculate duration in seconds
+        const durationInSeconds = Math.floor((Date.now() - gameStartTime) / 1000);
+        
+        QuizSessionTracker.emitSessionResult(durationInSeconds);
+
         // Initialize result screen with win animation
         Game10QuestionsResult.init();
 
@@ -395,7 +684,7 @@ const Game10Questions = {
         Game10QuestionsResult.loop();
     },
 
-    // Draw progress UI for 10 questions mode
+    // Draw progress UI for finite questions mode
     drawProgressUI() {
         if (config.gameState !== 'playing') return;
 
@@ -453,7 +742,7 @@ const Game10Questions = {
         }
     },
 
-    // Setup controls for 10 questions mode
+    // Setup controls for finite questions mode
     setupControls() {
         // Click handler for quiz
         config.canvas.addEventListener('click', (e) => {
@@ -489,7 +778,7 @@ const Game10Questions = {
         });
     },
 
-    // Main game loop for 10 questions mode
+    // Main game loop for finite questions mode
     loop(currentTime = 0) {
         // Calculate delta time
         if (lastFrameTime === 0) {
@@ -561,6 +850,7 @@ const Game10Questions = {
                 isQuizActive = true;
                 isGamePaused = true;
                 quizStartTime = currentTime;
+                QuizSessionTracker.startQuestion(currentQuestion, currentTime);
                 console.log('Quiz time:', currentQuestion.duration_in_seconds || 10);
 
                 // Per-question time limit: use duration_in_seconds if provided, else default
@@ -639,13 +929,23 @@ const Game10Questions = {
 
     // Modified quiz timer for 10Q mode
     updateQuiz10Q() {
-        if (isQuizActive) {
+        if (isQuizActive && !Quiz.isAnswerLocked) {
             const currentTime = Date.now();
             quizTimer = quizTimeLimitMs - (currentTime - quizStartTime);
             if (quizTimer <= 0) {
-                // Time out counts as wrong answer, but delay popup close to let obstacles move closer
                 console.log('Quiz timeout! Counting as wrong answer.');
-                this.handleWrongAnswer();
+                QuizSessionTracker.recordQuestionResult({
+                    outcome: 'timeout',
+                    selectedAnswerText: quizInput,
+                    answeredAt: currentTime,
+                });
+                Quiz.showWrongAnswerFeedback({
+                    submittedAnswerText: quizInput,
+                    isTimeout: true,
+                    onComplete: () => {
+                        this.handleWrongAnswer();
+                    },
+                });
             }
         }
     }

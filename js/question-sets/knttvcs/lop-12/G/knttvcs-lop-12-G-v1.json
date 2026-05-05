@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-12-G-v1",
+  "questionSetTitle": "Tin học lớp 12 KNTTVCS - Chủ đề 7 - Giải quyết vấn đề (Khoa học dữ liệu)",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 12,
+  "topicLetter": "G",
+  "topicName": "Giải quyết vấn đề với sự trợ giúp của máy tính",
+  "topicSlug": "giai-quyet-van-de-voi-su-tro-giup-cua-may-tinh-2",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-12-G-v1-q001",
+      "type": "MC",
+      "question": "Lĩnh vực nghiên cứu các thuật toán cho phép máy tính tự học từ dữ liệu được gọi là gì?",
+      "options": [
+        "Thiết kế Web",
+        "Học máy (Machine Learning)",
+        "Quản trị mạng",
+        "Sửa chữa phần cứng"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-G-v1-q002",
+      "type": "MC",
+      "question": "Quy trình Khoa học dữ liệu thường bắt đầu bằng bước nào sau đây?",
+      "options": [
+        "Xuất báo cáo",
+        "Thu thập dữ liệu",
+        "Thiết kế biểu đồ",
+        "Lập trình Web"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-G-v1-q003",
+      "type": "MC",
+      "question": "Mục đích của bước 'Trực quan hóa dữ liệu' là gì?",
+      "options": [
+        "Làm máy tính chạy mát hơn",
+        "Biểu diễn dữ liệu bằng đồ thị để dễ khám phá tri thức",
+        "Xóa bớt dữ liệu thừa",
+        "Mã hóa dữ liệu bảo mật"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-G-v1-q004",
+      "type": "MC",
+      "question": "Học máy được ứng dụng rộng rãi trong lĩnh vực nào hiện nay?",
+      "options": [
+        "Nhận dạng hình ảnh và giọng nói",
+        "Dự báo thời tiết và chứng khoán",
+        "Hệ thống gợi ý mua sắm",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-G-v1-q005",
+      "type": "MC",
+      "question": "Đặc điểm của 'Dữ liệu lớn' (Big Data) là gì?",
+      "options": [
+        "Chỉ toàn là các con số",
+        "Khối lượng cực lớn, tốc độ nhanh và đa dạng",
+        "Dễ dàng xử lí bằng phần mềm văn phòng cơ bản",
+        "Chỉ lưu được trong đĩa CD"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-12-G-v1-q006",
+      "type": "TI",
+      "question": "... dữ liệu là quá trình khám phá tri thức từ các tập dữ liệu lớn.",
+      "options": [],
+      "correct": "Khoa học",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-G-v1-q007",
+      "type": "TI",
+      "question": "Thuật toán học máy giúp máy tính tự cải thiện hiệu suất thông qua ...",
+      "options": [],
+      "correct": "kinh nghiệm",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-G-v1-q008",
+      "type": "TI",
+      "question": "Trong khoa học dữ liệu, bước ... dữ liệu giúp loại bỏ các giá trị sai, nhiễu.",
+      "options": [],
+      "correct": "làm sạch",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-G-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: ... các hiện tượng trên máy tính giúp dự đoán kết quả mà không cần thực nghiệm tốn kém.",
+      "options": [],
+      "correct": "Mô phỏng",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-12-G-v1-q009",
+      "type": "TI",
+      "question": "AI và Khoa học dữ liệu đang trở thành công cụ hỗ trợ ... quan trọng trong mọi lĩnh vực.",
+      "options": [],
+      "correct": "hiệu quả",
+      "duration_in_seconds": 20
+    }
+  ]
+}

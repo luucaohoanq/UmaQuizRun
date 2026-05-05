@@ -1,0 +1,119 @@
+{
+  "setId": "knttvcs-lop-8-F-v1",
+  "questionSetTitle": "Tin học lớp 8 KNTTVCS - Chủ đề 6 - Hướng nghiệp với Tin học",
+  "bookCode": "KNTTVCS",
+  "bookTitle": "Kết nối tri thức với cuộc sống",
+  "grade": 8,
+  "topicLetter": "F",
+  "topicName": "Hướng nghiệp với Tin học",
+  "topicSlug": "huong-nghiep-voi-tin-hoc",
+  "version": "v1",
+  "shuffle": true,
+  "questions": [
+    {
+      "id": "knttvcs-lop-8-F-v1-q001",
+      "type": "MC",
+      "question": "Nhóm nghề nào sau đây tập trung vào việc thiết kế và xây dựng phần mềm máy tính?",
+      "options": [
+        "Quản trị mạng",
+        "Lập trình viên",
+        "Sửa chữa phần cứng",
+        "Nhập liệu"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-F-v1-q002",
+      "type": "MC",
+      "question": "Tin học có vai trò gì trong các nghề nghiệp hiện đại?",
+      "options": [
+        "Làm công việc khó khăn hơn",
+        "Tăng chất lượng và hiệu quả công việc",
+        "Thay thế hoàn toàn con người",
+        "Chỉ dùng để giải trí"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-F-v1-q003",
+      "type": "MC",
+      "question": "Phát biểu nào sau đây đúng về vấn đề bình đẳng giới trong ngành Tin học?",
+      "options": [
+        "Ngành Tin học chỉ dành cho nam giới",
+        "Nữ giới không phù hợp với công việc lập trình",
+        "Nam và nữ đều có cơ hội nghề nghiệp như nhau trong ngành Tin học",
+        "Nữ giới chỉ nên làm thiết kế đồ họa"
+      ],
+      "correct": 2,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-F-v1-q004",
+      "type": "MC",
+      "question": "Để theo đuổi nghề nghiệp trong lĩnh vực Tin học, em cần rèn luyện kỹ năng nào?",
+      "options": [
+        "Kỹ năng giải quyết vấn đề",
+        "Khả năng tự học",
+        "Tư duy lôgic",
+        "Tất cả các đáp án trên"
+      ],
+      "correct": 3,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-F-v1-q005",
+      "type": "MC",
+      "question": "Nghề thiết kế đồ họa máy tính thuộc lĩnh vực ứng dụng nào của Tin học?",
+      "options": [
+        "Khoa học máy tính",
+        "Tin học ứng dụng",
+        "Quản trị hệ thống",
+        "Lắp ráp phần cứng"
+      ],
+      "correct": 1,
+      "duration_in_seconds": 10
+    },
+    {
+      "id": "knttvcs-lop-8-F-v1-q006",
+      "type": "TI",
+      "question": "Điền từ: Tin học giúp nâng cao ____ lao động trong mọi ngành nghề khác nhau.",
+      "options": [],
+      "correct": "năng suất",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-F-v1-q007",
+      "type": "TI",
+      "question": "Điền từ: Nghề ____ hệ thống thông tin chịu trách nhiệm cài đặt và bảo trì mạng máy tính cho doanh nghiệp.",
+      "options": [],
+      "correct": "quản trị",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-F-v1-q008",
+      "type": "TI",
+      "question": "Điền từ: Sự đóng góp của ____ giới là rất quan trọng trong sự phát triển bền vững của ngành Tin học.",
+      "options": [],
+      "correct": "nữ",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-F-v1-q009",
+      "type": "TI",
+      "question": "Điền từ: Các phần mềm ứng dụng trong y tế giúp bác sĩ theo dõi sức khỏe bệnh nhân ____ hơn.",
+      "options": [],
+      "correct": "chính xác",
+      "duration_in_seconds": 20
+    },
+    {
+      "id": "knttvcs-lop-8-F-v1-q010",
+      "type": "TI",
+      "question": "Điền từ: Khả năng ghi nhớ tốt và sự cẩn thận giúp nữ giới có ưu thế trong nghề ____ phần mềm.",
+      "options": [],
+      "correct": "kiểm thử",
+      "duration_in_seconds": 20
+    }
+  ]
+}
