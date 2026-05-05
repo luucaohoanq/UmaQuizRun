@@ -61,6 +61,7 @@ const QUIZ_TIME_LIMIT = 10000; // 10 seconds default
 const OBSTACLE_SPAWN_INTERVAL = 5000; // 5 seconds after quiz ends
 const TARGET_FPS = 60;
 const FIXED_TIME_STEP = 1000 / TARGET_FPS; // 16.67ms
+const CHARACTER_Y_OFFSET = 60; // Raise character and ground up from bottom
 
 // Global game state variables
 let currentGameMode = GAME_MODES.ENDLESS;

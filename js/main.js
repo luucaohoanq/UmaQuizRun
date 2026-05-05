@@ -37,7 +37,7 @@ function resizeCanvas() {
     config.ctx.translate(offsetX, offsetY);
 
     // Update relative positions
-    config.groundY = config.height * 0.8;
+    config.groundY = config.height * 0.8 - CHARACTER_Y_OFFSET;
     if (typeof characterConfig !== 'undefined') {
         characterConfig.y = config.groundY; // Reset to ground if not jumping
     }
