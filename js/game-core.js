@@ -132,19 +132,26 @@ const Game = {
     // Draw UI overlay
     drawUI() {
         if (config.gameState !== 'playing') return;
+        const xAxis = 130; // Base x-axis for score display
+        const yAxis = 100; // Base y-axis for score display
+        const textXAxis = 150; // X-axis for text inside score box
 
         // Score display
         config.ctx.fillStyle = 'rgba(0, 0, 0, 0.7';
-        config.ctx.fillRect(50, 50, 250, 100);
+        // 130: x axis
+        // 100: y axis
+        // 250: width of score box
+        // 100: height of score box
+        config.ctx.fillRect(xAxis, yAxis, 250, 100);
 
         config.ctx.fillStyle = '#fff';
         config.ctx.font = 'bold 24px Arial';
         config.ctx.textAlign = 'left';
-        config.ctx.fillText('ĐIỂM HIỆN TẠI', 70, 90);
+        config.ctx.fillText('ĐIỂM HIỆN TẠI', textXAxis, 140);
 
         config.ctx.fillStyle = '#58cc02';
         config.ctx.font = 'bold 28px Arial';
-        config.ctx.fillText(`${currentScore}`, 70, 120);
+        config.ctx.fillText(`${currentScore}`, textXAxis, 170);
         // Draw any active quiz answer effects on top of UI
         if (typeof Quiz !== 'undefined' && Quiz.drawEffects) {
             Quiz.drawEffects();
