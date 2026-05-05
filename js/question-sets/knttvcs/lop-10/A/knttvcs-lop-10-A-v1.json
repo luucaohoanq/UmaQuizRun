@@ -13,7 +13,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q001",
       "type": "MC",
-      "question": "Đơn vị nhỏ nhất để đo lượng thông tin là gì? [1]",
+      "question": "Đơn vị nhỏ nhất để đo lượng thông tin là gì?",
       "options": [
         "Byte",
         "Bit",
@@ -26,7 +26,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q002",
       "type": "MC",
-      "question": "Thiết bị nào sau đây được coi là một thiết bị thông minh? [2]",
+      "question": "Thiết bị nào sau đây được coi là một thiết bị thông minh?",
       "options": [
         "Đồng hồ treo tường chạy pin",
         "Máy tính bỏ túi đơn giản",
@@ -39,7 +39,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q003",
       "type": "MC",
-      "question": "Một Byte bằng bao nhiêu bit? [1]",
+      "question": "Một Byte bằng bao nhiêu bit?",
       "options": [
         "2 bit",
         "4 bit",
@@ -52,7 +52,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q004",
       "type": "MC",
-      "question": "Bảng mã nào sau đây hỗ trợ biểu diễn đầy đủ các ngôn ngữ trên thế giới, bao gồm cả tiếng Việt? [3]",
+      "question": "Bảng mã nào sau đây hỗ trợ biểu diễn đầy đủ các ngôn ngữ trên thế giới, bao gồm cả tiếng Việt?",
       "options": [
         "ASCII",
         "Unicode",
@@ -65,7 +65,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q005",
       "type": "MC",
-      "question": "Trong hệ nhị phân, phép toán 1 + 1 cho kết quả là bao nhiêu? [4]",
+      "question": "Trong hệ nhị phân, phép toán 1 + 1 cho kết quả là bao nhiêu?",
       "options": [
         "2",
         "1",
@@ -78,7 +78,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q006",
       "type": "MC",
-      "question": "Phép toán lôgic 'VÀ' (AND) chỉ cho kết quả là Đúng khi nào? [5]",
+      "question": "Phép toán lôgic 'VÀ' (AND) chỉ cho kết quả là Đúng khi nào?",
       "options": [
         "Cả hai mệnh đề thành phần đều đúng",
         "Chỉ cần một trong hai mệnh đề đúng",
@@ -91,7 +91,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q007",
       "type": "MC",
-      "question": "Dữ liệu sau khi được máy tính xử lí và đem lại hiểu biết cho con người được gọi là gì? [1]",
+      "question": "Dữ liệu sau khi được máy tính xử lí và đem lại hiểu biết cho con người được gọi là gì?",
       "options": [
         "Vật mang tin",
         "Thông tin",
@@ -104,7 +104,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q008",
       "type": "MC",
-      "question": "Thiết bị số có ưu điểm nổi bật nào so với thiết bị truyền thống? [2]",
+      "question": "Thiết bị số có ưu điểm nổi bật nào so với thiết bị truyền thống?",
       "options": [
         "Kích thước luôn lớn hơn",
         "Không cần sử dụng điện",
@@ -117,7 +117,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q009",
       "type": "MC",
-      "question": "Số 5 trong hệ thập phân khi chuyển sang hệ nhị phân là gì? [4]",
+      "question": "Số 5 trong hệ thập phân khi chuyển sang hệ nhị phân là gì?",
       "options": [
         "100",
         "101",
@@ -130,7 +130,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q010",
       "type": "MC",
-      "question": "Phép toán lôgic nào sau đây dùng để đảo ngược giá trị chân lí của một mệnh đề? [5]",
+      "question": "Phép toán lôgic nào sau đây dùng để đảo ngược giá trị chân lí của một mệnh đề?",
       "options": [
         "VÀ (AND)",
         "HOẶC (OR)",
@@ -143,7 +143,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q011",
       "type": "TI",
-      "question": "Điền từ: 1024 Gigabyte (GB) tương đương với 1 ... [1]",
+      "question": "Điền từ: 1024 Gigabyte (GB) tương đương với 1 ...",
       "options": [],
       "correct": "Terabyte",
       "duration_in_seconds": 20
@@ -151,7 +151,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q012",
       "type": "TI",
-      "question": "Điền từ: Thiết bị ... là hệ thống xử lí thông tin có thể hoạt động tự chủ và kết nối với các thiết bị khác. [2]",
+      "question": "Điền từ: Thiết bị ... là hệ thống xử lí thông tin có thể hoạt động tự chủ và kết nối với các thiết bị khác.",
       "options": [],
       "correct": "thông minh",
       "duration_in_seconds": 20
@@ -159,7 +159,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q013",
       "type": "TI",
-      "question": "Điền từ: Việc chuyển văn bản thành một dãy bit được gọi là ... văn bản. [3]",
+      "question": "Điền từ: Việc chuyển văn bản thành một dãy bit được gọi là ... văn bản.",
       "options": [],
       "correct": "số hóa",
       "duration_in_seconds": 20
@@ -167,7 +167,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q014",
       "type": "TI",
-      "question": "Điền từ: Trong máy tính, các phép tính số học được thực hiện trên hệ đếm ... [4]",
+      "question": "Điền từ: Trong máy tính, các phép tính số học được thực hiện trên hệ đếm ...",
       "options": [],
       "correct": "nhị phân",
       "duration_in_seconds": 20
@@ -175,7 +175,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q015",
       "type": "TI",
-      "question": "Điền từ: Phép toán lôgic ... (OR) cho kết quả là Sai khi cả hai mệnh đề thành phần đều sai. [5]",
+      "question": "Điền từ: Phép toán lôgic ... (OR) cho kết quả là Sai khi cả hai mệnh đề thành phần đều sai.",
       "options": [],
       "correct": "HOẶC",
       "duration_in_seconds": 20
@@ -183,7 +183,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q016",
       "type": "TI",
-      "question": "Điền từ: ... là các giá trị số, chữ cái hoặc ký hiệu được máy tính thu nhận. [1]",
+      "question": "Điền từ: ... là các giá trị số, chữ cái hoặc ký hiệu được máy tính thu nhận.",
       "options": [],
       "correct": "Dữ liệu",
       "duration_in_seconds": 20
@@ -191,7 +191,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q017",
       "type": "TI",
-      "question": "Điền từ: Robot ... là một ví dụ phổ biến về thiết bị thông minh trong gia đình. [2]",
+      "question": "Điền từ: Robot ... là một ví dụ phổ biến về thiết bị thông minh trong gia đình.",
       "options": [],
       "correct": "hút bụi",
       "duration_in_seconds": 20
@@ -199,7 +199,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q018",
       "type": "TI",
-      "question": "Điền từ: Hệ nhị phân chỉ sử dụng hai chữ số là 0 và ... [4]",
+      "question": "Điền từ: Hệ nhị phân chỉ sử dụng hai chữ số là 0 và ...",
       "options": [],
       "correct": "1",
       "duration_in_seconds": 20
@@ -207,7 +207,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q019",
       "type": "TI",
-      "question": "Điền từ: Đơn vị đo dung lượng lưu trữ lớn hơn Megabyte (MB) nhưng nhỏ hơn Terabyte (TB) là ... [1]",
+      "question": "Điền từ: Đơn vị đo dung lượng lưu trữ lớn hơn Megabyte (MB) nhưng nhỏ hơn Terabyte (TB) là ...",
       "options": [],
       "correct": "Gigabyte",
       "duration_in_seconds": 20
@@ -215,7 +215,7 @@
     {
       "id": "knttvcs-lop-10-A-v1-q020",
       "type": "TI",
-      "question": "Điền từ: Một mệnh đề lôgic chỉ có thể nhận một trong hai giá trị là Đúng hoặc ... [5]",
+      "question": "Điền từ: Một mệnh đề lôgic chỉ có thể nhận một trong hai giá trị là Đúng hoặc ...",
       "options": [],
       "correct": "Sai",
       "duration_in_seconds": 20

@@ -13,7 +13,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q001",
       "type": "MC",
-      "question": "Thông tin nào sau đây có thể xuất hiện trên một trang web? [4]",
+      "question": "Thông tin nào sau đây có thể xuất hiện trên một trang web?",
       "options": [
         "Văn bản",
         "Hình ảnh và âm thanh",
@@ -26,7 +26,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q002",
       "type": "MC",
-      "question": "Thành phần nào trên trang web giúp em di chuyển sang một trang web khác khi nháy chuột vào? [4]",
+      "question": "Thành phần nào trên trang web giúp em di chuyển sang một trang web khác khi nháy chuột vào?",
       "options": [
         "Thanh cuộn",
         "Siêu liên kết",
@@ -39,7 +39,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q003",
       "type": "MC",
-      "question": "Trình duyệt web nào sau đây thường được dùng để truy cập Internet? [5]",
+      "question": "Trình duyệt web nào sau đây thường được dùng để truy cập Internet?",
       "options": [
         "Google Chrome",
         "Microsoft Word",
@@ -52,7 +52,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q004",
       "type": "MC",
-      "question": "Trẻ em cố tình truy cập vào trang web không phù hợp lứa tuổi có tác hại gì? [4]",
+      "question": "Trẻ em cố tình truy cập vào trang web không phù hợp lứa tuổi có tác hại gì?",
       "options": [
         "Làm máy tính chạy nhanh hơn",
         "Có hại cho sự phát triển tâm lí",
@@ -65,7 +65,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q005",
       "type": "MC",
-      "question": "Để tìm kiếm thông tin về 'Các đời vua Hùng' trên Internet, em gõ cụm từ này vào đâu? [5]",
+      "question": "Để tìm kiếm thông tin về 'Các đời vua Hùng' trên Internet, em gõ cụm từ này vào đâu?",
       "options": [
         "Bàn phím",
         "Thanh địa chỉ hoặc ô tìm kiếm",
@@ -78,7 +78,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q006",
       "type": "TI",
-      "question": "Điền từ: Các loại thông tin chính trên trang web bao gồm: văn bản, hình ảnh, âm thanh và ____. [4]",
+      "question": "Điền từ: Các loại thông tin chính trên trang web bao gồm: văn bản, hình ảnh, âm thanh và ____.",
       "options": [],
       "correct": "siêu liên kết",
       "duration_in_seconds": 20
@@ -86,7 +86,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q007",
       "type": "TI",
-      "question": "Điền từ: Khi nháy chuột vào siêu liên kết, em sẽ chuyển đến trang ____ khác. [4]",
+      "question": "Điền từ: Khi nháy chuột vào siêu liên kết, em sẽ chuyển đến trang ____ khác.",
       "options": [],
       "correct": "web",
       "duration_in_seconds": 20
@@ -94,7 +94,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q008",
       "type": "TI",
-      "question": "Điền từ: Em cần sự cho phép của ____ khi muốn truy cập Internet. [6]",
+      "question": "Điền từ: Em cần sự cho phép của ____ khi muốn truy cập Internet.",
       "options": [],
       "correct": "người lớn",
       "duration_in_seconds": 20
@@ -102,7 +102,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q009",
       "type": "TI",
-      "question": "Điền từ: Mỗi trang web có một địa chỉ ____ riêng để truy cập. [7]",
+      "question": "Điền từ: Mỗi trang web có một địa chỉ ____ riêng để truy cập.",
       "options": [],
       "correct": "truy cập",
       "duration_in_seconds": 20
@@ -110,7 +110,7 @@
     {
       "id": "knttvcs-lop-4-B-v1-q010",
       "type": "TI",
-      "question": "Điền từ: Máy tìm kiếm giúp em tìm thấy thông tin dựa trên các ____. [8]",
+      "question": "Điền từ: Máy tìm kiếm giúp em tìm thấy thông tin dựa trên các ____.",
       "options": [],
       "correct": "từ khóa",
       "duration_in_seconds": 20

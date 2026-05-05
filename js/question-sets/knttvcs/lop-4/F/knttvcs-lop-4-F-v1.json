@@ -13,7 +13,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q001",
       "type": "MC",
-      "question": "Trong phần mềm Scratch, nhân vật mặc định xuất hiện là con vật nào? [1, 12]",
+      "question": "Trong phần mềm Scratch, nhân vật mặc định xuất hiện là con vật nào?",
       "options": [
         "Con chó",
         "Con rùa",
@@ -26,7 +26,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q002",
       "type": "MC",
-      "question": "Để nhân vật bắt đầu thực hiện lệnh trong Scratch, em nháy chuột vào biểu tượng nào? [1, 20]",
+      "question": "Để nhân vật bắt đầu thực hiện lệnh trong Scratch, em nháy chuột vào biểu tượng nào?",
       "options": [
         "Hình vuông màu đỏ",
         "Lá cờ màu xanh",
@@ -39,7 +39,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q003",
       "type": "MC",
-      "question": "Trong lập trình trực quan, các lệnh được kết nối với nhau như thế nào? [1, 12]",
+      "question": "Trong lập trình trực quan, các lệnh được kết nối với nhau như thế nào?",
       "options": [
         "Gõ mã văn bản phức tạp",
         "Kéo và ghép các khối lệnh",
@@ -52,7 +52,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q004",
       "type": "MC",
-      "question": "Khu vực hiển thị kết quả hoạt động của nhân vật trong Scratch được gọi là gì? [1, 20]",
+      "question": "Khu vực hiển thị kết quả hoạt động của nhân vật trong Scratch được gọi là gì?",
       "options": [
         "Vùng chứa nhân vật",
         "Sân khấu",
@@ -65,7 +65,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q005",
       "type": "MC",
-      "question": "Lệnh nào làm nhân vật di chuyển 10 bước trong Scratch? [20, 21]",
+      "question": "Lệnh nào làm nhân vật di chuyển 10 bước trong Scratch?",
       "options": [
         "Nói Hello",
         "Phát âm thanh",
@@ -78,7 +78,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q006",
       "type": "TI",
-      "question": "Điền từ: Scratch 3 là một phần mềm giúp em tập làm quen với ____ trực quan. [1, 12]",
+      "question": "Điền từ: Scratch 3 là một phần mềm giúp em tập làm quen với ____ trực quan.",
       "options": [],
       "correct": "lập trình",
       "duration_in_seconds": 20
@@ -86,7 +86,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q007",
       "type": "TI",
-      "question": "Điền từ: Một ____ máy tính là dãy các bước hướng dẫn máy tính thực hiện công việc. [1, 21]",
+      "question": "Điền từ: Một ____ máy tính là dãy các bước hướng dẫn máy tính thực hiện công việc.",
       "options": [],
       "correct": "chương trình",
       "duration_in_seconds": 20
@@ -94,7 +94,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q008",
       "type": "TI",
-      "question": "Điền từ: Để nhân vật đổi hướng, em sử dụng nhóm lệnh ____. [20, 21]",
+      "question": "Điền từ: Để nhân vật đổi hướng, em sử dụng nhóm lệnh ____.",
       "options": [],
       "correct": "Chuyển động",
       "duration_in_seconds": 20
@@ -102,7 +102,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q009",
       "type": "TI",
-      "question": "Điền từ: Trong lập trình, các bước phải được thực hiện theo đúng ____ để có kết quả đúng. [21]",
+      "question": "Điền từ: Trong lập trình, các bước phải được thực hiện theo đúng ____ để có kết quả đúng.",
       "options": [],
       "correct": "thứ tự",
       "duration_in_seconds": 20
@@ -110,7 +110,7 @@
     {
       "id": "knttvcs-lop-4-F-v1-q010",
       "type": "TI",
-      "question": "Điền từ: Nháy chuột vào hình ____ màu đỏ để dừng chương trình Scratch. [20]",
+      "question": "Điền từ: Nháy chuột vào hình ____ màu đỏ để dừng chương trình Scratch.",
       "options": [],
       "correct": "tròn",
       "duration_in_seconds": 20

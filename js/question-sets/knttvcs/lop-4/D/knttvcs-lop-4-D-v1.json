@@ -13,7 +13,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q001",
       "type": "MC",
-      "question": "Phần mềm nào sau đây là phần mềm miễn phí thường dùng để gõ tiếng Việt? [12]",
+      "question": "Phần mềm nào sau đây là phần mềm miễn phí thường dùng để gõ tiếng Việt?",
       "options": [
         "Microsoft Word",
         "Unikey",
@@ -26,7 +26,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q002",
       "type": "MC",
-      "question": "Chỉ được sử dụng phần mềm có bản quyền khi nào? [12]",
+      "question": "Chỉ được sử dụng phần mềm có bản quyền khi nào?",
       "options": [
         "Khi muốn dùng",
         "Khi được phép của tác giả hoặc đã mua",
@@ -39,7 +39,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q003",
       "type": "MC",
-      "question": "Hành động nào sau đây thể hiện văn hóa khi sử dụng máy tính? [15]",
+      "question": "Hành động nào sau đây thể hiện văn hóa khi sử dụng máy tính?",
       "options": [
         "Tự ý bẻ khóa phần mềm trả phí",
         "Tôn trọng bản quyền và quyền tác giả",
@@ -52,7 +52,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q004",
       "type": "MC",
-      "question": "Nội dung nào trên Internet thường có bản quyền? [16]",
+      "question": "Nội dung nào trên Internet thường có bản quyền?",
       "options": [
         "Bài văn",
         "Bản nhạc",
@@ -65,7 +65,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q005",
       "type": "MC",
-      "question": "Hầu hết các thông tin trên Internet là gì? [16]",
+      "question": "Hầu hết các thông tin trên Internet là gì?",
       "options": [
         "Không có chủ sở hữu",
         "Có bản quyền",
@@ -78,7 +78,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q006",
       "type": "TI",
-      "question": "Điền từ: Em chỉ được sử dụng phần mềm có bản quyền khi được tác giả ____. [12]",
+      "question": "Điền từ: Em chỉ được sử dụng phần mềm có bản quyền khi được tác giả ____.",
       "options": [],
       "correct": "cho phép",
       "duration_in_seconds": 20
@@ -86,7 +86,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q007",
       "type": "TI",
-      "question": "Điền từ: Unikey và Scratch 3 là các ví dụ cụ thể về phần mềm ____. [12]",
+      "question": "Điền từ: Unikey và Scratch 3 là các ví dụ cụ thể về phần mềm ____.",
       "options": [],
       "correct": "miễn phí",
       "duration_in_seconds": 20
@@ -94,7 +94,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q008",
       "type": "TI",
-      "question": "Điền từ: Việc ghi rõ tên ____ khi sử dụng bài văn từ Internet thể hiện sự tôn trọng bản quyền. [17]",
+      "question": "Điền từ: Việc ghi rõ tên ____ khi sử dụng bài văn từ Internet thể hiện sự tôn trọng bản quyền.",
       "options": [],
       "correct": "tác giả",
       "duration_in_seconds": 20
@@ -102,7 +102,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q009",
       "type": "TI",
-      "question": "Điền từ: Sử dụng phần mềm ____ là hành vi không đúng đạo đức và pháp luật. [16, 18]",
+      "question": "Điền từ: Sử dụng phần mềm ____ là hành vi không đúng đạo đức và pháp luật.",
       "options": [],
       "correct": "lậu",
       "duration_in_seconds": 20
@@ -110,7 +110,7 @@
     {
       "id": "knttvcs-lop-4-D-v1-q010",
       "type": "TI",
-      "question": "Điền từ: Tôn trọng bản quyền nội dung thông tin là tự bảo vệ ____ và tôn trọng người khác. [17, 19]",
+      "question": "Điền từ: Tôn trọng bản quyền nội dung thông tin là tự bảo vệ ____ và tôn trọng người khác.",
       "options": [],
       "correct": "mình",
       "duration_in_seconds": 20

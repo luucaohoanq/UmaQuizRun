@@ -13,7 +13,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q001",
       "type": "MC",
-      "question": "Thư mục dùng để làm gì trong máy tính? [9]",
+      "question": "Thư mục dùng để làm gì trong máy tính?",
       "options": [
         "Để hiển thị hình ảnh",
         "Để chứa các tệp và các thư mục con",
@@ -26,7 +26,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q002",
       "type": "MC",
-      "question": "Biểu tượng của thư mục trong hệ điều hành Windows thường có màu gì? [9]",
+      "question": "Biểu tượng của thư mục trong hệ điều hành Windows thường có màu gì?",
       "options": [
         "Xanh dương",
         "Đỏ",
@@ -39,7 +39,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q003",
       "type": "MC",
-      "question": "Thao tác nào sau đây tạo ra một bản sao của tệp ở vị trí khác? [9]",
+      "question": "Thao tác nào sau đây tạo ra một bản sao của tệp ở vị trí khác?",
       "options": [
         "Delete",
         "Rename",
@@ -52,7 +52,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q004",
       "type": "MC",
-      "question": "Cách sắp xếp các thư mục trong máy tính giống như sơ đồ gì? [9, 11]",
+      "question": "Cách sắp xếp các thư mục trong máy tính giống như sơ đồ gì?",
       "options": [
         "Sơ đồ hình tròn",
         "Sơ đồ hình cây",
@@ -65,7 +65,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q005",
       "type": "MC",
-      "question": "Để thay đổi tên của một tệp tin, em nháy nút phải chuột vào tệp rồi chọn lệnh nào? [9, 12]",
+      "question": "Để thay đổi tên của một tệp tin, em nháy nút phải chuột vào tệp rồi chọn lệnh nào?",
       "options": [
         "Delete",
         "Copy",
@@ -78,7 +78,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q006",
       "type": "TI",
-      "question": "Điền từ: Để lưu trữ thông tin có tổ chức trên ổ đĩa, em sử dụng các ____. [9]",
+      "question": "Điền từ: Để lưu trữ thông tin có tổ chức trên ổ đĩa, em sử dụng các ____.",
       "options": [],
       "correct": "thư mục",
       "duration_in_seconds": 20
@@ -86,7 +86,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q007",
       "type": "TI",
-      "question": "Điền từ: Thao tác nhầm lẫn khi xóa tệp có thể dẫn đến hậu quả bị ____ dữ liệu quan trọng. [9]",
+      "question": "Điền từ: Thao tác nhầm lẫn khi xóa tệp có thể dẫn đến hậu quả bị ____ dữ liệu quan trọng.",
       "options": [],
       "correct": "mất",
       "duration_in_seconds": 20
@@ -94,7 +94,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q008",
       "type": "TI",
-      "question": "Điền từ: Thao tác ____ tệp giúp em chuyển tệp sang một thư mục khác mà không để lại bản gốc. [9, 13]",
+      "question": "Điền từ: Thao tác ____ tệp giúp em chuyển tệp sang một thư mục khác mà không để lại bản gốc.",
       "options": [],
       "correct": "di chuyển",
       "duration_in_seconds": 20
@@ -102,7 +102,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q009",
       "type": "TI",
-      "question": "Điền từ: Một thư mục nằm bên trong một thư mục khác được gọi là thư mục ____. [9, 10]",
+      "question": "Điền từ: Một thư mục nằm bên trong một thư mục khác được gọi là thư mục ____.",
       "options": [],
       "correct": "con",
       "duration_in_seconds": 20
@@ -110,7 +110,7 @@
     {
       "id": "knttvcs-lop-4-C-v1-q010",
       "type": "TI",
-      "question": "Điền từ: Tên tệp gồm hai phần là phần tên và phần ____. [14]",
+      "question": "Điền từ: Tên tệp gồm hai phần là phần tên và phần ____.",
       "options": [],
       "correct": "mở rộng",
       "duration_in_seconds": 20

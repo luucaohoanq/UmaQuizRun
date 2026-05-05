@@ -13,7 +13,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q001",
       "type": "MC",
-      "question": "World Wide Web (WWW) là gì? [10]",
+      "question": "World Wide Web (WWW) là gì?",
       "options": [
         "Một mạng máy tính nội bộ",
         "Hệ thống các trang siêu văn bản trên Internet",
@@ -26,7 +26,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q002",
       "type": "MC",
-      "question": "Mỗi website được truy cập thông qua một gì? [10]",
+      "question": "Mỗi website được truy cập thông qua một gì?",
       "options": [
         "Mật khẩu",
         "Địa chỉ truy cập",
@@ -39,7 +39,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q003",
       "type": "MC",
-      "question": "Thành phần nào trên trang web giúp em di chuyển sang trang web khác khi nháy chuột? [10]",
+      "question": "Thành phần nào trên trang web giúp em di chuyển sang trang web khác khi nháy chuột?",
       "options": [
         "Siêu liên kết",
         "Văn bản thường",
@@ -52,7 +52,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q004",
       "type": "MC",
-      "question": "Đâu là ví dụ về một máy tìm kiếm phổ biến? [11]",
+      "question": "Đâu là ví dụ về một máy tìm kiếm phổ biến?",
       "options": [
         "Microsoft Word",
         "Scratch",
@@ -65,7 +65,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q005",
       "type": "MC",
-      "question": "Ưu điểm của thư điện tử (email) là gì? [8]",
+      "question": "Ưu điểm của thư điện tử (email) là gì?",
       "options": [
         "Chi phí thấp",
         "Thời gian chuyển thư tức thời",
@@ -78,7 +78,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q006",
       "type": "TI",
-      "question": "Điền từ: Để tìm kiếm thông tin trên Internet, em cần sử dụng ____ là các cụm từ ngắn gọn. [11]",
+      "question": "Điền từ: Để tìm kiếm thông tin trên Internet, em cần sử dụng ____ là các cụm từ ngắn gọn.",
       "options": [],
       "correct": "từ khóa",
       "duration_in_seconds": 20
@@ -86,7 +86,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q007",
       "type": "TI",
-      "question": "Phần mềm dùng để truy cập các trang web được gọi là trình ____ web. [12]",
+      "question": "Phần mềm dùng để truy cập các trang web được gọi là trình ____ web.",
       "options": [],
       "correct": "duyệt",
       "duration_in_seconds": 20
@@ -94,7 +94,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q008",
       "type": "TI",
-      "question": "Trang ____ là trang web đầu tiên hiện ra khi em truy cập vào một website. [10]",
+      "question": "Trang ____ là trang web đầu tiên hiện ra khi em truy cập vào một website.",
       "options": [],
       "correct": "chủ",
       "duration_in_seconds": 20
@@ -102,7 +102,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q009",
       "type": "TI",
-      "question": "WWW là mạng ____ toàn cầu. [10]",
+      "question": "WWW là mạng ____ toàn cầu.",
       "options": [],
       "correct": "thông tin",
       "duration_in_seconds": 20
@@ -110,7 +110,7 @@
     {
       "id": "knttvcs-lop-6-C-v1-q010",
       "type": "TI",
-      "question": "Điền từ: Em có thể sử dụng ____ (Bookmarks) để lưu địa chỉ các trang web yêu thích. [12]",
+      "question": "Điền từ: Em có thể sử dụng ____ (Bookmarks) để lưu địa chỉ các trang web yêu thích.",
       "options": [],
       "correct": "thanh đánh dấu",
       "duration_in_seconds": 20

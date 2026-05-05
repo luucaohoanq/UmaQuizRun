@@ -13,7 +13,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q001",
       "type": "MC",
-      "question": "Trong tin học, những gì đem lại hiểu biết cho con người về thế giới xung quanh được gọi là gì? [3]",
+      "question": "Trong tin học, những gì đem lại hiểu biết cho con người về thế giới xung quanh được gọi là gì?",
       "options": [
         "Dữ liệu",
         "Vật mang tin",
@@ -26,7 +26,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q002",
       "type": "MC",
-      "question": "Hoạt động nào sau đây thuộc quá trình xử lí thông tin của máy tính? [4]",
+      "question": "Hoạt động nào sau đây thuộc quá trình xử lí thông tin của máy tính?",
       "options": [
         "Thu nhận thông tin",
         "Xử lí thông tin",
@@ -39,7 +39,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q003",
       "type": "MC",
-      "question": "Thiết bị nào sau đây là thiết bị đầu cuối giúp thu nhận thông tin vào máy tính? [4]",
+      "question": "Thiết bị nào sau đây là thiết bị đầu cuối giúp thu nhận thông tin vào máy tính?",
       "options": [
         "Màn hình",
         "Bàn phím",
@@ -52,7 +52,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q004",
       "type": "MC",
-      "question": "Vật mang tin là gì? [5]",
+      "question": "Vật mang tin là gì?",
       "options": [
         "Là hiểu biết về thế giới",
         "Là các con số và hình ảnh",
@@ -65,7 +65,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q005",
       "type": "MC",
-      "question": "Ưu điểm của máy tính so với con người trong việc xử lí thông tin là gì? [4]",
+      "question": "Ưu điểm của máy tính so với con người trong việc xử lí thông tin là gì?",
       "options": [
         "Xử lí thông tin với tốc độ cao và chính xác",
         "Có khả năng cảm thụ nghệ thuật tốt hơn",
@@ -78,7 +78,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q006",
       "type": "TI",
-      "question": "Điền từ: ... là phương tiện được dùng để lưu trữ và truyền tải thông tin (ví dụ: giấy viết, thẻ nhớ). [5]",
+      "question": "Điền từ: ... là phương tiện được dùng để lưu trữ và truyền tải thông tin (ví dụ: giấy viết, thẻ nhớ).",
       "options": [],
       "correct": "Vật mang tin",
       "duration_in_seconds": 20
@@ -86,7 +86,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q007",
       "type": "TI",
-      "question": "Điền từ: Bước đầu tiên của quá trình xử lí thông tin là ... thông tin. [4]",
+      "question": "Điền từ: Bước đầu tiên của quá trình xử lí thông tin là ... thông tin.",
       "options": [],
       "correct": "thu nhận",
       "duration_in_seconds": 20
@@ -94,7 +94,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q008",
       "type": "TI",
-      "question": "Thông tin khi được đưa vào máy tính sẽ trở thành ... [3]",
+      "question": "Thông tin khi được đưa vào máy tính sẽ trở thành ...",
       "options": [],
       "correct": "dữ liệu",
       "duration_in_seconds": 20
@@ -102,7 +102,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q009",
       "type": "TI",
-      "question": "Điền từ: Máy tính giúp con người lưu trữ lượng thông tin rất ... [4]",
+      "question": "Điền từ: Máy tính giúp con người lưu trữ lượng thông tin rất ...",
       "options": [],
       "correct": "lớn",
       "duration_in_seconds": 20
@@ -110,7 +110,7 @@
     {
       "id": "knttvcs-lop-6-A-v1-q010",
       "type": "TI",
-      "question": "Trong máy tính, thiết bị ... bao gồm chuột, bàn phím và máy quét. [4]",
+      "question": "Trong máy tính, thiết bị ... bao gồm chuột, bàn phím và máy quét.",
       "options": [],
       "correct": "vào",
       "duration_in_seconds": 20

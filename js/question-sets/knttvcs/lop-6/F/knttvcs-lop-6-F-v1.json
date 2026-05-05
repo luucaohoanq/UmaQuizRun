@@ -13,7 +13,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q001",
       "type": "MC",
-      "question": "Một dãy các bước cụ thể để giải quyết một nhiệm vụ được gọi là gì? [15]",
+      "question": "Một dãy các bước cụ thể để giải quyết một nhiệm vụ được gọi là gì?",
       "options": [
         "Dữ liệu",
         "Thông tin",
@@ -26,7 +26,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q002",
       "type": "MC",
-      "question": "Trong sơ đồ khối của thuật toán, hình thoi được dùng để thể hiện điều gì? [15]",
+      "question": "Trong sơ đồ khối của thuật toán, hình thoi được dùng để thể hiện điều gì?",
       "options": [
         "Bắt đầu hoặc kết thúc",
         "Thao tác tính toán",
@@ -39,7 +39,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q003",
       "type": "MC",
-      "question": "Cấu trúc nào thực hiện các bước tuần tự từ trên xuống dưới? [15]",
+      "question": "Cấu trúc nào thực hiện các bước tuần tự từ trên xuống dưới?",
       "options": [
         "Cấu trúc rẽ nhánh",
         "Cấu trúc tuần tự",
@@ -52,7 +52,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q004",
       "type": "MC",
-      "question": "Trong Scratch, khu vực chứa các nhân vật và hiển thị kết quả chạy chương trình gọi là gì? [16]",
+      "question": "Trong Scratch, khu vực chứa các nhân vật và hiển thị kết quả chạy chương trình gọi là gì?",
       "options": [
         "Sân khấu",
         "Vùng lệnh",
@@ -65,7 +65,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q005",
       "type": "MC",
-      "question": "Để nhân vật thực hiện hành động khi nháy chuột vào lá cờ xanh, em dùng khối lệnh ở nhóm nào? [16]",
+      "question": "Để nhân vật thực hiện hành động khi nháy chuột vào lá cờ xanh, em dùng khối lệnh ở nhóm nào?",
       "options": [
         "Chuyển động",
         "Sự kiện",
@@ -78,7 +78,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q006",
       "type": "TI",
-      "question": "Điền từ: Thuật toán là một dãy các chỉ dẫn rõ ràng để thực hiện một ____. [15]",
+      "question": "Điền từ: Thuật toán là một dãy các chỉ dẫn rõ ràng để thực hiện một ____.",
       "options": [],
       "correct": "nhiệm vụ",
       "duration_in_seconds": 20
@@ -86,7 +86,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q007",
       "type": "TI",
-      "question": "Trong sơ đồ khối, hình ____ được dùng để thể hiện các bước xử lí, tính toán. [15]",
+      "question": "Trong sơ đồ khối, hình ____ được dùng để thể hiện các bước xử lí, tính toán.",
       "options": [],
       "correct": "chữ nhật",
       "duration_in_seconds": 20
@@ -94,7 +94,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q008",
       "type": "TI",
-      "question": "Cấu trúc ____ dùng để thực hiện các bước tùy thuộc vào kết quả kiểm tra một điều kiện. [15]",
+      "question": "Cấu trúc ____ dùng để thực hiện các bước tùy thuộc vào kết quả kiểm tra một điều kiện.",
       "options": [],
       "correct": "rẽ nhánh",
       "duration_in_seconds": 20
@@ -102,7 +102,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q009",
       "type": "TI",
-      "question": "Trong phần mềm lập trình trực quan, các câu lệnh được kết nối với nhau dưới dạng các ____. [16]",
+      "question": "Trong phần mềm lập trình trực quan, các câu lệnh được kết nối với nhau dưới dạng các ____.",
       "options": [],
       "correct": "khối lệnh",
       "duration_in_seconds": 20
@@ -110,7 +110,7 @@
     {
       "id": "knttvcs-lop-6-F-v1-q010",
       "type": "TI",
-      "question": "Nhân vật mặc định khi bắt đầu một chương trình Scratch mới là con ____. [16]",
+      "question": "Nhân vật mặc định khi bắt đầu một chương trình Scratch mới là con ____.",
       "options": [],
       "correct": "mèo",
       "duration_in_seconds": 20

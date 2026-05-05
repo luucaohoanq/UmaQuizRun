@@ -13,7 +13,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q001",
       "type": "MC",
-      "question": "Hành động nào sau đây giúp bảo vệ thông tin cá nhân trên mạng? [13]",
+      "question": "Hành động nào sau đây giúp bảo vệ thông tin cá nhân trên mạng?",
       "options": [
         "Chia sẻ mật khẩu cho bạn thân",
         "Đặt mật khẩu mạnh và định kì thay đổi",
@@ -26,7 +26,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q002",
       "type": "MC",
-      "question": "Phần mềm độc hại nào có khả năng tự nhân bản để lây lan? [13]",
+      "question": "Phần mềm độc hại nào có khả năng tự nhân bản để lây lan?",
       "options": [
         "Trình duyệt web",
         "Hệ điều hành",
@@ -39,7 +39,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q003",
       "type": "MC",
-      "question": "Khi bị đe dọa hoặc bắt nạt trên mạng, em nên làm gì? [13]",
+      "question": "Khi bị đe dọa hoặc bắt nạt trên mạng, em nên làm gì?",
       "options": [
         "Giữ im lặng và chịu đựng",
         "Nhờ sự trợ giúp của người lớn tin cậy",
@@ -52,7 +52,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q004",
       "type": "MC",
-      "question": "Thói quen nào sau đây KHÔNG tốt cho sức khỏe khi dùng máy tính? [13]",
+      "question": "Thói quen nào sau đây KHÔNG tốt cho sức khỏe khi dùng máy tính?",
       "options": [
         "Ngồi đúng tư thế",
         "Dành quá nhiều thời gian trên mạng xã hội",
@@ -65,7 +65,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q005",
       "type": "MC",
-      "question": "Hành vi nào thể hiện văn hóa khi giao tiếp trên mạng? [13]",
+      "question": "Hành vi nào thể hiện văn hóa khi giao tiếp trên mạng?",
       "options": [
         "Nói xấu bạn bè công khai",
         "Sử dụng ngôn ngữ lịch sự, rõ ràng",
@@ -78,7 +78,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q006",
       "type": "TI",
-      "question": "____ là hành vi đe dọa, xúc phạm người khác qua các phương tiện điện tử. [13]",
+      "question": "____ là hành vi đe dọa, xúc phạm người khác qua các phương tiện điện tử.",
       "options": [],
       "correct": "Bắt nạt qua mạng",
       "duration_in_seconds": 20
@@ -86,7 +86,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q007",
       "type": "TI",
-      "question": "Phần mềm có khả năng phá hoại dữ liệu và tự lây lan được gọi là ____ máy tính. [13]",
+      "question": "Phần mềm có khả năng phá hoại dữ liệu và tự lây lan được gọi là ____ máy tính.",
       "options": [],
       "correct": "virus",
       "duration_in_seconds": 20
@@ -94,7 +94,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q008",
       "type": "TI",
-      "question": "Để bảo vệ tài khoản, em cần đăng ____ khi sử dụng xong máy tính công cộng. [13]",
+      "question": "Để bảo vệ tài khoản, em cần đăng ____ khi sử dụng xong máy tính công cộng.",
       "options": [],
       "correct": "xuất",
       "duration_in_seconds": 20
@@ -102,7 +102,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q009",
       "type": "TI",
-      "question": "Hành vi lan truyền tin ____ làm tổn thương người khác là vi phạm đạo đức. [13]",
+      "question": "Hành vi lan truyền tin ____ làm tổn thương người khác là vi phạm đạo đức.",
       "options": [],
       "correct": "giả",
       "duration_in_seconds": 20
@@ -110,7 +110,7 @@
     {
       "id": "knttvcs-lop-6-D-v1-q010",
       "type": "TI",
-      "question": "____ số là danh tính và uy tín của cá nhân được phản ánh trên Internet. [14]",
+      "question": "____ số là danh tính và uy tín của cá nhân được phản ánh trên Internet.",
       "options": [],
       "correct": "Định danh",
       "duration_in_seconds": 20
