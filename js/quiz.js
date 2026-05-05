@@ -110,8 +110,8 @@ const Quiz = {
         // config.ctx.fillRect(0, 0, config.width, config.height);
 
         // Quiz box - Duolingo style (rounded rectangle)
-        const boxWidth = 1200;
-        const boxHeight = 600;
+        const boxWidth = 1000;
+        const boxHeight = 520;
         const boxX = (config.width - boxWidth) / 2;
         const boxY = (config.height - boxHeight) / 2;
 
@@ -607,8 +607,8 @@ const Quiz = {
             return;
         }
 
-        const boxWidth = 1200;
-        const boxHeight = 600;
+        const boxWidth = 1000;
+        const boxHeight = 520;
         const boxX = (config.width - boxWidth) / 2;
         const boxY = (config.height - boxHeight) / 2;
 
@@ -669,8 +669,8 @@ const Quiz = {
             return;
         }
 
-        const boxWidth = 1200;
-        const boxHeight = 600;
+        const boxWidth = 1000;
+        const boxHeight = 520;
         const boxX = (config.width - boxWidth) / 2;
         const boxY = (config.height - boxHeight) / 2;
 
